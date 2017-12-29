@@ -6,10 +6,15 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
@@ -44,7 +49,7 @@ public class TestBase {
 	
 	static{
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formatter = new SimpleDateFormat();
+		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
 		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//Reports"+formatter.format(calendar.getTime())+".html",false);
 	}
 	
@@ -59,13 +64,15 @@ public class TestBase {
 	public void init() throws IOException{
 		LoadfromORproperties();
 		LoadfromAPPproperties();
-		SelectBrowser(OR.getProperty("BrowserName"));
-		GetBaseUrl(OR.getProperty("URL"));
+		selectBrowser(OR.getProperty("BrowserName"));
+		waitForElementToLoad();
+		clearHistory();
+		getBaseUrl(OR.getProperty("URL"));
 		PropertyConfigurator.configure(System.getProperty("user.dir")+"//log4j.properties");
 		
 	}
 	
-	public void SelectBrowser(String BrowserName){
+	public void selectBrowser(String BrowserName){
 		if(BrowserName.equalsIgnoreCase("firefox")){
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
 			driver = new FirefoxDriver();
@@ -76,7 +83,7 @@ public class TestBase {
 		}
 	}
 	
-	public void GetBaseUrl(String BaseUrl){
+	public void getBaseUrl(String BaseUrl){
 		driver.get(BaseUrl);
 		try {
 			driver.manage().window().maximize();
@@ -84,6 +91,41 @@ public class TestBase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public void waitForElementToLoad(){
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+	}
+	
+	public void clearHistory(){
+		driver.manage().deleteAllCookies();
+	}
+	
+	public void getScreenshot(String methodName){
+		
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
+		
+		try {
+			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//Screenshots//";
+			File destFile = new File(ReportDirectory+"_"+methodName+formatter.format(calendar.getTime()+".png"));
+			FileUtils.copyFile(srcFile, destFile);
+		} catch (WebDriverException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void closeBrowser(){
+		driver.close();
+	}
+	
+	public void refreshPage(){
+		driver.navigate().refresh();
 	}
 	
 	

@@ -3,6 +3,7 @@ package c2info_OrderBuk_TestBase;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Properties;
@@ -18,9 +19,13 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 import c2info_OrderBuk_ExcelReader.ExcelReader;
 
@@ -101,6 +106,19 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 	}
 	
+	public void closeBrowser(){
+		driver.close();
+	}
+	
+	public void refreshPage(){
+		driver.navigate().refresh();
+	}
+	
+	public String getPageTitle(){
+		String pageTitle = driver.getTitle();
+		return pageTitle ;
+	}
+	
 	public void getScreenshot(String methodName){
 		
 		Calendar calendar = Calendar.getInstance();
@@ -120,14 +138,41 @@ public class TestBase {
 		}
 	}
 	
-	public void closeBrowser(){
+	
+	
+	public void getResult(ITestResult Result){
+		if(Result.getStatus()==ITestResult.SUCCESS){
+			Test.log(LogStatus.PASS, Result.getName()+" Test is Passed");
+		}
+		else if(Result.getStatus()==ITestResult.FAILURE){
+			Test.log(LogStatus.FAIL, Result.getName()+" Test is Failed");
+		}
+		else if(Result.getStatus()==ITestResult.SKIP){
+			Test.log(LogStatus.SKIP, Result.getName()+" Test is Skipped");
+		}
+		else if(Result.getStatus()==ITestResult.STARTED){
+			Test.log(LogStatus.INFO, Result.getName()+" Test is Started");
+		}
+	}
+	
+	
+	
+	
+	@BeforeMethod()
+	public void beforeMethod(Method Result){
+		Test = extent.startTest(Result.getName());
+		Test.log(LogStatus.INFO, Result.getName()+" Test is Started");
+	}
+	
+	@AfterMethod()
+	public void afterMethod(ITestResult Result){
+		getResult(Result);
+	}
+	@AfterClass()
+	public void endTest(){
 		driver.close();
+		extent.endTest(Test);
+		extent.flush();
 	}
-	
-	public void refreshPage(){
-		driver.navigate().refresh();
-	}
-	
-	
 
 }

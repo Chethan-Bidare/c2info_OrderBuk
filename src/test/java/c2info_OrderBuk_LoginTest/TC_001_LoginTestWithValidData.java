@@ -27,7 +27,6 @@ public class TC_001_LoginTestWithValidData extends TestBase {
 		log.info("======= TC_001_LoginTestWithValidData Test Started ======");
 		LoginPage loginpage = new LoginPage();
 		loginpage.doLogin(OR.getProperty("UserName"), OR.getProperty("Password"));
-		
 		Assert.assertEquals(getPageTitle(), APP.getProperty("DashboardPageTitle"));
 	}
 	

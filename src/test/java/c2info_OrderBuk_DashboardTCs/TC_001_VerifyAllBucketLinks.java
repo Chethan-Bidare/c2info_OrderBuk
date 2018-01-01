@@ -35,7 +35,7 @@ public class TC_001_VerifyAllBucketLinks extends TestBase{
 			for(int i=0;i<ExpectedValue.size(); i++){
 				try {
 					Assert.assertEquals(ActualValue.get(i),ExpectedValue.get(i));
-				} catch (Exception e) {
+				} catch (AssertionError e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}

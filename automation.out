@@ -73,3 +73,229 @@
 2018-01-01 13:03:20 INFO  Dashboard:52 - Clicking on the bucket named :
 2018-01-01 13:03:20 INFO  Dashboard:54 - Storing the page title of the bucket :
 2018-01-01 13:03:22 INFO  Dashboard:57 - Navigating back to dashboard
+2018-01-01 15:29:44 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 15:29:44 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 15:29:49 INFO  LoginPage:30 - Clearing the Username field
+2018-01-01 15:29:50 INFO  LoginPage:32 - Entering the Username :UAT00PUAT00P
+2018-01-01 15:29:50 INFO  LoginPage:34 - Clearing the Password field
+2018-01-01 15:29:50 INFO  LoginPage:36 - Entering the Password :UAT00P
+2018-01-01 15:29:50 INFO  LoginPage:38 - Clicked on Login button
+2018-01-01 15:29:50 INFO  Dashboard:36 - Getting the count of bucket links : 3
+2018-01-01 15:29:50 INFO  Dashboard:38 - Storing the webelements of all the buckets into a list
+2018-01-01 15:29:50 INFO  Dashboard:42 - Stroing the text of all the links into an arraylist
+2018-01-01 15:29:50 INFO  Dashboard:42 - Stroing the text of all the links into an arraylist
+2018-01-01 15:29:50 INFO  Dashboard:42 - Stroing the text of all the links into an arraylist
+2018-01-01 15:29:50 INFO  Dashboard:36 - Getting the count of bucket links : 3
+2018-01-01 15:29:50 INFO  Dashboard:38 - Storing the webelements of all the buckets into a list
+2018-01-01 15:29:50 INFO  Dashboard:42 - Stroing the text of all the links into an arraylist
+2018-01-01 15:29:50 INFO  Dashboard:42 - Stroing the text of all the links into an arraylist
+2018-01-01 15:29:50 INFO  Dashboard:42 - Stroing the text of all the links into an arraylist
+2018-01-01 15:29:50 INFO  Dashboard:53 - Clicking on the bucket named :Please fill the following fields to login
+2018-01-01 15:29:54 INFO  Dashboard:55 - Storing the page title of the bucket :Please fill the following fields to login
+2018-01-01 15:29:55 INFO  Dashboard:58 - Navigating back to dashboard
+2018-01-01 15:29:56 INFO  Dashboard:53 - Clicking on the bucket named :
+2018-01-01 15:29:56 INFO  Dashboard:55 - Storing the page title of the bucket :
+2018-01-01 15:29:57 INFO  Dashboard:58 - Navigating back to dashboard
+2018-01-01 15:29:58 INFO  Dashboard:53 - Clicking on the bucket named :
+2018-01-01 15:29:58 INFO  Dashboard:55 - Storing the page title of the bucket :
+2018-01-01 15:29:59 INFO  Dashboard:58 - Navigating back to dashboard
+2018-01-01 15:37:39 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 15:37:39 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 15:37:45 INFO  LoginPage:32 - Clearing the Username field
+2018-01-01 15:37:45 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-01 15:37:45 INFO  LoginPage:36 - Clearing the Password field
+2018-01-01 15:37:45 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-01 15:37:45 INFO  LoginPage:40 - Clicked on Login button
+2018-01-01 15:39:32 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 15:39:32 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 15:39:38 INFO  LoginPage:32 - Clearing the Username field
+2018-01-01 15:39:38 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-01 15:39:38 INFO  LoginPage:36 - Clearing the Password field
+2018-01-01 15:39:38 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-01 15:39:38 INFO  LoginPage:40 - Clicked on Login button
+2018-01-01 15:39:53 INFO  Dashboard:40 - Getting the count of bucket links : 17
+2018-01-01 15:39:53 INFO  Dashboard:42 - Storing the webelements of all the buckets into a list
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:39:53 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:40 - Getting the count of bucket links : 17
+2018-01-01 15:40:08 INFO  Dashboard:42 - Storing the webelements of all the buckets into a list
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:08 INFO  Dashboard:46 - Stroing the text of all the links into an arraylist
+2018-01-01 15:40:10 INFO  Dashboard:57 - Clicking on the bucket named :To Be Verified
+2018-01-01 15:40:10 INFO  Dashboard:59 - Storing the page title of the bucket :To Be Verified
+2018-01-01 15:40:11 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:12 INFO  Dashboard:57 - Clicking on the bucket named :Customer Confirmed Verification Pending
+2018-01-01 15:40:12 INFO  Dashboard:59 - Storing the page title of the bucket :Customer Confirmed Verification Pending
+2018-01-01 15:40:13 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:14 INFO  Dashboard:57 - Clicking on the bucket named :Customer Confirmed Put On Hold
+2018-01-01 15:40:14 INFO  Dashboard:59 - Storing the page title of the bucket :Customer Confirmed Put On Hold
+2018-01-01 15:40:15 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:16 INFO  Dashboard:57 - Clicking on the bucket named :No Price Put On Hold
+2018-01-01 15:40:16 INFO  Dashboard:59 - Storing the page title of the bucket :No Price Put On Hold
+2018-01-01 15:40:17 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:18 INFO  Dashboard:57 - Clicking on the bucket named :New Item Put On Hold
+2018-01-01 15:40:18 INFO  Dashboard:59 - Storing the page title of the bucket :New Item Put On Hold
+2018-01-01 15:40:19 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:19 INFO  Dashboard:57 - Clicking on the bucket named :Ready For Order
+2018-01-01 15:40:19 INFO  Dashboard:59 - Storing the page title of the bucket :Ready For Order
+2018-01-01 15:40:20 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:21 INFO  Dashboard:57 - Clicking on the bucket named :Order Confirmed
+2018-01-01 15:40:21 INFO  Dashboard:59 - Storing the page title of the bucket :Order Confirmed
+2018-01-01 15:40:22 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:23 INFO  Dashboard:57 - Clicking on the bucket named :Order Sent To Server
+2018-01-01 15:40:23 INFO  Dashboard:59 - Storing the page title of the bucket :Order Sent To Server
+2018-01-01 15:40:24 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:25 INFO  Dashboard:57 - Clicking on the bucket named :Order Put On Hold
+2018-01-01 15:40:25 INFO  Dashboard:59 - Storing the page title of the bucket :Order Put On Hold
+2018-01-01 15:40:27 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:27 INFO  Dashboard:57 - Clicking on the bucket named :Order Invoiced
+2018-01-01 15:40:27 INFO  Dashboard:59 - Storing the page title of the bucket :Order Invoiced
+2018-01-01 15:40:28 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:29 INFO  Dashboard:57 - Clicking on the bucket named :In Transit
+2018-01-01 15:40:29 INFO  Dashboard:59 - Storing the page title of the bucket :In Transit
+2018-01-01 15:40:30 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:31 INFO  Dashboard:57 - Clicking on the bucket named :Order Delivered
+2018-01-01 15:40:31 INFO  Dashboard:59 - Storing the page title of the bucket :Order Delivered
+2018-01-01 15:40:32 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:33 INFO  Dashboard:57 - Clicking on the bucket named :Order Returned
+2018-01-01 15:40:33 INFO  Dashboard:59 - Storing the page title of the bucket :Order Returned
+2018-01-01 15:40:34 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:35 INFO  Dashboard:57 - Clicking on the bucket named :Support Cancelled
+2018-01-01 15:40:35 INFO  Dashboard:59 - Storing the page title of the bucket :Support Cancelled
+2018-01-01 15:40:36 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:37 INFO  Dashboard:57 - Clicking on the bucket named :Customer Cancelled
+2018-01-01 15:40:37 INFO  Dashboard:59 - Storing the page title of the bucket :Customer Cancelled
+2018-01-01 15:40:38 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:39 INFO  Dashboard:57 - Clicking on the bucket named :Order Closed
+2018-01-01 15:40:39 INFO  Dashboard:59 - Storing the page title of the bucket :Order Closed
+2018-01-01 15:40:40 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:40:41 INFO  Dashboard:57 - Clicking on the bucket named :Order Query
+2018-01-01 15:40:41 INFO  Dashboard:59 - Storing the page title of the bucket :Order Query
+2018-01-01 15:40:42 INFO  Dashboard:62 - Navigating back to dashboard
+2018-01-01 15:47:56 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 15:47:56 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 15:48:02 INFO  LoginPage:32 - Clearing the Username field
+2018-01-01 15:48:02 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-01 15:48:02 INFO  LoginPage:36 - Clearing the Password field
+2018-01-01 15:48:02 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-01 15:48:02 INFO  LoginPage:40 - Clicked on Login button
+2018-01-01 15:48:17 INFO  Dashboard:39 - Getting the count of bucket links : 17
+2018-01-01 15:48:17 INFO  Dashboard:41 - Storing the webelements of all the buckets into a list
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:17 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:39 - Getting the count of bucket links : 17
+2018-01-01 15:48:32 INFO  Dashboard:41 - Storing the webelements of all the buckets into a list
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:32 INFO  Dashboard:45 - Stroing the text of all the links into an arraylist
+2018-01-01 15:48:34 INFO  Dashboard:56 - Clicking on the bucket named :To Be Verified
+2018-01-01 15:48:34 INFO  Dashboard:58 - Storing the page title of the bucket :To Be Verified
+2018-01-01 15:48:35 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:36 INFO  Dashboard:56 - Clicking on the bucket named :Customer Confirmed Verification Pending
+2018-01-01 15:48:36 INFO  Dashboard:58 - Storing the page title of the bucket :Customer Confirmed Verification Pending
+2018-01-01 15:48:37 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:38 INFO  Dashboard:56 - Clicking on the bucket named :Customer Confirmed Put On Hold
+2018-01-01 15:48:38 INFO  Dashboard:58 - Storing the page title of the bucket :Customer Confirmed Put On Hold
+2018-01-01 15:48:39 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:40 INFO  Dashboard:56 - Clicking on the bucket named :No Price Put On Hold
+2018-01-01 15:48:40 INFO  Dashboard:58 - Storing the page title of the bucket :No Price Put On Hold
+2018-01-01 15:48:41 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:42 INFO  Dashboard:56 - Clicking on the bucket named :New Item Put On Hold
+2018-01-01 15:48:42 INFO  Dashboard:58 - Storing the page title of the bucket :New Item Put On Hold
+2018-01-01 15:48:43 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:44 INFO  Dashboard:56 - Clicking on the bucket named :Ready For Order
+2018-01-01 15:48:44 INFO  Dashboard:58 - Storing the page title of the bucket :Ready For Order
+2018-01-01 15:48:45 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:46 INFO  Dashboard:56 - Clicking on the bucket named :Order Confirmed
+2018-01-01 15:48:46 INFO  Dashboard:58 - Storing the page title of the bucket :Order Confirmed
+2018-01-01 15:48:47 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:48 INFO  Dashboard:56 - Clicking on the bucket named :Order Sent To Server
+2018-01-01 15:48:48 INFO  Dashboard:58 - Storing the page title of the bucket :Order Sent To Server
+2018-01-01 15:48:49 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:50 INFO  Dashboard:56 - Clicking on the bucket named :Order Put On Hold
+2018-01-01 15:48:50 INFO  Dashboard:58 - Storing the page title of the bucket :Order Put On Hold
+2018-01-01 15:48:51 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:52 INFO  Dashboard:56 - Clicking on the bucket named :Order Invoiced
+2018-01-01 15:48:52 INFO  Dashboard:58 - Storing the page title of the bucket :Order Invoiced
+2018-01-01 15:48:53 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:54 INFO  Dashboard:56 - Clicking on the bucket named :In Transit
+2018-01-01 15:48:54 INFO  Dashboard:58 - Storing the page title of the bucket :In Transit
+2018-01-01 15:48:55 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:56 INFO  Dashboard:56 - Clicking on the bucket named :Order Delivered
+2018-01-01 15:48:56 INFO  Dashboard:58 - Storing the page title of the bucket :Order Delivered
+2018-01-01 15:48:57 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:48:58 INFO  Dashboard:56 - Clicking on the bucket named :Order Returned
+2018-01-01 15:48:58 INFO  Dashboard:58 - Storing the page title of the bucket :Order Returned
+2018-01-01 15:48:59 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:49:00 INFO  Dashboard:56 - Clicking on the bucket named :Support Cancelled
+2018-01-01 15:49:00 INFO  Dashboard:58 - Storing the page title of the bucket :Support Cancelled
+2018-01-01 15:49:01 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:49:01 INFO  Dashboard:56 - Clicking on the bucket named :Customer Cancelled
+2018-01-01 15:49:01 INFO  Dashboard:58 - Storing the page title of the bucket :Customer Cancelled
+2018-01-01 15:49:03 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:49:03 INFO  Dashboard:56 - Clicking on the bucket named :Order Closed
+2018-01-01 15:49:04 INFO  Dashboard:58 - Storing the page title of the bucket :Order Closed
+2018-01-01 15:49:05 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:49:06 INFO  Dashboard:56 - Clicking on the bucket named :Order Query
+2018-01-01 15:49:06 INFO  Dashboard:58 - Storing the page title of the bucket :Order Query
+2018-01-01 15:49:07 INFO  Dashboard:61 - Navigating back to dashboard
+2018-01-01 15:49:07 INFO  TC_001_VerifyAllBucketLinks:43 - ======= TC_001_VerifyAllBucketLinks Finished ======

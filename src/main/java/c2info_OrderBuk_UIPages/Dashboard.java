@@ -8,12 +8,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import c2info_OrderBuk_TestBase.TestBase;
 
 public class Dashboard extends TestBase {
 	
 	public static final Logger log = Logger.getLogger(Dashboard.class.getName());
+	WebDriverWait wait = new WebDriverWait(driver, 45);
 	
 	public String bucketName ;
 	
@@ -28,22 +30,24 @@ public class Dashboard extends TestBase {
 	
 	
 	
-	public ArrayList<String> getBucketNames(){
-		waitforPageToLoad();
+	public ArrayList<String> getBucketNames() throws InterruptedException{
+		Thread.sleep(5000);
+		/*waitforPageToLoad();
+		wait.until(ExpectedConditions.visibilityOfAllElements(driver.findElements(By.xpath(".//p"))));*/
 		ArrayList<String> arr = new ArrayList<String>();
 		int arrSize = driver.findElements(By.xpath(".//p")).size();
-		log.info("Getting the count of bucket links");
+		log.info("Getting the count of bucket links : "+arrSize);
 		List<WebElement> bucketlinks = driver.findElements(By.xpath(".//p"));
 		log.info("Storing the webelements of all the buckets into a list");
 		for(int i=0; i<arrSize; i++){
 			WebElement bucketlink = bucketlinks.get(i);
 			arr.add(bucketlink.getText());
-			log.info("Stroing the text of all the links into an arraylist");
+			log.info("Storing the text of all the links into an arraylist");
 		}
 		return arr ;
 	}
 	
-	public ArrayList<String> getpageTitles(){
+	public ArrayList<String> getpageTitles() throws InterruptedException{
 		ArrayList<String> arr = getBucketNames();
 		ArrayList<String> pageTitlesDashboard = new ArrayList<String>();
 		for(int i=0; i<arr.size(); i++){

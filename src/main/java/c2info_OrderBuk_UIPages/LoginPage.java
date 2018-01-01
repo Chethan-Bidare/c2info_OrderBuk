@@ -4,12 +4,14 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import c2info_OrderBuk_TestBase.TestBase;
 
 public class LoginPage extends TestBase{
 
 	public static final Logger log = Logger.getLogger(LoginPage.class.getName());
+	WebDriverWait wait = new WebDriverWait(driver, 45);
 	
 	@FindBy(id="loginform-username")
 	WebElement UserName ;

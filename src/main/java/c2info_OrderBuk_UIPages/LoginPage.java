@@ -24,7 +24,8 @@ public class LoginPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void doLogin(String UserName,String pwd){
+	public void doLogin(String UserName,String pwd) throws InterruptedException{
+		Thread.sleep(5000);
 		this.UserName.clear();
 		log.info("Clearing the Username field");
 		this.UserName.sendKeys(UserName);
@@ -35,5 +36,7 @@ public class LoginPage extends TestBase{
 		log.info("Entering the Password :"+pwd);
 		LoginBtn.click();
 		log.info("Clicked on Login button");
+		waitforPageToLoad();
+		
 	}
 }

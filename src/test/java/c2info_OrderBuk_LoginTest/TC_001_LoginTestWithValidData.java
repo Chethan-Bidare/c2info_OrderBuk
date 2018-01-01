@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -23,7 +22,7 @@ public class TC_001_LoginTestWithValidData extends TestBase {
 	}
 	
 	@Test
-	public void loginWithValidData(){
+	public void loginWithValidData() throws InterruptedException{
 		log.info("======= TC_001_LoginTestWithValidData Test Started ======");
 		LoginPage loginpage = new LoginPage();
 		loginpage.doLogin(OR.getProperty("UserName"), OR.getProperty("Password"));

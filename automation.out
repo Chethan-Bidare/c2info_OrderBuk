@@ -1,0 +1,75 @@
+2018-01-01 12:40:47 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 12:40:47 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 12:42:08 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 12:42:08 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 12:43:42 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 12:43:42 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 12:45:24 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 12:45:24 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 12:46:26 INFO  TC_001_LoginTestWithValidData:20 - Initializing Setup
+2018-01-01 12:46:26 INFO  TC_001_LoginTestWithValidData:26 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-01-01 12:47:11 INFO  TC_001_LoginTestWithValidData:20 - Initializing Setup
+2018-01-01 12:47:11 INFO  TC_001_LoginTestWithValidData:26 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-01-01 12:50:13 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 12:50:13 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 12:50:18 INFO  LoginPage:30 - Clearing the Username field
+2018-01-01 12:50:18 INFO  LoginPage:32 - Entering the Username :UAT00PUAT00P
+2018-01-01 12:50:18 INFO  LoginPage:34 - Clearing the Password field
+2018-01-01 12:50:18 INFO  LoginPage:36 - Entering the Password :UAT00P
+2018-01-01 12:50:18 INFO  LoginPage:38 - Clicked on Login button
+2018-01-01 12:50:18 INFO  Dashboard:34 - Getting the count of bucket links
+2018-01-01 12:50:18 INFO  Dashboard:36 - Storing the webelements of all the buckets into a list
+2018-01-01 12:50:18 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:50:19 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:53:47 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 12:53:47 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 12:53:53 INFO  LoginPage:30 - Clearing the Username field
+2018-01-01 12:53:53 INFO  LoginPage:32 - Entering the Username :UAT00PUAT00P
+2018-01-01 12:53:53 INFO  LoginPage:34 - Clearing the Password field
+2018-01-01 12:53:53 INFO  LoginPage:36 - Entering the Password :UAT00P
+2018-01-01 12:53:53 INFO  LoginPage:38 - Clicked on Login button
+2018-01-01 12:53:53 INFO  Dashboard:34 - Getting the count of bucket links
+2018-01-01 12:53:53 INFO  Dashboard:36 - Storing the webelements of all the buckets into a list
+2018-01-01 12:53:53 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:53:53 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:53:53 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:53:53 INFO  Dashboard:34 - Getting the count of bucket links
+2018-01-01 12:53:53 INFO  Dashboard:36 - Storing the webelements of all the buckets into a list
+2018-01-01 12:53:53 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:53:53 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:53:53 INFO  Dashboard:40 - Stroing the text of all the links into an arraylist
+2018-01-01 12:53:53 INFO  Dashboard:50 - Clicking on the bucket named :Please fill the following fields to login
+2018-01-01 12:53:53 INFO  Dashboard:52 - Storing the page title of the bucket :Please fill the following fields to login
+2018-01-01 12:53:59 INFO  Dashboard:54 - Navigating back to dashboard
+2018-01-01 12:54:00 INFO  Dashboard:50 - Clicking on the bucket named :
+2018-01-01 12:54:00 INFO  Dashboard:52 - Storing the page title of the bucket :
+2018-01-01 12:54:01 INFO  Dashboard:54 - Navigating back to dashboard
+2018-01-01 12:54:03 INFO  Dashboard:50 - Clicking on the bucket named :
+2018-01-01 12:54:03 INFO  Dashboard:52 - Storing the page title of the bucket :
+2018-01-01 12:54:07 INFO  Dashboard:54 - Navigating back to dashboard
+2018-01-01 13:03:04 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-01 13:03:04 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-01 13:03:09 INFO  LoginPage:30 - Clearing the Username field
+2018-01-01 13:03:09 INFO  LoginPage:32 - Entering the Username :UAT00PUAT00P
+2018-01-01 13:03:09 INFO  LoginPage:34 - Clearing the Password field
+2018-01-01 13:03:09 INFO  LoginPage:36 - Entering the Password :UAT00P
+2018-01-01 13:03:09 INFO  LoginPage:38 - Clicked on Login button
+2018-01-01 13:03:10 INFO  Dashboard:35 - Getting the count of bucket links
+2018-01-01 13:03:10 INFO  Dashboard:37 - Storing the webelements of all the buckets into a list
+2018-01-01 13:03:10 INFO  Dashboard:41 - Stroing the text of all the links into an arraylist
+2018-01-01 13:03:10 INFO  Dashboard:41 - Stroing the text of all the links into an arraylist
+2018-01-01 13:03:10 INFO  Dashboard:41 - Stroing the text of all the links into an arraylist
+2018-01-01 13:03:10 INFO  Dashboard:35 - Getting the count of bucket links
+2018-01-01 13:03:10 INFO  Dashboard:37 - Storing the webelements of all the buckets into a list
+2018-01-01 13:03:10 INFO  Dashboard:41 - Stroing the text of all the links into an arraylist
+2018-01-01 13:03:10 INFO  Dashboard:41 - Stroing the text of all the links into an arraylist
+2018-01-01 13:03:10 INFO  Dashboard:41 - Stroing the text of all the links into an arraylist
+2018-01-01 13:03:10 INFO  Dashboard:52 - Clicking on the bucket named :Please fill the following fields to login
+2018-01-01 13:03:10 INFO  Dashboard:54 - Storing the page title of the bucket :Please fill the following fields to login
+2018-01-01 13:03:15 INFO  Dashboard:57 - Navigating back to dashboard
+2018-01-01 13:03:17 INFO  Dashboard:52 - Clicking on the bucket named :
+2018-01-01 13:03:17 INFO  Dashboard:54 - Storing the page title of the bucket :
+2018-01-01 13:03:19 INFO  Dashboard:57 - Navigating back to dashboard
+2018-01-01 13:03:20 INFO  Dashboard:52 - Clicking on the bucket named :
+2018-01-01 13:03:20 INFO  Dashboard:54 - Storing the page title of the bucket :
+2018-01-01 13:03:22 INFO  Dashboard:57 - Navigating back to dashboard

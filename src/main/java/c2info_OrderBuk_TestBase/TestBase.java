@@ -32,7 +32,7 @@ import c2info_OrderBuk_ExcelReader.ExcelReader;
 public class TestBase {
 	
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
-	public WebDriver driver ;
+	public static WebDriver driver ;
 	public static ExtentReports extent ;
 	public static ExtentTest Test ;
 	public static ITestResult Result ;
@@ -41,13 +41,13 @@ public class TestBase {
 	
 	
 	public void LoadfromORproperties() throws IOException{
-		File path = new File(System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//Config//OR.properties");
+		File path = new File(System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Config//OR.properties");
 		FileInputStream fis = new FileInputStream(path);
 		OR.load(fis);
 	}
 	
 	public void LoadfromAPPproperties() throws IOException{
-		File path = new File(System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//Config//APP.properties");
+		File path = new File(System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Config//APP.properties");
 		FileInputStream fis = new FileInputStream(path);
 		APP.load(fis);
 	}
@@ -55,11 +55,11 @@ public class TestBase {
 	static{
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
-		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//Reports"+formatter.format(calendar.getTime())+".html",false);
+		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Reports"+formatter.format(calendar.getTime())+".html",false);
 	}
 	
 	public String[][] ReadExcel(String SheetName,String ExcelName){
-		String path = System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//Data//TestData.xlsx";
+		String path = System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Data//TestData.xlsx";
 		ExcelReader excel = new ExcelReader(path);
 		String[][] TestData = excel.getdatafromSheet(SheetName, ExcelName);
 		return TestData;
@@ -75,16 +75,21 @@ public class TestBase {
 		getBaseUrl(OR.getProperty("URL"));
 		PropertyConfigurator.configure(System.getProperty("user.dir")+"//log4j.properties");
 		
+		
 	}
 	
 	public void selectBrowser(String BrowserName){
 		if(BrowserName.equalsIgnoreCase("firefox")){
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
 			driver = new FirefoxDriver();
+			waitForElementToLoad();
+		
 		}
 		else if(BrowserName.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
 			driver = new ChromeDriver();
+			waitForElementToLoad();
+			
 		}
 	}
 	
@@ -100,6 +105,10 @@ public class TestBase {
 	
 	public void waitForElementToLoad(){
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+	}
+	
+	public void waitforPageToLoad(){
+		driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
 	}
 	
 	public void clearHistory(){
@@ -126,7 +135,7 @@ public class TestBase {
 		
 		try {
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//Screenshots//";
+			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Screenshots//";
 			File destFile = new File(ReportDirectory+"_"+methodName+formatter.format(calendar.getTime()+".png"));
 			FileUtils.copyFile(srcFile, destFile);
 		} catch (WebDriverException e) {

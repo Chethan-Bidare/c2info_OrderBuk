@@ -1,5 +1,39 @@
 package c2info_OrderBuk_DashboardTCs;
 
-public class TC_002_VerifyOrderCountInEachbucket {
+import java.io.IOException;
+import java.util.HashMap;
 
+import org.apache.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import c2info_OrderBuk_TestBase.TestBase;
+import c2info_OrderBuk_UIPages.Dashboard;
+import c2info_OrderBuk_UIPages.LoginPage;
+import c2info_OrderBuk_UIPages.ToBeVerified;
+
+public class TC_002_VerifyOrderCountInEachbucket extends TestBase{
+
+public static final Logger log = Logger.getLogger(TC_002_VerifyOrderCountInEachbucket.class.getName());
+	
+	@BeforeClass
+	public void setup() throws IOException{
+		init();
+		log.info("Initializing Setup");
+		
+	}
+	
+	@Test
+	public void verifyOrderCountToBeVerified() throws InterruptedException{
+		log.info("======= TC_001_VerifyAllBucketLinks Test Started ======");
+		LoginPage loginpage = new LoginPage();
+		loginpage.doLogin(OR.getProperty("UserName"), OR.getProperty("Password"));
+		Dashboard db = new Dashboard();
+		HashMap<String,Integer> hm = db.getOrderCountOfEachBuckets();
+		int ExpectedValue = hm.get("TO BE VERIFIED");
+		ToBeVerified tbv = new ToBeVerified();
+		int ActualValue = tbv.getCountOfOrdersToBeVerified();
+		Assert.assertEquals(ActualValue, ExpectedValue);
+	}
 }

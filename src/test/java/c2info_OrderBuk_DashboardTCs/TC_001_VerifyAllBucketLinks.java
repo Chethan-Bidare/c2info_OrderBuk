@@ -13,7 +13,7 @@ import c2info_OrderBuk_UIPages.LoginPage;
 
 public class TC_001_VerifyAllBucketLinks extends TestBase{
 	
-	public static final Logger log = Logger.getLogger(TC_001_VerifyAllBucketLinks.class);
+	public static final Logger log = Logger.getLogger(TC_001_VerifyAllBucketLinks.class.getName());
 	
 	@BeforeClass
 	public void setup() throws IOException{
@@ -34,9 +34,11 @@ public class TC_001_VerifyAllBucketLinks extends TestBase{
 		if(ExpectedValue.size()==ActualValue.size()){
 			for(int i=0;i<ExpectedValue.size(); i++){
 				try {
-					Assert.assertEquals(ActualValue.get(i),ExpectedValue.get(i));
+					Assert.assertEquals(ActualValue.get(i).toUpperCase(),ExpectedValue.get(i).toUpperCase());
+					log.info("Page Title Verified successfully for : "+ExpectedValue.get(i));
 				} catch (AssertionError e) {
-					// TODO Auto-generated catch block
+					log.info("Page Title verification failed for : "+ExpectedValue.get(i));
+					getScreenshot(getPageTitle());
 					e.printStackTrace();
 				}
 			}

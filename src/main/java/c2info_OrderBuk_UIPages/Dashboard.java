@@ -1,6 +1,7 @@
 package c2info_OrderBuk_UIPages;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -26,8 +27,6 @@ public class Dashboard extends TestBase {
 	public Dashboard(){
 		PageFactory.initElements(driver, this);
 	}
-	
-	
 	
 	
 	public ArrayList<String> getBucketNames() throws InterruptedException{
@@ -62,5 +61,30 @@ public class Dashboard extends TestBase {
 			
 		}
 		return pageTitlesDashboard ;
+	}
+	
+	public HashMap<String, Integer> getOrderCountOfEachBuckets() throws InterruptedException{
+		Thread.sleep(5000);
+		int count1 ;
+		ArrayList<String> temp = getBucketNames();
+		HashMap<String, Integer> hmp = new HashMap<String, Integer>();
+		List<WebElement> OrderCountLinks = driver.findElements(By.xpath(".//h3"));
+		log.info("Storing the webelements of all the buckets into a list");
+		for(int i=0; i<OrderCountLinks.size(); i++){
+			String count = OrderCountLinks.get(i).getText() ;
+			if(count.equals(" ")){
+				count1= 0;
+			}
+			else{
+				count1 = Integer.parseInt(count);
+			}
+			
+		
+			hmp.put(temp.get(i).toUpperCase(),count1);
+			log.info("Adding the values to an array : "+count1);		
+	}
+		
+		
+		return hmp ;
 	}
 }

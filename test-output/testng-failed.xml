@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks">
+      <class name="c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket">
         <methods>
-          <include name="verifyAllBucketlinks"/>
-          <include name="setup"/>
           <include name="beforeMethod"/>
+          <include name="verifyOrderCountToBeVerified"/>
           <include name="afterMethod"/>
+          <include name="setup"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks -->
+      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

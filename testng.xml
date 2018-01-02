@@ -2,5 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test">
+  <classes>
+  <class name="c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData"></class>
+  <class name="c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks"></class>
+  <class name="c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket"></class></classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -2080,3 +2080,493 @@
 2018-01-02 15:47:04 INFO  Dashboard:84 - Adding the values to an array : 40
 2018-01-02 15:47:04 INFO  Dashboard:84 - Adding the values to an array : 7
 2018-01-02 15:47:04 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:53:29 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 09:53:29 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 09:53:34 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 09:53:34 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 09:53:34 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 09:53:35 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 09:53:35 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 09:53:45 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 09:53:45 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:53:45 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 45
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 235
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 09:53:45 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:56:05 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 09:56:05 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 09:56:10 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 09:56:10 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 09:56:10 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 09:56:10 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 09:56:10 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 09:56:20 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 09:56:20 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 09:56:20 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 45
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 235
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 09:56:20 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 09:56:21 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:04:26 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 10:04:26 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 10:04:32 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 10:04:32 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 10:04:32 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 10:04:32 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 10:04:32 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 10:04:42 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 10:04:42 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:04:42 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 45
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 235
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 10:04:42 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:05:30 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 10:05:30 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 10:05:36 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 10:05:36 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 10:05:36 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 10:05:36 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 10:05:36 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 10:05:46 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 10:05:46 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:05:46 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 45
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 235
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 10:05:46 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:05:51 INFO  ToBeVerified:49 - Order Count :0
+2018-01-03 10:07:36 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 10:07:36 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 10:07:41 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 10:07:41 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 10:07:41 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 10:07:41 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 10:07:42 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 10:07:52 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 10:07:52 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:07:52 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 45
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 235
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 10:07:52 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:12:17 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 10:12:17 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 10:12:22 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 10:12:22 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 10:12:22 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 10:12:22 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 10:12:22 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 10:12:32 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 10:12:32 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:32 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 10:12:33 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 45
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 235
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 10:12:33 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:15:45 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 11:15:45 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 11:15:50 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 11:15:50 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 11:15:50 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 11:15:50 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 11:15:50 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 11:16:00 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 11:16:00 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:16:00 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 46
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 241
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 11:16:00 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 11:16:01 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 11:16:01 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:16:02 INFO  ToBeVerified:52 - Order Count :46
+2018-01-03 11:19:12 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-03 11:19:12 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-03 11:19:17 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 11:19:17 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 11:19:17 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 11:19:17 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 11:19:17 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 11:19:27 INFO  Dashboard:38 - Getting the count of bucket links : 17
+2018-01-03 11:19:27 INFO  Dashboard:40 - Storing the webelements of all the buckets into a list
+2018-01-03 11:19:27 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:27 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:27 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:27 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:27 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:27 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:44 - Storing the text of all the links into an arraylist
+2018-01-03 11:19:28 INFO  Dashboard:72 - Storing the webelements of all the buckets into a list
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 46
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 55
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 4
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 3
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 241
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 21
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 5
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 13
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 2
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 16
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 40
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 7
+2018-01-03 11:19:28 INFO  Dashboard:84 - Adding the values to an array : 0
+2018-01-03 11:19:30 INFO  ToBeVerified:52 - Order Count :46
+2018-01-03 11:46:28 INFO  TC_003_VerifyLogOut:20 - Initializing Setup
+2018-01-03 11:46:28 INFO  TC_003_VerifyLogOut:26 - ======= TC_003_VerifyLogOut Test Started ======
+2018-01-03 11:46:33 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 11:46:33 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 11:46:33 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 11:46:33 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 11:46:33 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 11:47:39 INFO  Dashboard:98 - Clicked on LogOut Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class='fa fa-sign-out']'
+2018-01-03 11:48:13 INFO  TC_003_VerifyLogOut:20 - Initializing Setup
+2018-01-03 11:48:13 INFO  TC_003_VerifyLogOut:26 - ======= TC_003_VerifyLogOut Test Started ======
+2018-01-03 11:48:18 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 11:48:18 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 11:48:18 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 11:48:18 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 11:48:18 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 11:49:24 INFO  Dashboard:98 - Clicked on LogOut Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class='fa fa-sign-out']'
+2018-01-03 11:59:32 INFO  TC_004_Verify_UserName:21 - Initializing Setup
+2018-01-03 11:59:32 INFO  TC_004_Verify_UserName:27 - ======= TC_003_VerifyLogOut Test Started ======
+2018-01-03 11:59:37 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 11:59:37 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 11:59:37 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 11:59:37 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 11:59:37 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 12:51:30 INFO  TC_004_Verify_UserName:20 - Initializing Setup
+2018-01-03 12:51:35 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 12:51:35 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 12:51:35 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 12:51:35 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 12:51:35 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 14:46:48 INFO  TC_004_Verify_UserName:20 - Initializing Setup
+2018-01-03 14:46:53 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 14:46:53 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 14:46:53 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 14:46:53 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 14:46:53 INFO  LoginPage:40 - Clicked on Login button
+2018-01-03 15:01:56 INFO  TC_004_Verify_UserName:20 - Initializing Setup
+2018-01-03 15:02:01 INFO  LoginPage:32 - Clearing the Username field
+2018-01-03 15:02:01 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-03 15:02:01 INFO  LoginPage:36 - Clearing the Password field
+2018-01-03 15:02:02 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-03 15:02:02 INFO  LoginPage:40 - Clicked on Login button
+2018-01-04 15:50:08 INFO  TC_004_Verify_UserName:20 - Initializing Setup
+2018-01-04 15:50:13 INFO  LoginPage:32 - Clearing the Username field
+2018-01-04 15:50:13 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-04 15:50:13 INFO  LoginPage:36 - Clearing the Password field
+2018-01-04 15:50:13 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-04 15:50:13 INFO  LoginPage:40 - Clicked on Login button
+2018-01-04 15:51:24 INFO  TC_004_Verify_UserName:20 - Initializing Setup
+2018-01-04 15:51:29 INFO  LoginPage:32 - Clearing the Username field
+2018-01-04 15:51:29 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-04 15:51:29 INFO  LoginPage:36 - Clearing the Password field
+2018-01-04 15:51:29 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-04 15:51:29 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 14:39:14 INFO  TC_004_Verify_UserName:22 - Initializing Setup
+2018-01-05 14:39:19 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 14:39:20 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 14:39:20 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 14:39:20 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 14:39:20 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 14:58:53 INFO  TC_003_VerifyValidButton:21 - Initializing Setup
+2018-01-05 14:58:58 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 14:58:58 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 14:58:58 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 14:58:58 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 14:58:58 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 14:58:58 INFO  TC_003_VerifyValidButton:29 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-01-05 14:59:04 INFO  ToBeVerified:75 - Clicked on the first Order
+2018-01-05 14:59:13 INFO  ToBeVerified:88 - Clicked on Valid Button
+2018-01-05 15:55:40 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-01-05 15:55:45 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 15:55:45 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 15:55:45 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 15:55:45 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 15:55:45 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 15:55:53 INFO  ToBeVerified:78 - Clicked on the first Order
+2018-01-05 15:55:57 INFO  ToBeVerified:84 - Clicked on Invalid Button
+2018-01-05 15:57:11 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-01-05 15:57:16 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 15:57:16 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 15:57:16 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 15:57:16 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 15:57:16 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 15:57:22 INFO  ToBeVerified:78 - Clicked on the first Order
+2018-01-05 15:57:32 INFO  ToBeVerified:91 - Clicked on Valid Button
+2018-01-05 15:58:35 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-01-05 15:58:40 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 15:58:40 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 15:58:40 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 15:58:40 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 15:58:40 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 15:58:45 INFO  ToBeVerified:78 - Clicked on the first Order
+2018-01-05 15:58:47 INFO  ToBeVerified:84 - Clicked on Invalid Button
+2018-01-05 16:01:36 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-01-05 16:01:41 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 16:01:41 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 16:01:42 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 16:01:42 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 16:01:42 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 16:01:49 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-05 16:01:51 INFO  ToBeVerified:86 - Clicked on Invalid Button
+2018-01-05 16:02:45 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-01-05 16:02:50 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 16:02:50 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 16:02:50 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 16:02:50 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 16:02:50 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 16:02:57 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-05 16:03:00 INFO  ToBeVerified:86 - Clicked on Invalid Button
+2018-01-05 16:03:01 INFO  ToBeVerified:89 - Clicked on Submit Button
+2018-01-05 16:05:19 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-01-05 16:05:24 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 16:05:24 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 16:05:24 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 16:05:24 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 16:05:24 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 16:05:24 INFO  TC_004_VerifyInvalidButton:29 - ======= TC_004_VerifyInvalidButton Test Started ======
+2018-01-05 16:05:31 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-05 16:05:33 INFO  ToBeVerified:86 - Clicked on Invalid Button
+2018-01-05 16:05:33 INFO  ToBeVerified:89 - Clicked on Submit Button
+2018-01-05 17:11:12 INFO  TC_002_VerifyImageExistanceInPrescriptionPage:22 - Initializing Setup
+2018-01-05 17:11:17 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 17:11:17 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 17:11:17 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 17:11:18 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 17:11:18 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 17:11:18 INFO  TC_002_VerifyImageExistanceInPrescriptionPage:30 - ======= TC_002_VerifyImageExistanceInPrescriptionPage Test Started ======
+2018-01-05 17:11:23 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-05 17:11:57 INFO  TC_002_VerifyImageExistanceInPrescriptionPage:22 - Initializing Setup
+2018-01-05 17:12:02 INFO  LoginPage:32 - Clearing the Username field
+2018-01-05 17:12:02 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-05 17:12:02 INFO  LoginPage:36 - Clearing the Password field
+2018-01-05 17:12:02 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-05 17:12:02 INFO  LoginPage:40 - Clicked on Login button
+2018-01-05 17:12:02 INFO  TC_002_VerifyImageExistanceInPrescriptionPage:30 - ======= TC_002_VerifyImageExistanceInPrescriptionPage Test Started ======
+2018-01-05 17:12:07 INFO  ToBeVerified:79 - Clicked on the first Order

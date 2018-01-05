@@ -23,9 +23,53 @@ public class Dashboard extends TestBase {
 	@FindBy(xpath=".//*[@id='side-menu']/li[2]")
 	WebElement Dashboardbutton ;
 	
+	@FindBy(xpath=".//*[@class='fa fa-sign-out']")
+	WebElement SignOut ;
+	
+	@FindBy(xpath=".//*[@class='m-r-sm text-muted welcome-message']")
+	WebElement WelcomeUser ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[2]/a")
+	WebElement DashboardIcon ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[3]/ul/li/a")
+	WebElement ManageUsers;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[5]/ul/li/a")
+	WebElement ManageCustomers;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[3]/a")
+	WebElement ManageUserLink ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[5]/a")
+	WebElement ManageCustLink ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[4]/a")
+	WebElement BucketLinks ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[6]/a")
+	WebElement EmailSmsLinks ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[7]/a")
+	WebElement ImgVideoLinks ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[7]/ul/li[1]/a")
+	WebElement ImageUpload ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[7]/ul/li[2]/a")
+	WebElement Image ;
+	
+	@FindBy(xpath=".//*[@id='side-menu']/li[7]/ul/li[3]/a")
+	WebElement Video ;
+	
+	
 	
 	public Dashboard(){
 		PageFactory.initElements(driver, this);
+	}
+	
+	public void selectBucket(String bucketName){
+		driver.findElement(By.xpath(".//p[contains(text(),'"+bucketName+"')]")).click();
 	}
 	
 	
@@ -86,5 +130,50 @@ public class Dashboard extends TestBase {
 		
 		
 		return hmp ;
+	}
+	
+	public void logOut(){
+		waitforPageToLoad();
+		SignOut.click();
+		log.info("Clicked on LogOut "+SignOut);
+	}
+	
+	public String getUserName(){
+		return WelcomeUser.getText();
+	}
+	
+	public void clickOnDashboardinMenu(){
+		DashboardIcon.click();
+		waitforPageToLoad();
+	}
+	
+	public void clickOnManageUsersInMenu(){
+		ManageUserLink.click();
+		ManageUsers.click();
+		waitforPageToLoad();
+	}
+	
+	public void clickOnManageCustomersInMenu(){
+		ManageCustLink.click();
+		ManageCustomers.click();
+		waitforPageToLoad();
+	}
+	
+	public void clickOnImageUploadInMenu(){
+		ImgVideoLinks.click();
+		ImageUpload.click();
+		waitforPageToLoad();
+	}
+	
+	public void clickOnImageInMenu(){
+		ImgVideoLinks.click();
+		Image.click();
+		waitforPageToLoad();
+	}
+	
+	public void clickOnVideoInMenu(){
+		ImgVideoLinks.click();
+		Video.click();
+		waitforPageToLoad();
 	}
 }

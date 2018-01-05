@@ -26,14 +26,16 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyOrderCountInEachb
 	
 	@Test
 	public void verifyOrderCountToBeVerified() throws InterruptedException{
-		log.info("======= TC_001_VerifyAllBucketLinks Test Started ======");
+		log.info("======= TC_002_VerifyOrderCountInEachbucket Test Started ======");
 		LoginPage loginpage = new LoginPage();
 		loginpage.doLogin(OR.getProperty("UserName"), OR.getProperty("Password"));
 		Dashboard db = new Dashboard();
 		HashMap<String,Integer> hm = db.getOrderCountOfEachBuckets();
 		int ExpectedValue = hm.get("TO BE VERIFIED");
+		System.out.println("Expected Value :"+ExpectedValue);
 		ToBeVerified tbv = new ToBeVerified();
 		int ActualValue = tbv.getCountOfOrdersToBeVerified();
+		System.out.println("Actual Value :"+ActualValue);
 		Assert.assertEquals(ActualValue, ExpectedValue);
 	}
 }

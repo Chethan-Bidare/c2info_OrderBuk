@@ -61,7 +61,7 @@ public class TestBase {
 	static{
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
-		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Reports"+formatter.format(calendar.getTime())+".html",false);
+		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Reports//"+formatter.format(calendar.getTime())+".html",false);
 	}
 	
 	public String[][] ReadExcel(String SheetName,String ExcelName){

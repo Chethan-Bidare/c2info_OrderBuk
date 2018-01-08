@@ -2623,3 +2623,176 @@
 2018-01-06 12:41:54 INFO  LoginPage:40 - Clicked on Login button
 2018-01-06 12:42:00 INFO  ToBeVerified:79 - Clicked on the first Order
 2018-01-06 12:42:03 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 10:00:39 INFO  TC_001_LoginTestWithValidData:20 - Initializing Setup
+2018-01-08 10:00:39 INFO  TC_001_LoginTestWithValidData:26 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-01-08 10:00:44 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 10:00:44 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 10:00:44 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 10:00:44 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 10:00:44 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 10:00:52 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-01-08 10:00:52 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-01-08 10:00:57 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 10:00:57 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 10:00:57 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 10:00:57 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 10:00:57 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 10:01:02 INFO  Dashboard:82 - Getting the count of bucket links : 17
+2018-01-08 10:01:02 INFO  Dashboard:84 - Storing the webelements of all the buckets into a list
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:02 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:82 - Getting the count of bucket links : 17
+2018-01-08 10:01:07 INFO  Dashboard:84 - Storing the webelements of all the buckets into a list
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:07 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:01:09 INFO  Dashboard:99 - Clicking on the bucket named :To Be Verified
+2018-01-08 10:01:09 INFO  Dashboard:101 - Storing the page title of the bucket :To Be Verified
+2018-01-08 10:01:10 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:11 INFO  Dashboard:99 - Clicking on the bucket named :Customer Confirmed Verification Pending
+2018-01-08 10:01:11 INFO  Dashboard:101 - Storing the page title of the bucket :Customer Confirmed Verification Pending
+2018-01-08 10:01:12 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:13 INFO  Dashboard:99 - Clicking on the bucket named :Customer Confirmed Put On Hold
+2018-01-08 10:01:13 INFO  Dashboard:101 - Storing the page title of the bucket :Customer Confirmed Put On Hold
+2018-01-08 10:01:14 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:15 INFO  Dashboard:99 - Clicking on the bucket named :No Price Put On Hold
+2018-01-08 10:01:15 INFO  Dashboard:101 - Storing the page title of the bucket :No Price Put On Hold
+2018-01-08 10:01:16 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:17 INFO  Dashboard:99 - Clicking on the bucket named :New Item Put On Hold
+2018-01-08 10:01:17 INFO  Dashboard:101 - Storing the page title of the bucket :New Item Put On Hold
+2018-01-08 10:01:18 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:19 INFO  Dashboard:99 - Clicking on the bucket named :Ready For Order
+2018-01-08 10:01:19 INFO  Dashboard:101 - Storing the page title of the bucket :Ready For Order
+2018-01-08 10:01:20 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:21 INFO  Dashboard:99 - Clicking on the bucket named :Order Confirmed
+2018-01-08 10:01:21 INFO  Dashboard:101 - Storing the page title of the bucket :Order Confirmed
+2018-01-08 10:01:22 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:23 INFO  Dashboard:99 - Clicking on the bucket named :Order Sent To Server
+2018-01-08 10:01:23 INFO  Dashboard:101 - Storing the page title of the bucket :Order Sent To Server
+2018-01-08 10:01:24 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:25 INFO  Dashboard:99 - Clicking on the bucket named :Order Put On Hold
+2018-01-08 10:01:25 INFO  Dashboard:101 - Storing the page title of the bucket :Order Put On Hold
+2018-01-08 10:01:26 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:27 INFO  Dashboard:99 - Clicking on the bucket named :Order Invoiced
+2018-01-08 10:01:27 INFO  Dashboard:101 - Storing the page title of the bucket :Order Invoiced
+2018-01-08 10:01:28 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:29 INFO  Dashboard:99 - Clicking on the bucket named :In Transit
+2018-01-08 10:01:29 INFO  Dashboard:101 - Storing the page title of the bucket :In Transit
+2018-01-08 10:01:30 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:31 INFO  Dashboard:99 - Clicking on the bucket named :Order Delivered
+2018-01-08 10:01:31 INFO  Dashboard:101 - Storing the page title of the bucket :Order Delivered
+2018-01-08 10:01:32 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:33 INFO  Dashboard:99 - Clicking on the bucket named :Order Returned
+2018-01-08 10:01:33 INFO  Dashboard:101 - Storing the page title of the bucket :Order Returned
+2018-01-08 10:01:34 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:35 INFO  Dashboard:99 - Clicking on the bucket named :Support Cancelled
+2018-01-08 10:01:35 INFO  Dashboard:101 - Storing the page title of the bucket :Support Cancelled
+2018-01-08 10:01:36 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:37 INFO  Dashboard:99 - Clicking on the bucket named :Customer Cancelled
+2018-01-08 10:01:37 INFO  Dashboard:101 - Storing the page title of the bucket :Customer Cancelled
+2018-01-08 10:01:38 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:39 INFO  Dashboard:99 - Clicking on the bucket named :Order Closed
+2018-01-08 10:01:39 INFO  Dashboard:101 - Storing the page title of the bucket :Order Closed
+2018-01-08 10:01:40 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:41 INFO  Dashboard:99 - Clicking on the bucket named :Order Query
+2018-01-08 10:01:41 INFO  Dashboard:101 - Storing the page title of the bucket :Order Query
+2018-01-08 10:01:42 INFO  Dashboard:104 - Navigating back to dashboard
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : To Be Verified
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Customer Confirmed Verification Pending
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Customer Confirmed Put On Hold
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : No Price Put On Hold
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : New Item Put On Hold
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Ready For Order
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Confirmed
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Sent To Server
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Put On Hold
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Invoiced
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : In Transit
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Delivered
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Returned
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Support Cancelled
+2018-01-08 10:01:42 INFO  TC_001_VerifyAllBucketLinks:40 - Page Title verification failed for : Customer Cancelled
+2018-01-08 10:01:50 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-01-08 10:01:50 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_002_VerifyOrderCountInEachbucket Test Started ======
+2018-01-08 10:01:55 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 10:01:55 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 10:01:55 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 10:01:55 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 10:01:55 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 10:02:05 INFO  Dashboard:82 - Getting the count of bucket links : 17
+2018-01-08 10:02:05 INFO  Dashboard:84 - Storing the webelements of all the buckets into a list
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:05 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-01-08 10:02:06 INFO  Dashboard:116 - Storing the webelements of all the buckets into a list
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 37
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 64
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 2
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 0
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 0
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 2
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 3
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 347
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 0
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 34
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 6
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 19
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 2
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 28
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 61
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 7
+2018-01-08 10:02:06 INFO  Dashboard:128 - Adding the values to an array : 0
+2018-01-08 10:02:08 INFO  ToBeVerified:71 - Order Count :37
+2018-01-08 10:07:42 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-01-08 10:07:47 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 10:07:47 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 10:07:47 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 10:07:47 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 10:08:47 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 10:08:47 INFO  TC_004_VerifyInvalidButton:29 - ======= TC_004_VerifyInvalidButton Test Started ======
+2018-01-08 10:09:05 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 10:09:20 INFO  ToBeVerified:86 - Clicked on Invalid Button
+2018-01-08 10:09:21 INFO  ToBeVerified:89 - Clicked on Submit Button

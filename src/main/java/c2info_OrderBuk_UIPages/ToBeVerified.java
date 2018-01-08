@@ -104,7 +104,7 @@ public class ToBeVerified extends TestBase{
 	}
 	
 	public Boolean imageDisplay(){
-		wait.until(ExpectedConditions.elementToBeClickable(ValidButton));
+		wait.until(ExpectedConditions.visibilityOf(Image));
 		if(Image.isDisplayed()==true){	
 		return true;
 		}

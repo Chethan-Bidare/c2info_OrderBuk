@@ -9,12 +9,14 @@ import org.testng.annotations.Test;
 
 import c2info_OrderBuk_TestBase.TestBase;
 import c2info_OrderBuk_UIPages.Dashboard;
+import c2info_OrderBuk_UIPages.DigitizePage;
 import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
-public class TC_002_VerifyImageExistanceInPrescriptionPage extends TestBase {
-
-public static final Logger log = Logger.getLogger(TC_002_VerifyImageExistanceInPrescriptionPage.class.getName());
+public class TC_005_VerifySubmitButtonInDigitizePage extends TestBase{
+	
+	
+public static final Logger log = Logger.getLogger(TC_005_VerifySubmitButtonInDigitizePage.class.getName());
 	
 	@BeforeClass
 	public void setup() throws IOException, InterruptedException{
@@ -25,25 +27,17 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyImageExistanceInP
 		
 	}
 	
-	@Test(priority=0)
-	public void verifyImageInPrescriptionPage(){
-		log.info("======= TC_002_VerifyImageExistanceInPrescriptionPage Test Started ======");
+	@Test
+	public void verifySubmitButtonFunctionality(){
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));
 		ToBeVerified tbv = new ToBeVerified();
 		tbv.selectAnOrder();
-		Boolean Result = tbv.imageDisplay();
-		System.out.println(Result);
-		Assert.assertTrue(Result==true);
-	}
-	
-	@Test(priority=1)
-	public void verifyImageInDigitizePage(){
-		log.info("======= TC_002_VerifyImageExistanceInPrescriptionPage Test Started ======");	
-		ToBeVerified tbv = new ToBeVerified();
 		tbv.makeOrderValid();
-		Boolean result = tbv.imageDisplay();
-		System.out.println(result);
-		Assert.assertTrue(result==true);
+		DigitizePage dp = new DigitizePage();
+		dp.addItemsAndDosage();
+		dp.clickOnSubmit();
+		Assert.assertEquals(dp.getSuccessMsg(), "Order Sent to Ready For Order.");
 	}
+
 }

@@ -28,13 +28,14 @@ public static final Logger log = Logger.getLogger(TC_005_VerifySubmitButtonInDig
 	}
 	
 	@Test
-	public void verifySubmitButtonFunctionality(){
+	public void verifySubmitButtonFunctionality() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));
 		ToBeVerified tbv = new ToBeVerified();
 		tbv.selectAnOrder();
 		tbv.makeOrderValid();
 		DigitizePage dp = new DigitizePage();
+		dp.addPatientDetails(APP.getProperty("CustomerName"), APP.getProperty("DoctorName"));
 		dp.addItemsAndDosage();
 		dp.clickOnSubmit();
 		Assert.assertEquals(dp.getSuccessMsg(), "Order Sent to Ready For Order.");

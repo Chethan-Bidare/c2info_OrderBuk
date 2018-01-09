@@ -21,8 +21,6 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -156,14 +154,16 @@ public class TestBase {
 	public void SelectItemNameFromAutoSuggestionSearch(String ItemName){
 		
 		WebElement AutoSuggestion = driver.findElement(By.id("ui-id-1"));
-		if(AutoSuggestion.isDisplayed()==true){
+		//if(AutoSuggestion.isDisplayed()==true){
 			List<WebElement> AutoSuggestionItemList = driver.findElements(By.tagName("li"));
 			for(WebElement we : AutoSuggestionItemList){
+				System.out.println(we.getText());
 				if(we.getText().contains(ItemName)){
+					System.out.println(we.getText());
 					we.click();
 				}
 			}
-		}
+		
 	}
 	
 	

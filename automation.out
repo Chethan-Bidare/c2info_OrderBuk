@@ -2796,3 +2796,181 @@
 2018-01-08 10:09:05 INFO  ToBeVerified:79 - Clicked on the first Order
 2018-01-08 10:09:20 INFO  ToBeVerified:86 - Clicked on Invalid Button
 2018-01-08 10:09:21 INFO  ToBeVerified:89 - Clicked on Submit Button
+2018-01-08 10:21:02 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 10:21:07 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 10:21:07 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 10:21:07 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 10:21:07 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 10:21:07 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 10:21:13 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 10:21:17 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 10:27:20 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 10:27:25 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 10:27:25 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 10:27:25 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 10:27:26 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 10:27:26 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 10:27:31 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 10:27:35 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 10:32:40 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 10:32:45 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 10:32:45 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 10:32:45 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 10:32:45 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 10:32:45 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 10:32:51 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 10:32:55 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 11:17:07 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 11:17:12 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 11:17:12 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 11:17:12 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 11:17:12 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 11:17:17 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 11:18:09 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 11:18:12 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 11:20:26 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 11:20:31 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 11:20:31 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 11:20:31 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 11:20:31 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 11:20:36 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 11:20:47 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 11:20:56 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 11:36:24 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 11:36:29 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 11:36:29 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 11:36:29 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 11:36:29 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 11:36:34 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 11:36:52 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 11:37:01 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 14:14:40 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 14:14:45 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 14:14:45 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 14:14:45 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 14:14:45 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 14:14:45 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 14:14:51 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 14:14:54 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 14:17:40 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 14:17:45 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 14:17:45 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 14:17:45 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 14:17:45 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 14:17:45 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 14:17:51 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 14:17:55 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 14:23:32 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 14:23:37 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 14:23:37 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 14:23:37 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 14:23:37 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 14:23:37 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 14:23:43 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 14:23:47 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 14:23:59 INFO  DigitizePage:89 - Clearing the text field for Morning dosage
+2018-01-08 14:23:59 INFO  DigitizePage:91 - Entering the Qty for Morning dosage
+2018-01-08 14:23:59 INFO  DigitizePage:93 - Clearing the text field for Afternoon dosage
+2018-01-08 14:23:59 INFO  DigitizePage:95 - Entering the Qty for Afternoon dosage
+2018-01-08 14:23:59 INFO  DigitizePage:97 - Clearing the text field for Night dosage
+2018-01-08 14:23:59 INFO  DigitizePage:99 - Entering the Qty for Afternoon dosage
+2018-01-08 14:29:02 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 14:29:07 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 14:29:07 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 14:29:07 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 14:29:07 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 14:29:07 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 14:29:12 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 14:29:18 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 14:29:18 INFO  DigitizePage:91 - Clearing the text field for Morning dosage
+2018-01-08 14:29:18 INFO  DigitizePage:93 - Entering the Qty for Morning dosage
+2018-01-08 14:29:18 INFO  DigitizePage:95 - Clearing the text field for Afternoon dosage
+2018-01-08 14:29:18 INFO  DigitizePage:97 - Entering the Qty for Afternoon dosage
+2018-01-08 14:29:18 INFO  DigitizePage:99 - Clearing the text field for Night dosage
+2018-01-08 14:29:19 INFO  DigitizePage:101 - Entering the Qty for Afternoon dosage
+2018-01-08 14:30:32 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 14:30:37 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 14:30:37 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 14:30:37 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 14:30:37 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 14:30:37 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 14:30:44 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 14:30:50 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 14:30:50 INFO  DigitizePage:92 - Clearing the text field for Morning dosage
+2018-01-08 14:30:50 INFO  DigitizePage:94 - Entering the Qty for Morning dosage
+2018-01-08 14:30:50 INFO  DigitizePage:96 - Clearing the text field for Afternoon dosage
+2018-01-08 14:30:50 INFO  DigitizePage:98 - Entering the Qty for Afternoon dosage
+2018-01-08 14:30:51 INFO  DigitizePage:100 - Clearing the text field for Night dosage
+2018-01-08 14:30:51 INFO  DigitizePage:102 - Entering the Qty for Afternoon dosage
+2018-01-08 14:31:11 INFO  DigitizePage:92 - Clearing the text field for Morning dosage
+2018-01-08 14:31:11 INFO  DigitizePage:94 - Entering the Qty for Morning dosage
+2018-01-08 14:31:11 INFO  DigitizePage:96 - Clearing the text field for Afternoon dosage
+2018-01-08 14:31:12 INFO  DigitizePage:98 - Entering the Qty for Afternoon dosage
+2018-01-08 14:31:12 INFO  DigitizePage:100 - Clearing the text field for Night dosage
+2018-01-08 14:31:12 INFO  DigitizePage:102 - Entering the Qty for Afternoon dosage
+2018-01-08 14:36:32 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 14:36:37 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 14:36:37 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 14:36:37 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 14:36:38 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 14:36:38 INFO  LoginPage:40 - Clicked on Login button
+2018-01-08 14:36:44 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-08 14:36:47 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-08 14:52:46 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-08 14:52:51 INFO  LoginPage:32 - Clearing the Username field
+2018-01-08 14:52:52 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-08 14:52:52 INFO  LoginPage:36 - Clearing the Password field
+2018-01-08 14:52:52 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-08 14:52:57 INFO  LoginPage:40 - Clicked on Login button
+2018-01-09 10:03:11 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-09 10:03:17 INFO  LoginPage:32 - Clearing the Username field
+2018-01-09 10:03:17 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-09 10:03:17 INFO  LoginPage:36 - Clearing the Password field
+2018-01-09 10:03:17 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-09 10:03:17 INFO  LoginPage:40 - Clicked on Login button
+2018-01-09 10:03:23 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-09 10:03:29 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-09 10:04:56 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-09 10:05:01 INFO  LoginPage:32 - Clearing the Username field
+2018-01-09 10:05:01 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-09 10:05:01 INFO  LoginPage:36 - Clearing the Password field
+2018-01-09 10:05:01 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-09 10:05:01 INFO  LoginPage:40 - Clicked on Login button
+2018-01-09 10:05:06 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-09 10:05:12 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-09 10:07:05 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-09 10:07:10 INFO  LoginPage:32 - Clearing the Username field
+2018-01-09 10:07:10 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-09 10:07:10 INFO  LoginPage:36 - Clearing the Password field
+2018-01-09 10:07:10 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-09 10:07:10 INFO  LoginPage:40 - Clicked on Login button
+2018-01-09 10:07:26 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-09 10:07:39 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-09 10:11:56 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-09 10:12:01 INFO  LoginPage:32 - Clearing the Username field
+2018-01-09 10:12:01 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-09 10:12:01 INFO  LoginPage:36 - Clearing the Password field
+2018-01-09 10:12:01 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-09 10:12:01 INFO  LoginPage:40 - Clicked on Login button
+2018-01-09 10:12:07 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-09 10:12:15 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-09 15:30:57 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-01-09 15:31:02 INFO  LoginPage:32 - Clearing the Username field
+2018-01-09 15:31:02 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-09 15:31:02 INFO  LoginPage:36 - Clearing the Password field
+2018-01-09 15:31:02 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-09 15:31:02 INFO  LoginPage:40 - Clicked on Login button
+2018-01-09 15:31:09 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-09 15:31:11 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-09 15:31:19 INFO  DigitizePage:93 - Clearing the text field for Morning dosage
+2018-01-09 15:31:19 INFO  DigitizePage:95 - Entering the Qty for Morning dosage
+2018-01-09 15:31:19 INFO  DigitizePage:97 - Clearing the text field for Afternoon dosage
+2018-01-09 15:31:19 INFO  DigitizePage:99 - Entering the Qty for Afternoon dosage
+2018-01-09 15:31:19 INFO  DigitizePage:101 - Clearing the text field for Night dosage
+2018-01-09 15:31:19 INFO  DigitizePage:103 - Entering the Qty for Afternoon dosage
+2018-01-09 15:31:25 INFO  DigitizePage:93 - Clearing the text field for Morning dosage
+2018-01-09 15:31:25 INFO  DigitizePage:95 - Entering the Qty for Morning dosage
+2018-01-09 15:31:25 INFO  DigitizePage:97 - Clearing the text field for Afternoon dosage
+2018-01-09 15:31:26 INFO  DigitizePage:99 - Entering the Qty for Afternoon dosage
+2018-01-09 15:31:26 INFO  DigitizePage:101 - Clearing the text field for Night dosage
+2018-01-09 15:31:26 INFO  DigitizePage:103 - Entering the Qty for Afternoon dosage

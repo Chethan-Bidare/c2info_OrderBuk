@@ -1,5 +1,7 @@
 package c2info_OrderBuk_UIPages;
 
+import java.util.ArrayList;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -59,17 +61,34 @@ public class DigitizePage extends TestBase{
 		
 	}
 	
-	public void addItem(String ItemName){
+	public void addItem(String ItemName) throws InterruptedException{
 		ItemSearchBox.click();
+		ItemSearchBox.clear();
 		ItemSearchBox.sendKeys(ItemName);
+		Thread.sleep(5000);
 		SelectItemNameFromAutoSuggestionSearch(ItemName);
 		waitforPageToLoad();
 		
 	}
 	
-	public void addItemsAndDosage(){
+	public ArrayList<String> getItemNames(){
+		ArrayList<String> ItemNames = new ArrayList<String>();
+		ItemNames.add("Crocin Advance 500mg Tab");
+		
+		ItemNames.add("Dolo 650mg Tab");
+		ItemNames.add("Woodwards Gripe Water 130ml");
+		ItemNames.add("Rantac 300mg Tab");
+		
+		return ItemNames ;
+	}
+	
+	public void addItemsAndDosage() throws InterruptedException{
+		ArrayList<String> itemnames = getItemNames();
+		
 		for(int i=1; i<=4;i++){
-			addItem(APP.getProperty("ItemName"+i+""));
+			
+			
+			addItem(itemnames.get(i-1));
 			driver.findElement(By.id("mrng"+i+"")).clear();
 			log.info("Clearing the text field for Morning dosage");
 			driver.findElement(By.id("mrng"+i+"")).sendKeys("1");

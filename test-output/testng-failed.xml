@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData">
+      <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage">
         <methods>
           <include name="setup"/>
           <include name="beforeMethod"/>
-          <include name="loginWithValidData"/>
           <include name="afterMethod"/>
+          <include name="verifySubmitButtonFunctionality"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData -->
-      <class name="c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks">
-        <methods>
-          <include name="verifyAllBucketlinks"/>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks -->
+      </class> <!-- c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

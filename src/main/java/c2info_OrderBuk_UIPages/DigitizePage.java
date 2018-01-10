@@ -49,6 +49,9 @@ public class DigitizePage extends TestBase{
 	@FindBy(xpath=".//span[contains(text(),'Order Sent to Ready For Order')]")
 	WebElement OrderSuccessMsg ;
 	
+	@FindBy(xpath=".//tr[1]/td[2]")
+	WebElement OrderIDInDS ;
+	
 	
 	public DigitizePage(){
 		PageFactory.initElements(driver, this);
@@ -61,11 +64,12 @@ public class DigitizePage extends TestBase{
 		
 	}
 	
-	public void addItem(String ItemName) throws InterruptedException{
+	public void addItem(String ItemName) throws InterruptedException {
 		ItemSearchBox.click();
 		ItemSearchBox.clear();
+		Thread.sleep(2000);
 		ItemSearchBox.sendKeys(ItemName);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		SelectItemNameFromAutoSuggestionSearch(ItemName);
 		waitforPageToLoad();
 		
@@ -74,7 +78,6 @@ public class DigitizePage extends TestBase{
 	public ArrayList<String> getItemNames(){
 		ArrayList<String> ItemNames = new ArrayList<String>();
 		ItemNames.add("Crocin Advance 500mg Tab");
-		
 		ItemNames.add("Dolo 650mg Tab");
 		ItemNames.add("Woodwards Gripe Water 130ml");
 		ItemNames.add("Rantac 300mg Tab");
@@ -114,5 +117,13 @@ public class DigitizePage extends TestBase{
 	
 	public String getSuccessMsg(){
 		return OrderSuccessMsg.getText();
+	}
+	
+	public String getOrderIDFromDigitizePage(){
+		String OrderID = OrderIDInDS.getText();
+		OrderID = OrderID.replaceAll(":","");
+		OrderID = OrderID.trim();
+		return OrderID ;
+		
 	}
 }

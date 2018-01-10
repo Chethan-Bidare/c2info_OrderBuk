@@ -157,9 +157,7 @@ public class TestBase {
 		//if(AutoSuggestion.isDisplayed()==true){
 			List<WebElement> AutoSuggestionItemList = driver.findElements(By.tagName("li"));
 			for(WebElement we : AutoSuggestionItemList){
-				System.out.println(we.getText());
 				if(we.getText().contains(ItemName)){
-					System.out.println(we.getText());
 					we.click();
 				}
 			}

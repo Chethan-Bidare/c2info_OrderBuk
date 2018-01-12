@@ -52,6 +52,14 @@ public class DigitizePage extends TestBase{
 	@FindBy(xpath=".//tr[1]/td[2]")
 	WebElement OrderIDInDS ;
 	
+	@FindBy(name="reason")
+	WebElement OrderCancellationReason ;
+	
+	@FindBy(name="note")
+	WebElement OrderCancellationRemark ;
+	
+	@FindBy(name="Cancel the Order")
+	WebElement OrderCancellationSubmit ;
 	
 	public DigitizePage(){
 		PageFactory.initElements(driver, this);

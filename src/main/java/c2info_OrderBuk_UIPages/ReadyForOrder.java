@@ -9,4 +9,5 @@ public class ReadyForOrder extends TestBase{
 
 	public static final Logger log = Logger.getLogger(ReadyForOrder.class.getName());
 	WebDriverWait wait = new WebDriverWait(driver, 45);
+	
 }

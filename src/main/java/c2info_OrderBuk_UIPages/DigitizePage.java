@@ -118,9 +118,9 @@ public class DigitizePage extends TestBase{
 		
 	}
 	
-	public void clickOnSubmit(){
+	public void clickOnSubmit() throws InterruptedException{
 		SubmitBtn.click();
-		waitforPageToLoad();
+		Thread.sleep(6000);
 	}
 	
 	public String getSuccessMsg(){

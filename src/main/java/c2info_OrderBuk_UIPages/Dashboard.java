@@ -143,6 +143,7 @@ public class Dashboard extends TestBase {
 	}
 	
 	public void clickOnDashboardinMenu(){
+		waitforPageToLoad();
 		DashboardIcon.click();
 		waitforPageToLoad();
 	}

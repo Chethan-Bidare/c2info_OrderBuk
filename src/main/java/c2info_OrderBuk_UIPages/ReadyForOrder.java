@@ -30,8 +30,9 @@ public class ReadyForOrder extends TestBase{
 				we.click();
 				
 			}
-			Thread.sleep(5000);
+			
 		}
+		Thread.sleep(5000);
 	}
 	
 	public String getOrderIDFromRFOPage(){

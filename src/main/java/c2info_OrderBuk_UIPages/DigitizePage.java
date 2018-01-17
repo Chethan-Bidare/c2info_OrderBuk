@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import c2info_OrderBuk_TestBase.TestBase;
@@ -115,6 +116,20 @@ public class DigitizePage extends TestBase{
 			driver.findElement(By.id("days"+i+"")).sendKeys("5");
 			
 		}
+		
+	}
+	
+	public void selectDoseAsUnit(String option){
+		Select select = new Select(DoseAsUnit);
+		if(option.equalsIgnoreCase("Yes")){
+		select.selectByIndex(0);
+		}
+		else if(option.equalsIgnoreCase("No")){
+			select.selectByIndex(1);
+		}
+	}
+	
+	public void getMaxQtyValues(){
 		
 	}
 	

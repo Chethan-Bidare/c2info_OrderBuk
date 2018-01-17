@@ -3456,3 +3456,67 @@
 2018-01-16 16:11:48 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
 2018-01-16 16:11:49 INFO  DigitizePage:112 - Clearing the text field for Night dosage
 2018-01-16 16:11:49 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:15 INFO  TC_006_VerifyOnSubmitReadyForOrder:25 - Initializing Setup
+2018-01-17 14:16:20 INFO  LoginPage:32 - Clearing the Username field
+2018-01-17 14:16:20 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-17 14:16:20 INFO  LoginPage:36 - Clearing the Password field
+2018-01-17 14:16:20 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-17 14:16:20 INFO  LoginPage:40 - Clicked on Login button
+2018-01-17 14:16:26 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-17 14:16:29 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-17 14:16:36 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:16:36 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:16:36 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:16:36 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:36 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:16:36 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:42 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:16:42 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:16:42 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:16:42 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:42 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:16:42 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:49 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:16:49 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:16:49 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:16:49 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:49 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:16:49 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:55 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:16:55 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:16:56 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:16:56 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:16:56 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:16:56 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:18:45 INFO  TC_006_VerifyOnSubmitReadyForOrder:25 - Initializing Setup
+2018-01-17 14:18:50 INFO  LoginPage:32 - Clearing the Username field
+2018-01-17 14:18:50 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-17 14:18:50 INFO  LoginPage:36 - Clearing the Password field
+2018-01-17 14:18:50 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-17 14:18:50 INFO  LoginPage:40 - Clicked on Login button
+2018-01-17 14:18:56 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-17 14:19:12 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-17 14:19:19 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:19:19 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:19:19 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:19:19 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:19:19 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:19:19 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:19:25 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:19:25 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:19:25 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:19:25 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:19:25 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:19:25 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:19:32 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:19:32 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:19:32 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:19:32 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:19:32 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:19:32 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage
+2018-01-17 14:19:38 INFO  DigitizePage:104 - Clearing the text field for Morning dosage
+2018-01-17 14:19:38 INFO  DigitizePage:106 - Entering the Qty for Morning dosage
+2018-01-17 14:19:38 INFO  DigitizePage:108 - Clearing the text field for Afternoon dosage
+2018-01-17 14:19:38 INFO  DigitizePage:110 - Entering the Qty for Afternoon dosage
+2018-01-17 14:19:38 INFO  DigitizePage:112 - Clearing the text field for Night dosage
+2018-01-17 14:19:39 INFO  DigitizePage:114 - Entering the Qty for Afternoon dosage

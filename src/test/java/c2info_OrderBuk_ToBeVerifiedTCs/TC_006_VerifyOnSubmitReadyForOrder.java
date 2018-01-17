@@ -33,6 +33,7 @@ public class TC_006_VerifyOnSubmitReadyForOrder extends TestBase {
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));
 		ToBeVerified tbv = new ToBeVerified();
+		select100Orders();
 		tbv.selectAnOrder();
 		tbv.makeOrderValid();
 		DigitizePage dp = new DigitizePage();
@@ -43,6 +44,7 @@ public class TC_006_VerifyOnSubmitReadyForOrder extends TestBase {
 		db.clickOnDashboardinMenu();
 		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));
 		ReadyForOrder rfo = new ReadyForOrder();
+		select100Orders();
 		rfo.selectOrder(ExpectedValue);
 		String ActualValue = rfo.getOrderIDFromRFOPage();
 		Assert.assertEquals(ActualValue, ExpectedValue);

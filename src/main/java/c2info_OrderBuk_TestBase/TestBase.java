@@ -21,6 +21,7 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -162,6 +163,11 @@ public class TestBase {
 				}
 			}
 		
+	}
+	
+	public void select100Orders(){
+		Select select = new Select(driver.findElement(By.name("bootstrap-table_length")));
+		select.selectByIndex(3);
 	}
 	
 	

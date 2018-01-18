@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75658" started-at="2018-01-17T08:48:37Z" finished-at="2018-01-17T08:49:52Z">
+  <suite name="Default suite" duration-ms="28808" started-at="2018-01-18T11:36:55Z" finished-at="2018-01-18T11:37:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75658" started-at="2018-01-17T08:48:37Z" finished-at="2018-01-17T08:49:52Z">
-      <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder">
-        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@61009542]" name="setup" is-config="true" duration-ms="13197" started-at="2018-01-17T14:18:37Z" finished-at="2018-01-17T14:18:50Z">
+    <test name="Default test" duration-ms="28808" started-at="2018-01-18T11:36:55Z" finished-at="2018-01-18T11:37:24Z">
+      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm">
+        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@61009542]" name="setup" is-config="true" duration-ms="13709" started-at="2018-01-18T17:06:55Z" finished-at="2018-01-18T17:07:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-01-17T14:18:50Z" finished-at="2018-01-17T14:18:50Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@61009542]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-01-18T17:07:09Z" finished-at="2018-01-18T17:07:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder.VerifyOrderPushedToReadyForOrder() throws java.lang.InterruptedException]]>
+                <![CDATA[public void c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm.deselectAllitemsAndCOnfirmOrder() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="VerifyOrderPushedToReadyForOrder()[pri:0, instance:c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@61009542]" name="VerifyOrderPushedToReadyForOrder" duration-ms="62056" started-at="2018-01-17T14:18:50Z" finished-at="2018-01-17T14:19:52Z">
+        <test-method status="PASS" signature="deselectAllitemsAndCOnfirmOrder()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@61009542]" name="deselectAllitemsAndCOnfirmOrder" duration-ms="14829" started-at="2018-01-18T17:07:09Z" finished-at="2018-01-18T17:07:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyOrderPushedToReadyForOrder -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-17T14:19:52Z" finished-at="2018-01-17T14:19:52Z">
+        </test-method> <!-- deselectAllitemsAndCOnfirmOrder -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-18T17:07:23Z" finished-at="2018-01-18T17:07:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyOrderPushedToReadyForOrder status=SUCCESS method=TC_006_VerifyOnSubmitReadyForOrder.VerifyOrderPushedToReadyForOrder()[pri:0, instance:c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=deselectAllitemsAndCOnfirmOrder status=SUCCESS method=TC_008_VerifyByDeselectingAllItemsAndConfirm.deselectAllitemsAndCOnfirmOrder()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@61009542]" name="endTest" is-config="true" duration-ms="388" started-at="2018-01-17T14:19:52Z" finished-at="2018-01-17T14:19:52Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@61009542]" name="endTest" is-config="true" duration-ms="248" started-at="2018-01-18T17:07:23Z" finished-at="2018-01-18T17:07:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder -->
+      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

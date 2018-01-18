@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder">
+      <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage">
         <methods>
-          <include name="VerifyOrderPushedToReadyForOrder"/>
+          <include name="setup"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="verifySubmitButtonFunctionality"/>
           <include name="endTest"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder -->
+      </class> <!-- c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

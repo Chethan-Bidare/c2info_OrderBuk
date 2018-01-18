@@ -142,8 +142,8 @@ public class Dashboard extends TestBase {
 		return WelcomeUser.getText();
 	}
 	
-	public void clickOnDashboardinMenu(){
-		waitforPageToLoad();
+	public void clickOnDashboardinMenu() throws InterruptedException{
+		Thread.sleep(5000);
 		DashboardIcon.click();
 		waitforPageToLoad();
 	}

@@ -24,7 +24,7 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 	}
 	
 	@Test(priority=0)
-	public void verifyDashboardLinkInMenuSlider(){
+	public void verifyDashboardLinkInMenuSlider() throws InterruptedException{
 		Dashboard dashboard = new Dashboard();
 		dashboard.clickOnDashboardinMenu();
 		String ActualResult = getPageTitle();

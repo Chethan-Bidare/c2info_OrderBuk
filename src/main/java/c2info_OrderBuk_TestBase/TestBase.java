@@ -154,7 +154,7 @@ public class TestBase {
 	
 	public void SelectItemNameFromAutoSuggestionSearch(String ItemName){
 		
-		WebElement AutoSuggestion = driver.findElement(By.id("ui-id-1"));
+		//WebElement AutoSuggestion = driver.findElement(By.id("ui-id-1"));
 		//if(AutoSuggestion.isDisplayed()==true){
 			List<WebElement> AutoSuggestionItemList = driver.findElements(By.tagName("li"));
 			for(WebElement we : AutoSuggestionItemList){

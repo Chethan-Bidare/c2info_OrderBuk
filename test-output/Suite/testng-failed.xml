@@ -21,6 +21,33 @@
           <include name="endTest"/>
         </methods>
       </class> <!-- c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks -->
+      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="verifyConfirmButtonFunctionality"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn -->
+      <class name="c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName">
+        <methods>
+          <include name="verifyUserName"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName -->
+      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyReverifybutton"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

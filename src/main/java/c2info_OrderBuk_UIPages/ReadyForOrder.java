@@ -2,8 +2,6 @@ package c2info_OrderBuk_UIPages;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.DoubleStream;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

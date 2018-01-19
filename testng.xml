@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+<listeners>
+<listener class-name="c2info_OrderBuk_Listeners.Listeners"></listener>
+</listeners>
   <test name="Test">
   <classes>
   <class name="c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData"></class>
   <class name="c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks"></class>
-  <class name="c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket"></class></classes>
+  <class name="c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket"></class>
+  <class name="c2info_OrderBuk_DashboardTCs.TC_003_VerifyLogOut"></class>
+  <class name="c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName"></class>
+  <class name="c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons"></class>
+  <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_001_VerifyInvalidOrder"></class>
+  <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance"></class>
+  <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_003_VerifyValidButton"></class>
+  <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_004_VerifyInvalidButton"></class>
+  <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage"></class>
+  <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder"></class>
+  <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_007_VerifyDoseAsUnit"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_002_VerifyDetailsExistence"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_006_VerifyCancelButton"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton"></class>
+  <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_001_VerifyImageExistance"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence"></class>
+  
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

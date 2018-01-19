@@ -103,8 +103,9 @@ public class ToBeVerified extends TestBase{
 		return driver.findElement(By.xpath(".//span[contains(text(),'Order Cancelled Successfully')]")).getText();
 	}
 	
-	public Boolean imageDisplay(){
-		wait.until(ExpectedConditions.visibilityOf(Image));
+	public Boolean imageDisplay() throws InterruptedException{
+		//wait.until(ExpectedConditions.visibilityOf(Image));
+		Thread.sleep(5000);
 		if(Image.isDisplayed()==true){	
 		return true;
 		}

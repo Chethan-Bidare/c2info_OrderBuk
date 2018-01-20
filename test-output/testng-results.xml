@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40217" started-at="2018-01-19T07:24:54Z" finished-at="2018-01-19T07:25:34Z">
+  <suite name="Default suite" duration-ms="40231" started-at="2018-01-20T10:19:08Z" finished-at="2018-01-20T10:19:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40217" started-at="2018-01-19T07:24:54Z" finished-at="2018-01-19T07:25:34Z">
-      <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality">
-        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality@61009542]" name="setup" is-config="true" duration-ms="13834" started-at="2018-01-19T12:54:54Z" finished-at="2018-01-19T12:55:08Z">
+    <test name="Default test" duration-ms="40231" started-at="2018-01-20T10:19:08Z" finished-at="2018-01-20T10:19:48Z">
+      <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality">
+        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality@61009542]" name="setup" is-config="true" duration-ms="13888" started-at="2018-01-20T15:49:08Z" finished-at="2018-01-20T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-01-19T12:55:08Z" finished-at="2018-01-19T12:55:08Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality@61009542]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2018-01-20T15:49:22Z" finished-at="2018-01-20T15:49:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality.verifyCancelButtonFunctionality() throws java.lang.InterruptedException]]>
+                <![CDATA[public void c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality.verifySubmitOrderFunctionality() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyCancelButtonFunctionality()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality@61009542]" name="verifyCancelButtonFunctionality" duration-ms="26109" started-at="2018-01-19T12:55:08Z" finished-at="2018-01-19T12:55:34Z">
+        <test-method status="PASS" signature="verifySubmitOrderFunctionality()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality@61009542]" name="verifySubmitOrderFunctionality" duration-ms="26072" started-at="2018-01-20T15:49:22Z" finished-at="2018-01-20T15:49:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCancelButtonFunctionality -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-19T12:55:34Z" finished-at="2018-01-19T12:55:34Z">
+        </test-method> <!-- verifySubmitOrderFunctionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-20T15:49:48Z" finished-at="2018-01-20T15:49:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCancelButtonFunctionality status=SUCCESS method=TC_005_VerifyInvalidOrderFunctionality.verifyCancelButtonFunctionality()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifySubmitOrderFunctionality status=SUCCESS method=TC_006_VerifySubmitOrderFunctionality.verifySubmitOrderFunctionality()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality@61009542]" name="endTest" is-config="true" duration-ms="257" started-at="2018-01-19T12:55:34Z" finished-at="2018-01-19T12:55:34Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality@61009542]" name="endTest" is-config="true" duration-ms="251" started-at="2018-01-20T15:49:48Z" finished-at="2018-01-20T15:49:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality -->
+      </class> <!-- c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

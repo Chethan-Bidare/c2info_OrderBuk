@@ -3,7 +3,6 @@ package c2info_OrderBuk_CustConfirmedveriPendingTCs;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -12,10 +11,9 @@ import c2info_OrderBuk_UIPages.CustomerConfirmedVerificationPending;
 import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.DigitizePage;
 import c2info_OrderBuk_UIPages.LoginPage;
-import c2info_OrderBuk_UIPages.OrderQuery;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
-public class TC_006_VerifySubmitOrderFunctionality extends TestBase{
+public class TC_007_VerifySubmitByAddingItems extends TestBase{
 
 public static final Logger log = Logger.getLogger(TC_005_VerifyInvalidOrderFunctionality.class.getName());
 	
@@ -41,18 +39,6 @@ public static final Logger log = Logger.getLogger(TC_005_VerifyInvalidOrderFunct
 		DigitizePage dp = new DigitizePage();
 		dp.addPatientDetails("Chethan", "Bidare");
 		ccvp.itemSelection();
-		ccvp.clickOnSubmitButton();
-		db.clickOnDashboardinMenu();
-		db.selectBucket(APP.getProperty("OrderQueryPageTitle"));
-		OrderQuery oq = new OrderQuery();
-		oq.SearchOrder(OrderID);
-		String ActualResult = oq.getStatus();
-		try {
-			Assert.assertEquals(ActualResult, "ORDER CONFIRMED");
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			Assert.assertEquals(ActualResult, "ORDER SENT TO SERVER");
-			e.printStackTrace();
-		}
+		dp.addItem("Dolo 650mg Tab");
 	}
 }

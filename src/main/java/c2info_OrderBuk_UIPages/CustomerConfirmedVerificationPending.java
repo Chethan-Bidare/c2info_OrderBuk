@@ -1,5 +1,6 @@
 package c2info_OrderBuk_UIPages;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -106,25 +107,55 @@ public class CustomerConfirmedVerificationPending extends TestBase {
 	CancellationSubmitButton.click();
 	}
 	
-	public void itemSelection(){
+	
+	public ArrayList<String> getQtyFromTheList(){
 		List<WebElement> items = driver.findElements(By.xpath(".//*[@id='all_list']/tr/td[3]/a"));
-		for(int i=1; i<=items.size(); i++){
-			driver.findElement(By.xpath(".//*[@id='all_list']/tr["+i+"]/td[3]/a")).click();
-			driver.findElement(By.id("mrng"+i+"")).clear();
-			log.info("Clearing the text field for Morning dosage");
-			driver.findElement(By.id("mrng"+i+"")).sendKeys("1");
-			log.info("Entering the Qty for Morning dosage");
-			driver.findElement(By.id("aftn"+i+"")).clear();
-			log.info("Clearing the text field for Afternoon dosage");
-			driver.findElement(By.id("aftn"+i+"")).sendKeys("1");
-			log.info("Entering the Qty for Afternoon dosage");
-			driver.findElement(By.id("ngt"+i+"")).clear();
-			log.info("Clearing the text field for Night dosage");
-			driver.findElement(By.id("ngt"+i+"")).sendKeys("1");
-			log.info("Entering the Qty for Afternoon dosage");
-			driver.findElement(By.id("days"+i+"")).sendKeys("5");
-			log.info("Entering No of days ");
+		ArrayList<String> ItemQty = new ArrayList<String>();
+		for(int i=1;i<=items.size();i++){
+			String temp =  driver.findElement(By.xpath(".//*[@id='all_list']/tr["+i+"]/td[3]")).getText();
+			temp = temp.replaceAll("[+^]","");
+			temp = temp.trim();
+			System.out.println(temp);
+			ItemQty.add(temp);
+			
 		}
+		return ItemQty ;
+	}
+	
+	public void itemSelection() throws InterruptedException {
+		List<WebElement> items = driver.findElements(By.xpath(".//*[@id='all_list']/tr/td[3]/a"));
+		ArrayList<String> itemQty = getQtyFromTheList();
+		for(int i=1; i<=items.size(); i++){
+			driver.findElement(By.xpath(".//*[@id='all_list']/tr[1]/td[3]/a")).click();
+			Thread.sleep(2000);
+			if(i<=2){
+			driver.findElement(By.id("mrng1")).clear();
+			log.info("Clearing the text field for Morning dosage");
+			driver.findElement(By.id("mrng1")).sendKeys("1");
+			log.info("Entering the Qty for Morning dosage");
+			driver.findElement(By.id("days1")).clear();
+			driver.findElement(By.id("days1")).sendKeys(itemQty.get(i-1));
+			}
+			else if(i==3){
+				driver.findElement(By.id("mrng2")).clear();
+				log.info("Clearing the text field for Morning dosage");
+				driver.findElement(By.id("mrng2")).sendKeys("1");
+				log.info("Entering the Qty for Morning dosage");
+				driver.findElement(By.id("days2")).clear();
+				driver.findElement(By.id("days2")).sendKeys(itemQty.get(i-1));
+			}
+			else{
+				
+				driver.findElement(By.id("mrng3")).clear();
+				log.info("Clearing the text field for Morning dosage");
+				driver.findElement(By.id("mrng3")).sendKeys("1");
+				log.info("Entering the Qty for Morning dosage");
+				driver.findElement(By.id("days3")).clear();
+				driver.findElement(By.id("days3")).sendKeys(itemQty.get(i-1));
+			}
+		}
+		
+		
 	}
 	
 	

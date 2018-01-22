@@ -4574,3 +4574,59 @@
 2018-01-20 15:49:36 INFO  ReadyForOrder:135 - Entering the Qty for Morning dosage
 2018-01-20 15:49:38 INFO  ReadyForOrder:133 - Clearing the text field for Morning dosage
 2018-01-20 15:49:38 INFO  ReadyForOrder:135 - Entering the Qty for Morning dosage
+2018-01-22 11:47:56 INFO  TC_007_VerifySubmitByAddingItems:24 - Initializing Setup
+2018-01-22 11:48:01 INFO  LoginPage:32 - Clearing the Username field
+2018-01-22 11:48:01 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-22 11:48:01 INFO  LoginPage:36 - Clearing the Password field
+2018-01-22 11:48:01 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-22 11:48:01 INFO  LoginPage:40 - Clicked on Login button
+2018-01-22 11:48:22 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-22 11:48:44 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-22 11:52:07 INFO  TC_007_VerifySubmitByAddingItems:24 - Initializing Setup
+2018-01-22 11:52:12 INFO  LoginPage:32 - Clearing the Username field
+2018-01-22 11:52:12 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-22 11:52:12 INFO  LoginPage:36 - Clearing the Password field
+2018-01-22 11:52:12 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-22 11:52:12 INFO  LoginPage:40 - Clicked on Login button
+2018-01-22 11:52:54 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-22 11:53:24 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-22 12:07:56 INFO  TC_009_VerifyNewItemRequestSuccessMsg:24 - Initializing Setup
+2018-01-22 12:08:01 INFO  LoginPage:32 - Clearing the Username field
+2018-01-22 12:08:01 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-22 12:08:01 INFO  LoginPage:36 - Clearing the Password field
+2018-01-22 12:08:01 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-22 12:08:01 INFO  LoginPage:40 - Clicked on Login button
+2018-01-22 12:08:14 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-22 12:08:32 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-22 12:46:06 INFO  TC_009_VerifyNewItemRequestSuccessMsg:24 - Initializing Setup
+2018-01-22 12:46:11 INFO  LoginPage:32 - Clearing the Username field
+2018-01-22 12:46:11 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-22 12:46:11 INFO  LoginPage:36 - Clearing the Password field
+2018-01-22 12:46:11 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-22 12:46:11 INFO  LoginPage:40 - Clicked on Login button
+2018-01-22 12:46:18 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-22 12:46:27 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-22 14:45:15 INFO  TC_009_VerifyNewItemRequestSuccessMsg:25 - Initializing Setup
+2018-01-22 14:45:20 INFO  LoginPage:32 - Clearing the Username field
+2018-01-22 14:45:20 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-22 14:45:20 INFO  LoginPage:36 - Clearing the Password field
+2018-01-22 14:45:20 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-22 14:45:20 INFO  LoginPage:40 - Clicked on Login button
+2018-01-22 14:45:31 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-22 14:45:43 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-22 15:03:38 INFO  TC_009_VerifyNewItemRequestSuccessMsg:25 - Initializing Setup
+2018-01-22 15:03:43 INFO  LoginPage:32 - Clearing the Username field
+2018-01-22 15:03:43 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-22 15:03:43 INFO  LoginPage:36 - Clearing the Password field
+2018-01-22 15:03:43 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-22 15:03:43 INFO  LoginPage:40 - Clicked on Login button
+2018-01-22 15:03:51 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-22 15:04:00 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-22 17:16:35 INFO  TC_009_VerifyNewItemRequestSuccessMsg:25 - Initializing Setup
+2018-01-22 17:16:40 INFO  LoginPage:32 - Clearing the Username field
+2018-01-22 17:16:41 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-22 17:16:41 INFO  LoginPage:36 - Clearing the Password field
+2018-01-22 17:16:41 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-22 17:16:41 INFO  LoginPage:40 - Clicked on Login button
+2018-01-22 17:16:48 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-22 17:16:55 INFO  ToBeVerified:94 - Clicked on Valid Button

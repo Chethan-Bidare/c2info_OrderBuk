@@ -44,6 +44,9 @@ public class CustomerConfirmedVerificationPending extends TestBase {
 	@FindBy(id="btnsubmit")
 	WebElement SubmitBtn ;
 	
+	@FindBy(xpath=".//*[@id='wrapper']/div/div/div/div/div[2]/div[1]/span")
+	WebElement NewItemPutOnHoldSuccessMsg ;
+	
 	/*@FindBy(xpath=".//h5")
 	WebElement PageHeader ;
 	
@@ -156,6 +159,10 @@ public class CustomerConfirmedVerificationPending extends TestBase {
 		}
 		
 		
+	}
+	
+	public String getSuccessMsg(){
+		return NewItemPutOnHoldSuccessMsg.getText();
 	}
 	
 	

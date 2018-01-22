@@ -1,8 +1,9 @@
-package c2info_OrderBuk_CustConfirmedveriPendingTCs;
+package c2info_OrderBuk_ToBeVerifiedTCs;
 
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -13,9 +14,9 @@ import c2info_OrderBuk_UIPages.DigitizePage;
 import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
-public class TC_007_VerifySubmitByAddingItems extends TestBase{
+public class TC_009_VerifyNewItemRequestSuccessMsg extends TestBase {
 
-public static final Logger log = Logger.getLogger(TC_007_VerifySubmitByAddingItems.class.getName());
+public static final Logger log = Logger.getLogger(TC_009_VerifyNewItemRequestSuccessMsg.class.getName());
 	
 	@BeforeClass
 	public void setup() throws IOException, InterruptedException{
@@ -27,18 +28,21 @@ public static final Logger log = Logger.getLogger(TC_007_VerifySubmitByAddingIte
 	}
 	
 	@Test
-	public void verifySubmitOrderFunctionality() throws InterruptedException{
+	public void verifyNewItemRequestSuccessMsg() throws InterruptedException{
 		Dashboard db = new Dashboard();
-		db.selectBucket(APP.getProperty("CCVPPageTitle"));
+		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));
 		select100Orders();
 		ToBeVerified tbv = new ToBeVerified();
 		tbv.selectAnOrder();
 		tbv.makeOrderValid();
-		CustomerConfirmedVerificationPending ccvp = new CustomerConfirmedVerificationPending();
-		String OrderID = ccvp.getOrderID();
 		DigitizePage dp = new DigitizePage();
 		dp.addPatientDetails("Chethan", "Bidare");
-		ccvp.itemSelection();
-		dp.addItem("Dolo 650mg Tab");
+		dp.clickOnRequestNewItem();
+		dp.requestNewItemDetails();
+		dp.confirmNewItemRequest();
+		dp.clickOnSubmit();
+		CustomerConfirmedVerificationPending ccvp = new CustomerConfirmedVerificationPending();
+		String SuccessMsg = ccvp.getSuccessMsg();
+		Assert.assertEquals(SuccessMsg, "Order Sent to New Item Put on Hold.");
 	}
 }

@@ -1,12 +1,14 @@
 package c2info_OrderBuk_UIPages;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -47,7 +49,7 @@ public class DigitizePage extends TestBase{
 	@FindBy(id="reorder1")
 	WebElement ReOrder ;
 	
-	@FindBy(xpath=".//span[contains(text(),'Order Sent to Ready For Order')]")
+	@FindBy(xpath=".//*[@id='wrapper']/div/div/div/div/div[2]/div[1]/span")
 	WebElement OrderSuccessMsg ;
 	
 	@FindBy(xpath=".//tr[1]/td[2]")
@@ -61,6 +63,28 @@ public class DigitizePage extends TestBase{
 	
 	@FindBy(name="Cancel the Order")
 	WebElement OrderCancellationSubmit ;
+	
+	@FindBy(xpath=".//button[contains(text(),'+ add')]")
+	WebElement AddRowBtn ;
+	
+	@FindBy(xpath=".//button[contains(text(),'- remove')]")
+	WebElement DeleteRowBtn ;
+	
+	@FindBy(id="itm")
+	WebElement NewItemName ;
+	
+	@FindBy(id="cnt")
+	WebElement NewItemCnt ;
+	
+	@FindBy(id="mfg")
+	WebElement NewItemMfac ;
+	
+	@FindBy(id="add-new-item")
+	WebElement NewItemBtn ;
+	
+	@FindBy(xpath=".//button[contains(text(),'+ add')]")
+	WebElement AddNewItemRow ;
+	
 	
 	public DigitizePage(){
 		PageFactory.initElements(driver, this);
@@ -136,6 +160,36 @@ public class DigitizePage extends TestBase{
 	public void clickOnSubmit() throws InterruptedException{
 		SubmitBtn.click();
 		Thread.sleep(6000);
+	}
+	
+	public void clickOnRequestNewItem(){
+		NewItemRequestBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(AddRowBtn));
+	}
+	
+	public void requestNewItemDetails(){
+		NewItemName.sendKeys("Test");
+		NewItemMfac.sendKeys("TestMfac");
+		NewItemCnt.sendKeys("TestContent");
+		
+	}
+	
+	public void addMultipleRows(){
+		List<WebElement> rows = driver.findElements(By.id("itm"));
+		for(WebElement we : rows){
+			NewItemName.sendKeys("Test");
+			NewItemMfac.sendKeys("TestMfac");
+			NewItemCnt.sendKeys("TestContent");
+		}
+	}
+	
+	public void confirmNewItemRequest() throws InterruptedException{
+		NewItemBtn.click();
+		Thread.sleep(3000);
+	}
+	
+	public void clickOnNewItemRequestNewRow(){
+		AddNewItemRow.click();
 	}
 	
 	public String getSuccessMsg(){

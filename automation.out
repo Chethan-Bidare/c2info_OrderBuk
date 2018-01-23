@@ -4630,3 +4630,109 @@
 2018-01-22 17:16:41 INFO  LoginPage:40 - Clicked on Login button
 2018-01-22 17:16:48 INFO  ToBeVerified:79 - Clicked on the first Order
 2018-01-22 17:16:55 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-23 09:44:02 INFO  TC_001_VerifyAtleastOneItemIsAddedasNewItem:23 - Initializing Setup
+2018-01-23 09:44:07 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 09:44:07 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 09:44:07 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 09:44:07 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 09:44:07 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 09:44:16 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 09:44:41 INFO  TC_001_VerifyAtleastOneItemIsAddedasNewItem:23 - Initializing Setup
+2018-01-23 09:44:46 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 09:44:46 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 09:44:46 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 09:44:46 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 09:44:46 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 09:44:54 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 09:46:25 INFO  TC_001_VerifyAtleastOneItemIsAddedasNewItem:23 - Initializing Setup
+2018-01-23 09:46:30 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 09:46:30 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 09:46:30 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 09:46:31 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 09:46:31 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 09:46:36 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 09:47:53 INFO  TC_001_VerifyAtleastOneItemIsAddedasNewItem:23 - Initializing Setup
+2018-01-23 09:47:58 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 09:47:58 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 09:47:58 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 09:47:58 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 09:47:58 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 09:48:04 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 09:49:54 INFO  TC_001_VerifyAtleastOneItemIsAddedasNewItem:23 - Initializing Setup
+2018-01-23 09:49:59 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 09:49:59 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 09:49:59 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 09:49:59 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 09:49:59 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 09:50:05 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 09:55:52 INFO  TC_002_VerifyReverifyFunctionalityandMsg:24 - Initializing Setup
+2018-01-23 09:55:57 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 09:55:57 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 09:55:58 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 09:55:58 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 09:55:58 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 09:56:03 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 10:01:30 INFO  TC_002_VerifyReverifyFunctionalityandMsg:25 - Initializing Setup
+2018-01-23 10:01:35 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 10:01:35 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 10:01:36 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 10:01:36 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 10:01:36 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 10:01:42 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 10:05:11 INFO  TC_002_VerifyReverifyFunctionalityandMsg:25 - Initializing Setup
+2018-01-23 10:05:16 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 10:05:16 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 10:05:16 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 10:05:16 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 10:05:16 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 10:05:22 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 10:59:28 INFO  TC_002_VerifyReverifyFunctionalityandMsg:26 - Initializing Setup
+2018-01-23 10:59:34 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 10:59:34 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 10:59:34 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 10:59:34 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 10:59:34 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 10:59:39 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 10:59:57 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 11:36:18 INFO  TC_003_VerifyViewPrescriptionButton:24 - Initializing Setup
+2018-01-23 11:36:23 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 11:36:23 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 11:36:23 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 11:36:23 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 11:36:23 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 11:38:06 INFO  TC_003_VerifyViewPrescriptionButton:23 - Initializing Setup
+2018-01-23 11:38:11 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 11:38:11 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 11:38:11 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 11:38:11 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 11:38:11 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 11:38:19 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 12:18:23 INFO  TC_003_VerifyViewPrescriptionButton:24 - Initializing Setup
+2018-01-23 12:18:29 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 12:18:29 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 12:18:29 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 12:18:29 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 12:18:29 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 12:18:37 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 12:19:38 INFO  TC_003_VerifyViewPrescriptionButton:24 - Initializing Setup
+2018-01-23 12:19:43 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 12:19:43 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 12:19:43 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 12:19:43 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 12:19:43 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 12:19:51 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 12:20:16 INFO  TC_003_VerifyViewPrescriptionButton:24 - Initializing Setup
+2018-01-23 12:20:21 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 12:20:21 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 12:20:21 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 12:20:21 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 12:20:21 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 12:20:29 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 12:47:08 INFO  TC_003_VerifyViewPrescriptionButton:26 - Initializing Setup
+2018-01-23 12:47:13 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 12:47:13 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 12:47:13 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 12:47:13 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 12:47:13 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 12:47:22 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 12:47:43 INFO  ToBeVerified:79 - Clicked on the first Order

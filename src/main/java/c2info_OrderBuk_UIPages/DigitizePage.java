@@ -174,14 +174,14 @@ public class DigitizePage extends TestBase{
 		
 	}
 	
-	public void addMultipleRows(){
+	/*public void addMultipleRows(){
 		List<WebElement> rows = driver.findElements(By.id("itm"));
 		for(WebElement we : rows){
 			NewItemName.sendKeys("Test");
 			NewItemMfac.sendKeys("TestMfac");
 			NewItemCnt.sendKeys("TestContent");
 		}
-	}
+	}*/
 	
 	public void confirmNewItemRequest() throws InterruptedException{
 		NewItemBtn.click();

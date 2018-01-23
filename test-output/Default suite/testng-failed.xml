@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_010_VerifyNewItemRequestByAddingMultipleItems">
+      <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_004_VerifyOrderHistoryButton">
         <methods>
           <include name="setup"/>
           <include name="beforeMethod"/>
+          <include name="verifyOrderhistorybutton"/>
           <include name="afterMethod"/>
           <include name="endTest"/>
-          <include name="verifyByAddingMultipleItems"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_010_VerifyNewItemRequestByAddingMultipleItems -->
+      </class> <!-- c2info_OrderBuk_NewItemPutOnHoldTCs.TC_004_VerifyOrderHistoryButton -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -14,7 +14,7 @@ import c2info_OrderBuk_TestBase.TestBase;
 
 public class CustomerConfirmedVerificationPending extends TestBase {
 
-	public static final Logger log = Logger.getLogger(ReadyForOrder.class.getName());
+	public static final Logger log = Logger.getLogger(CustomerConfirmedVerificationPending.class.getName());
 	WebDriverWait wait = new WebDriverWait(driver, 45);
 	
 	@FindBy(xpath=".//h5")

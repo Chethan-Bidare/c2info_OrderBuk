@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse-1498677586\testng-customsuite.xml</span>
+                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse--499063383\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyHeaderMOPIsNotNull">verifyHeaderMOPIsNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +116,37 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton" hash-for-method="verifyOrderClosedButtonFunctionality">verifyOrderClosedButtonFunctionality</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyBillingAddressIsNotNull">verifyBillingAddressIsNotNull</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton" hash-for-method="verifyOrderClosedButtonMsg">verifyOrderClosedButtonMsg</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyCustomerNameIsNotNull">verifyCustomerNameIsNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyCustomerNumIsNotNull">verifyCustomerNumIsNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyHeaderAmtIsNotNull">verifyHeaderAmtIsNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyHeaderModeOfDeliveryIsNotNull">verifyHeaderModeOfDeliveryIsNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyOrderIDIsNotNull">verifyOrderIDIsNotNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance" hash-for-method="verifyShippingAddressIsNotNull">verifyShippingAddressIsNotNull</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,24 +161,106 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton</span>
+              <img src="failed.png"/>
+              <span class="class-name">c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyOrderClosedButtonFunctionality">
-                  </a> <!-- verifyOrderClosedButtonFunctionality -->
-                  <span class="method-name">verifyOrderClosedButtonFunctionality</span>
+                  <a name="verifyHeaderMOPIsNotNull">
+                  </a> <!-- verifyHeaderMOPIsNotNull -->
+                  <span class="method-name">verifyHeaderMOPIsNotNull</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotEquals(Assert.java:897)
+	at org.testng.Assert.assertNotEquals(Assert.java:902)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderMOPIsNotNull(TC_001_VerifyDetailsExistance.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBillingAddressIsNotNull">
+                  </a> <!-- verifyBillingAddressIsNotNull -->
+                  <span class="method-name">verifyBillingAddressIsNotNull</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyOrderClosedButtonMsg">
-                  </a> <!-- verifyOrderClosedButtonMsg -->
-                  <span class="method-name">verifyOrderClosedButtonMsg</span>
+                  <a name="verifyCustomerNameIsNotNull">
+                  </a> <!-- verifyCustomerNameIsNotNull -->
+                  <span class="method-name">verifyCustomerNameIsNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerNumIsNotNull">
+                  </a> <!-- verifyCustomerNumIsNotNull -->
+                  <span class="method-name">verifyCustomerNumIsNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderAmtIsNotNull">
+                  </a> <!-- verifyHeaderAmtIsNotNull -->
+                  <span class="method-name">verifyHeaderAmtIsNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaderModeOfDeliveryIsNotNull">
+                  </a> <!-- verifyHeaderModeOfDeliveryIsNotNull -->
+                  <span class="method-name">verifyHeaderModeOfDeliveryIsNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrderIDIsNotNull">
+                  </a> <!-- verifyOrderIDIsNotNull -->
+                  <span class="method-name">verifyOrderIDIsNotNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShippingAddressIsNotNull">
+                  </a> <!-- verifyShippingAddressIsNotNull -->
+                  <span class="method-name">verifyShippingAddressIsNotNull</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +268,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse-1498677586\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse--499063383\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +277,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton&quot;/&gt;
+      &lt;class name=&quot;c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -196,20 +317,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyOrderClosedButtonFunctionality')
-data.setCell(0, 2, 'c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton')
-data.setCell(0, 3, 22097);
+data.setCell(0, 1, 'verifyOrderIDIsNotNull')
+data.setCell(0, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(0, 3, 8168);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyOrderClosedButtonMsg')
-data.setCell(1, 2, 'c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton')
-data.setCell(1, 3, 17514);
+data.setCell(1, 1, 'verifyCustomerNameIsNotNull')
+data.setCell(1, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(1, 3, 33);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyHeaderModeOfDeliveryIsNotNull')
+data.setCell(2, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(2, 3, 33);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyShippingAddressIsNotNull')
+data.setCell(3, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(3, 3, 32);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyHeaderMOPIsNotNull')
+data.setCell(4, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(4, 3, 32);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyHeaderAmtIsNotNull')
+data.setCell(5, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(5, 3, 31);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCustomerNumIsNotNull')
+data.setCell(6, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(6, 3, 31);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyBillingAddressIsNotNull')
+data.setCell(7, 2, 'c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance')
+data.setCell(7, 3, 20);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,38 +380,112 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton.verifyOrderClosedButt...)</span>
-                <span class="method-start">13863 ms</span>
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyOrderIDIsNotNul...)</span>
+                <span class="method-start">12983 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyOrderClosedButtonFunctionality</span>
-                <span class="method-start">13866 ms</span>
+                <span class="method-name">verifyOrderIDIsNotNull</span>
+                <span class="method-start">12987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=verifyOrderClosedButtonFunctionality status=SUCCESS method=TC_005_VerifyOrderClosed...)</span>
-                <span class="method-start">35964 ms</span>
+                <span class="method-name">afterMethod([TestResult name=verifyOrderIDIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyOr...)</span>
+                <span class="method-start">21156 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton.verifyOrderClosedButt...)</span>
-                <span class="method-start">35966 ms</span>
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyCustomerNameIsN...)</span>
+                <span class="method-start">21157 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyOrderClosedButtonMsg</span>
-                <span class="method-start">35966 ms</span>
+                <span class="method-name">verifyCustomerNameIsNotNull</span>
+                <span class="method-start">21158 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=verifyOrderClosedButtonMsg status=SUCCESS method=TC_005_VerifyOrderClosedButton.ver...)</span>
-                <span class="method-start">53481 ms</span>
+                <span class="method-name">afterMethod([TestResult name=verifyCustomerNameIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.ver...)</span>
+                <span class="method-start">21192 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyCustomerNumIsNo...)</span>
+                <span class="method-start">21192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCustomerNumIsNotNull</span>
+                <span class="method-start">21192 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyCustomerNumIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.veri...)</span>
+                <span class="method-start">21224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderAmtIsNotN...)</span>
+                <span class="method-start">21224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderAmtIsNotNull</span>
+                <span class="method-start">21224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyHeaderAmtIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verify...)</span>
+                <span class="method-start">21256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderMOPIsNotN...)</span>
+                <span class="method-start">21257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyHeaderMOPIsNotNull</span>
+                <span class="method-start">21257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyHeaderMOPIsNotNull status=FAILURE method=TC_001_VerifyDetailsExistance.verify...)</span>
+                <span class="method-start">21291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderModeOfDel...)</span>
+                <span class="method-start">21293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaderModeOfDeliveryIsNotNull</span>
+                <span class="method-start">21293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyHeaderModeOfDeliveryIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExist...)</span>
+                <span class="method-start">21327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyShippingAddress...)</span>
+                <span class="method-start">21327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyShippingAddressIsNotNull</span>
+                <span class="method-start">21327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyShippingAddressIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance....)</span>
+                <span class="method-start">21359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyBillingAddressI...)</span>
+                <span class="method-start">21360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBillingAddressIsNotNull</span>
+                <span class="method-start">21360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyBillingAddressIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.v...)</span>
+                <span class="method-start">21381 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">53482 ms</span>
+                <span class="method-start">21382 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

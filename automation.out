@@ -4736,3 +4736,103 @@
 2018-01-23 12:47:13 INFO  LoginPage:40 - Clicked on Login button
 2018-01-23 12:47:22 INFO  ToBeVerified:79 - Clicked on the first Order
 2018-01-23 12:47:43 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 14:33:43 INFO  TC_005_VerifyOrderClosedButton:26 - Initializing Setup
+2018-01-23 14:33:48 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 14:33:48 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 14:33:48 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 14:33:48 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 14:33:48 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 14:33:55 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 14:35:09 INFO  TC_005_VerifyOrderClosedButton:26 - Initializing Setup
+2018-01-23 14:35:14 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 14:35:14 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 14:35:14 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 14:35:14 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 14:35:15 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 14:35:25 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 14:35:39 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-23 14:35:57 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 14:49:13 INFO  TC_006_VerifyNewItemFromTBV:26 - Initializing Setup
+2018-01-23 14:49:18 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 14:49:18 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 14:49:18 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 14:49:18 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 14:49:18 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 14:49:24 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 14:49:38 INFO  ToBeVerified:94 - Clicked on Valid Button
+2018-01-23 14:49:55 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:00:57 INFO  TestBase:20 - Initializing Setup
+2018-01-23 17:01:02 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:01:02 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:01:02 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:01:02 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:01:03 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:01:03 INFO  TestBase:28 - ======= verifyOrderIDIsNotNull Test Started ======
+2018-01-23 17:01:09 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:01:10 INFO  TestBase:43 - ======= verifyCustomerNameIsNotNull Test Started ======
+2018-01-23 17:01:11 INFO  TestBase:53 - ======= verifyCustomerNumIsNotNull Test Started ======
+2018-01-23 17:01:11 INFO  TestBase:63 - ======= verifyHeaderAmtIsNotNull Test Started ======
+2018-01-23 17:01:11 INFO  TestBase:73 - ======= verifyHeaderMOPIsNotNull Test Started ======
+2018-01-23 17:01:11 INFO  TestBase:83 - ======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======
+2018-01-23 17:01:11 INFO  TestBase:93 - ======= verifyShippingAddressIsNotNull Test Started ======
+2018-01-23 17:01:11 INFO  TestBase:103 - ======= verifyBillingAddressIsNotNull Test Started ======
+2018-01-23 17:07:37 INFO  TestBase:20 - Initializing Setup
+2018-01-23 17:07:42 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:07:42 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:07:42 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:07:43 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:07:43 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:07:43 INFO  TestBase:28 - ======= verifyOrderIDIsNotNull Test Started ======
+2018-01-23 17:07:48 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:07:50 INFO  TestBase:43 - ======= verifyCustomerNameIsNotNull Test Started ======
+2018-01-23 17:07:50 INFO  TestBase:53 - ======= verifyCustomerNumIsNotNull Test Started ======
+2018-01-23 17:07:50 INFO  TestBase:63 - ======= verifyHeaderAmtIsNotNull Test Started ======
+2018-01-23 17:07:50 INFO  TestBase:73 - ======= verifyHeaderMOPIsNotNull Test Started ======
+2018-01-23 17:07:50 INFO  TestBase:83 - ======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======
+2018-01-23 17:07:50 INFO  TestBase:93 - ======= verifyShippingAddressIsNotNull Test Started ======
+2018-01-23 17:07:50 INFO  TestBase:103 - ======= verifyBillingAddressIsNotNull Test Started ======
+2018-01-23 17:09:10 INFO  TestBase:20 - Initializing Setup
+2018-01-23 17:09:15 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:09:15 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:09:15 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:09:15 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:09:15 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:09:15 INFO  TestBase:28 - ======= verifyOrderIDIsNotNull Test Started ======
+2018-01-23 17:09:20 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:09:22 INFO  TestBase:43 - ======= verifyCustomerNameIsNotNull Test Started ======
+2018-01-23 17:09:22 INFO  TestBase:53 - ======= verifyCustomerNumIsNotNull Test Started ======
+2018-01-23 17:09:22 INFO  TestBase:63 - ======= verifyHeaderAmtIsNotNull Test Started ======
+2018-01-23 17:09:22 INFO  TestBase:73 - ======= verifyHeaderMOPIsNotNull Test Started ======
+2018-01-23 17:09:22 INFO  TestBase:83 - ======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======
+2018-01-23 17:09:22 INFO  TestBase:93 - ======= verifyShippingAddressIsNotNull Test Started ======
+2018-01-23 17:09:22 INFO  TestBase:103 - ======= verifyBillingAddressIsNotNull Test Started ======
+2018-01-23 17:13:24 INFO  TestBase:20 - Initializing Setup
+2018-01-23 17:13:29 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:13:29 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:13:29 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:13:29 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:13:29 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:13:29 INFO  TestBase:28 - ======= verifyOrderIDIsNotNull Test Started ======
+2018-01-23 17:13:35 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:13:37 INFO  TestBase:43 - ======= verifyCustomerNameIsNotNull Test Started ======
+2018-01-23 17:13:37 INFO  TestBase:53 - ======= verifyCustomerNumIsNotNull Test Started ======
+2018-01-23 17:13:37 INFO  TestBase:63 - ======= verifyHeaderAmtIsNotNull Test Started ======
+2018-01-23 17:13:37 INFO  TestBase:73 - ======= verifyHeaderMOPIsNotNull Test Started ======
+2018-01-23 17:13:37 INFO  TestBase:83 - ======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======
+2018-01-23 17:13:37 INFO  TestBase:93 - ======= verifyShippingAddressIsNotNull Test Started ======
+2018-01-23 17:13:37 INFO  TestBase:103 - ======= verifyBillingAddressIsNotNull Test Started ======
+2018-01-23 17:15:20 INFO  TestBase:20 - Initializing Setup
+2018-01-23 17:15:26 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:15:26 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:15:26 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:15:26 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:15:26 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:15:26 INFO  TestBase:28 - ======= verifyOrderIDIsNotNull Test Started ======
+2018-01-23 17:15:32 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:15:34 INFO  TestBase:43 - ======= verifyCustomerNameIsNotNull Test Started ======
+2018-01-23 17:15:34 INFO  TestBase:53 - ======= verifyCustomerNumIsNotNull Test Started ======
+2018-01-23 17:15:34 INFO  TestBase:63 - ======= verifyHeaderAmtIsNotNull Test Started ======
+2018-01-23 17:15:34 INFO  TestBase:73 - ======= verifyHeaderMOPIsNotNull Test Started ======
+2018-01-23 17:15:34 INFO  TestBase:83 - ======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======
+2018-01-23 17:15:34 INFO  TestBase:93 - ======= verifyShippingAddressIsNotNull Test Started ======
+2018-01-23 17:15:34 INFO  TestBase:103 - ======= verifyBillingAddressIsNotNull Test Started ======

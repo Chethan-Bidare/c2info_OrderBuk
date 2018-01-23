@@ -12,12 +12,11 @@ import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.NewItemPutOnHold;
 import c2info_OrderBuk_UIPages.OrderQuery;
-import c2info_OrderBuk_UIPages.ReadyForOrder;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
 public class TC_005_VerifyOrderClosedButton extends TestBase{
 
-	public static final Logger log = Logger.getLogger(TC_003_VerifyViewPrescriptionButton.class.getName());
+	public static final Logger log = Logger.getLogger(TC_005_VerifyOrderClosedButton.class.getName());
 	
 	
 	@BeforeClass
@@ -31,6 +30,7 @@ public class TC_005_VerifyOrderClosedButton extends TestBase{
 	
 	@Test(priority=0)
 	public void verifyOrderClosedButtonFunctionality() throws InterruptedException{
+		log.info("======= TC_005_VerifyOrderClosedButton Test Started ======");
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		NewItemPutOnHold nph = new NewItemPutOnHold();
@@ -52,6 +52,7 @@ public class TC_005_VerifyOrderClosedButton extends TestBase{
 	
 	@Test(priority=1)
 	public void verifyOrderClosedButtonMsg() throws InterruptedException{
+		log.info("======= TC_005_VerifyOrderClosedMSG Test Started ======");
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		NewItemPutOnHold nph = new NewItemPutOnHold();

@@ -28,6 +28,7 @@ public class TC_003_VerifyViewPrescriptionButton extends TestBase{
 	
 	@Test(priority=0)
 	public void verifyPrescriptionButton() throws InterruptedException{
+		log.info("======= TC_003_VerifyViewPrescriptionButton Test Started ======");
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		NewItemPutOnHold nph = new NewItemPutOnHold();
@@ -42,6 +43,7 @@ public class TC_003_VerifyViewPrescriptionButton extends TestBase{
 	
 	@Test(priority=1)
 	public void verifyImageExistanceinPrescPopUp(){
+		log.info("======= TC_003_VerifyViewPrescriptionImage Test Started ======");
 		NewItemPutOnHold nph = new NewItemPutOnHold();
 		boolean result = nph.imageExistance();
 		Assert.assertTrue(result==true);

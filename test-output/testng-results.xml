@@ -1,73 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53820" started-at="2018-01-23T07:16:59Z" finished-at="2018-01-23T07:17:53Z">
+  <suite name="Default suite" duration-ms="21658" started-at="2018-01-23T11:45:13Z" finished-at="2018-01-23T11:45:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53820" started-at="2018-01-23T07:16:59Z" finished-at="2018-01-23T07:17:53Z">
-      <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton">
-        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="setup" is-config="true" duration-ms="13852" started-at="2018-01-23T12:47:00Z" finished-at="2018-01-23T12:47:13Z">
+    <test name="Default test" duration-ms="21658" started-at="2018-01-23T11:45:13Z" finished-at="2018-01-23T11:45:34Z">
+      <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance">
+        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="setup" is-config="true" duration-ms="12978" started-at="2018-01-23T17:15:13Z" finished-at="2018-01-23T17:15:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-01-23T12:47:13Z" finished-at="2018-01-23T12:47:13Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2018-01-23T17:15:26Z" finished-at="2018-01-23T17:15:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality() throws java.lang.InterruptedException]]>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyOrderIDIsNotNull() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyOrderClosedButtonFunctionality()[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="verifyOrderClosedButtonFunctionality" duration-ms="22097" started-at="2018-01-23T12:47:13Z" finished-at="2018-01-23T12:47:35Z">
+        <test-method status="PASS" signature="verifyOrderIDIsNotNull()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyOrderIDIsNotNull" duration-ms="8168" started-at="2018-01-23T17:15:26Z" finished-at="2018-01-23T17:15:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOrderClosedButtonFunctionality -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-23T12:47:35Z" finished-at="2018-01-23T12:47:35Z">
+        </test-method> <!-- verifyOrderIDIsNotNull -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyOrderClosedButtonFunctionality status=SUCCESS method=TC_005_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyOrderIDIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyOrderIDIsNotNull()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="verifyOrderClosedButtonMsg()[pri:1, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="verifyOrderClosedButtonMsg" duration-ms="17514" started-at="2018-01-23T12:47:35Z" finished-at="2018-01-23T12:47:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOrderClosedButtonMsg -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-23T12:47:35Z" finished-at="2018-01-23T12:47:35Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton.verifyOrderClosedButtonMsg() throws java.lang.InterruptedException]]>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyCustomerNameIsNotNull()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-23T12:47:53Z" finished-at="2018-01-23T12:47:53Z">
+        <test-method status="PASS" signature="verifyCustomerNameIsNotNull()[pri:1, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyCustomerNameIsNotNull" duration-ms="33" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerNameIsNotNull -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyOrderClosedButtonMsg status=SUCCESS method=TC_005_VerifyOrderClosedButton.verifyOrderClosedButtonMsg()[pri:1, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542] output={null}]]]>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyCustomerNumIsNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCustomerNameIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyCustomerNameIsNotNull()[pri:1, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@61009542]" name="endTest" is-config="true" duration-ms="332" started-at="2018-01-23T12:47:53Z" finished-at="2018-01-23T12:47:53Z">
+        <test-method status="PASS" signature="verifyCustomerNumIsNotNull()[pri:2, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyCustomerNumIsNotNull" duration-ms="31" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerNumIsNotNull -->
+        <test-method status="PASS" signature="verifyHeaderAmtIsNotNull()[pri:3, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyHeaderAmtIsNotNull" duration-ms="31" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderAmtIsNotNull -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderAmtIsNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCustomerNumIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyCustomerNumIsNotNull()[pri:2, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHeaderAmtIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyHeaderAmtIsNotNull()[pri:3, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="verifyHeaderMOPIsNotNull()[pri:4, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyHeaderMOPIsNotNull" duration-ms="32" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotEquals(Assert.java:897)
+	at org.testng.Assert.assertNotEquals(Assert.java:902)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderMOPIsNotNull(TC_001_VerifyDetailsExistance.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderMOPIsNotNull -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderMOPIsNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHeaderMOPIsNotNull status=FAILURE method=TC_001_VerifyDetailsExistance.verifyHeaderMOPIsNotNull()[pri:4, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyHeaderModeOfDeliveryIsNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyHeaderModeOfDeliveryIsNotNull()[pri:5, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyHeaderModeOfDeliveryIsNotNull" duration-ms="33" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderModeOfDeliveryIsNotNull -->
+        <test-method status="PASS" signature="verifyShippingAddressIsNotNull()[pri:6, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyShippingAddressIsNotNull" duration-ms="32" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShippingAddressIsNotNull -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyShippingAddressIsNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHeaderModeOfDeliveryIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyHeaderModeOfDeliveryIsNotNull()[pri:5, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShippingAddressIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyShippingAddressIsNotNull()[pri:6, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyBillingAddressIsNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyBillingAddressIsNotNull()[pri:7, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="verifyBillingAddressIsNotNull" duration-ms="20" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBillingAddressIsNotNull -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBillingAddressIsNotNull status=SUCCESS method=TC_001_VerifyDetailsExistance.verifyBillingAddressIsNotNull()[pri:7, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@77e9807f]" name="endTest" is-config="true" duration-ms="269" started-at="2018-01-23T17:15:34Z" finished-at="2018-01-23T17:15:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton -->
+      </class> <!-- c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

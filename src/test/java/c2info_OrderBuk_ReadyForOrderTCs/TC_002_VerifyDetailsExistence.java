@@ -28,6 +28,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyDetailsExistence.
 	
 	@Test(priority=0)
 	public void verifyOrderIDIsNotNull(){
+		log.info("======= verifyOrderIDIsNotNull Test Started ======");
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));
 		ReadyForOrder rfo = new ReadyForOrder();
@@ -41,6 +42,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyDetailsExistence.
 	
 	@Test(priority=1)
 	public void verifyCustomerNameIsNotNull(){
+		log.info("======= verifyCustomerNameIsNotNull Test Started ======");
 		ReadyForOrder rfo = new ReadyForOrder();
 		String custName = rfo.getCustomerNameInRFOpage();
 		System.out.println(custName);
@@ -50,6 +52,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyDetailsExistence.
 	
 	@Test(priority=2)
 	public void verifyCustomerNumberIsNotNull(){
+		log.info("======= verifyCustomerNumberIsNotNull Test Started ======");
 		ReadyForOrder rfo = new ReadyForOrder();
 		String custNum = rfo.getCustomerNumberInRFOpage();
 		System.out.println(custNum);

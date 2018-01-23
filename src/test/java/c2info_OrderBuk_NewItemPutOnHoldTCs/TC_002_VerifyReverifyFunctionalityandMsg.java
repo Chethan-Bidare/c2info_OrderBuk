@@ -31,6 +31,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyReverifyFunctiona
 	
 	@Test(priority=0)
 	public void verifyReverifyFunctionality() throws InterruptedException{
+		log.info("======= TC_002_verifyReverifyFunctionality Test Started ======");
 		Dashboard db = new Dashboard();
 		ReadyForOrder rfo = new ReadyForOrder();
 		ToBeVerified tbv = new ToBeVerified();
@@ -55,6 +56,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyReverifyFunctiona
 	
 	@Test(priority=1)
 	public void verifyReverifyMsg() throws InterruptedException{
+		log.info("======= TC_002_verifyReverifyMSG Test Started ======");
 		Dashboard db = new Dashboard();
 		ReadyForOrder rfo = new ReadyForOrder();
 		ToBeVerified tbv = new ToBeVerified();

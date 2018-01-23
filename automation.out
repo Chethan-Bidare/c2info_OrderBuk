@@ -4836,3 +4836,30 @@
 2018-01-23 17:15:34 INFO  TestBase:83 - ======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======
 2018-01-23 17:15:34 INFO  TestBase:93 - ======= verifyShippingAddressIsNotNull Test Started ======
 2018-01-23 17:15:34 INFO  TestBase:103 - ======= verifyBillingAddressIsNotNull Test Started ======
+2018-01-23 17:24:23 INFO  TC_002_VerifyViewPrescriptionButton:25 - Initializing Setup
+2018-01-23 17:24:28 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:24:28 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:24:28 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:24:28 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:24:28 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:24:28 INFO  TC_002_VerifyViewPrescriptionButton:33 - ======= TC_002_VerifyViewPrescriptionButton Test Started ======
+2018-01-23 17:24:36 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:24:39 INFO  TC_002_VerifyViewPrescriptionButton:48 - ======= TC_002_VerifyViewPrescriptionButton Test Started ======
+2018-01-23 17:33:26 INFO  TC_004_VerifyOrderClosedButton:26 - Initializing Setup
+2018-01-23 17:33:31 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:33:31 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:33:31 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:33:31 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:33:31 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:33:31 INFO  TC_004_VerifyOrderClosedButton:34 - ======= TC_004_VerifyOrderClosedButton Test Started ======
+2018-01-23 17:33:51 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:34:10 INFO  TC_004_VerifyOrderClosedButton:57 - ======= TC_004_VerifyOrderClosedMsg Test Started ======
+2018-01-23 17:34:22 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-23 17:35:26 INFO  TC_003_VerifyOrderHistoryButton:24 - Initializing Setup
+2018-01-23 17:35:31 INFO  LoginPage:32 - Clearing the Username field
+2018-01-23 17:35:31 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-23 17:35:31 INFO  LoginPage:36 - Clearing the Password field
+2018-01-23 17:35:31 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-23 17:35:31 INFO  LoginPage:40 - Clicked on Login button
+2018-01-23 17:35:31 INFO  TC_003_VerifyOrderHistoryButton:32 - ======= TC_003_VerifyOrderHistoryButton Test Started ======
+2018-01-23 17:35:42 INFO  ToBeVerified:79 - Clicked on the first Order

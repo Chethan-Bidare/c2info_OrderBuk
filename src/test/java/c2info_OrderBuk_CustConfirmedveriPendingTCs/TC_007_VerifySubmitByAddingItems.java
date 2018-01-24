@@ -35,7 +35,7 @@ public static final Logger log = Logger.getLogger(TC_007_VerifySubmitByAddingIte
 		tbv.selectAnOrder();
 		tbv.makeOrderValid();
 		CustomerConfirmedVerificationPending ccvp = new CustomerConfirmedVerificationPending();
-		String OrderID = ccvp.getOrderID();
+		//String OrderID = ccvp.getOrderID();
 		DigitizePage dp = new DigitizePage();
 		dp.addPatientDetails("Chethan", "Bidare");
 		ccvp.itemSelection();

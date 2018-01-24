@@ -4863,3 +4863,123 @@
 2018-01-23 17:35:31 INFO  LoginPage:40 - Clicked on Login button
 2018-01-23 17:35:31 INFO  TC_003_VerifyOrderHistoryButton:32 - ======= TC_003_VerifyOrderHistoryButton Test Started ======
 2018-01-23 17:35:42 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 11:20:45 INFO  TC_005_VerifySumOfItemsWithGrandTotal:24 - Initializing Setup
+2018-01-24 11:20:50 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 11:20:50 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 11:20:50 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 11:20:50 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 11:20:50 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 11:20:50 INFO  TC_005_VerifySumOfItemsWithGrandTotal:32 - ======= TC_005_VerifySumOfItemsWithGrandTotal Test Started ======
+2018-01-24 11:20:58 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 11:22:03 INFO  TC_003_VerifyOrderHistoryButton:24 - Initializing Setup
+2018-01-24 11:22:08 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 11:22:09 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 11:22:09 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 11:22:09 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 11:22:09 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 11:22:09 INFO  TC_003_VerifyOrderHistoryButton:32 - ======= TC_003_VerifyOrderHistoryButton Test Started ======
+2018-01-24 11:22:17 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 11:22:43 INFO  TC_005_VerifySumOfItemsWithGrandTotal:24 - Initializing Setup
+2018-01-24 11:22:48 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 11:22:49 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 11:22:49 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 11:22:49 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 11:22:49 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 11:22:49 INFO  TC_005_VerifySumOfItemsWithGrandTotal:32 - ======= TC_005_VerifySumOfItemsWithGrandTotal Test Started ======
+2018-01-24 11:22:58 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 11:24:43 INFO  TC_005_VerifySumOfItemsWithGrandTotal:24 - Initializing Setup
+2018-01-24 11:24:48 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 11:24:48 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 11:24:48 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 11:24:48 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 11:24:48 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 11:24:48 INFO  TC_005_VerifySumOfItemsWithGrandTotal:32 - ======= TC_005_VerifySumOfItemsWithGrandTotal Test Started ======
+2018-01-24 11:24:56 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 11:31:52 INFO  TC_005_VerifySumOfItemsWithGrandTotal:24 - Initializing Setup
+2018-01-24 11:31:57 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 11:31:57 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 11:31:58 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 11:31:58 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 11:31:58 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 11:31:58 INFO  TC_005_VerifySumOfItemsWithGrandTotal:32 - ======= TC_005_VerifySumOfItemsWithGrandTotal Test Started ======
+2018-01-24 11:32:12 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 11:39:14 INFO  TC_005_VerifySumOfItemsWithGrandTotal:24 - Initializing Setup
+2018-01-24 11:39:19 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 11:39:19 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 11:39:19 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 11:39:19 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 11:39:19 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 11:39:19 INFO  TC_005_VerifySumOfItemsWithGrandTotal:32 - ======= TC_005_VerifySumOfItemsWithGrandTotal Test Started ======
+2018-01-24 11:39:28 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 11:52:11 INFO  TC_005_VerifySumOfItemsWithGrandTotal:24 - Initializing Setup
+2018-01-24 11:52:17 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 11:52:17 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 11:52:17 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 11:52:17 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 11:52:17 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 11:52:17 INFO  TC_005_VerifySumOfItemsWithGrandTotal:32 - ======= TC_005_VerifySumOfItemsWithGrandTotal Test Started ======
+2018-01-24 11:52:27 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 12:41:20 INFO  TC_006_VerifySumOfSubTotalsWithGrandSubTotal:24 - Initializing Setup
+2018-01-24 12:41:26 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 12:41:26 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 12:41:26 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 12:41:26 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 12:41:26 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 12:41:26 INFO  TC_006_VerifySumOfSubTotalsWithGrandSubTotal:32 - ======= TC_006_VerifySumOfSubTotalsWithGrandSubTotal Test Started ======
+2018-01-24 12:41:34 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 12:44:00 INFO  TC_006_VerifySumOfSubTotalsWithGrandSubTotal:24 - Initializing Setup
+2018-01-24 12:44:05 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 12:44:05 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 12:44:05 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 12:44:05 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 12:44:05 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 12:44:05 INFO  TC_006_VerifySumOfSubTotalsWithGrandSubTotal:32 - ======= TC_006_VerifySumOfSubTotalsWithGrandSubTotal Test Started ======
+2018-01-24 12:44:13 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 12:52:49 INFO  TC_007_VerifyGrandTotal:24 - Initializing Setup
+2018-01-24 12:52:54 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 12:52:54 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 12:52:54 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 12:52:54 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 12:52:54 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 12:52:54 INFO  TC_007_VerifyGrandTotal:32 - ======= TC_007_VerifyGrandTotal Test Started ======
+2018-01-24 12:53:02 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 14:16:27 INFO  TC_007_VerifyGrandTotal:24 - Initializing Setup
+2018-01-24 14:16:32 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 14:16:32 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 14:16:32 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 14:16:32 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 14:16:33 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 14:16:33 INFO  TC_007_VerifyGrandTotal:32 - ======= TC_007_VerifyGrandTotal Test Started ======
+2018-01-24 14:16:40 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 14:23:16 INFO  TC_007_VerifyGrandTotal:24 - Initializing Setup
+2018-01-24 14:23:22 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 14:23:22 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 14:23:22 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 14:23:22 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 14:23:22 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 14:23:22 INFO  TC_007_VerifyGrandTotal:32 - ======= TC_007_VerifyGrandTotal Test Started ======
+2018-01-24 14:23:37 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 15:34:27 INFO  TC_009_VerifyFooterModeOfDelivery:24 - Initializing Setup
+2018-01-24 15:34:32 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 15:34:32 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 15:34:32 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 15:34:33 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 15:34:33 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 15:34:33 INFO  TC_009_VerifyFooterModeOfDelivery:32 - ======= TC_009_VerifyFooterModeOfDelivery Test Started ======
+2018-01-24 15:34:40 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 15:35:54 INFO  TC_009_VerifyFooterModeOfDelivery:24 - Initializing Setup
+2018-01-24 15:35:59 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 15:35:59 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 15:35:59 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 15:36:00 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 15:36:00 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 15:36:00 INFO  TC_009_VerifyFooterModeOfDelivery:32 - ======= TC_009_VerifyFooterModeOfDelivery Test Started ======
+2018-01-24 15:36:08 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-24 15:37:24 INFO  TC_009_VerifyFooterModeOfDelivery:24 - Initializing Setup
+2018-01-24 15:37:29 INFO  LoginPage:32 - Clearing the Username field
+2018-01-24 15:37:29 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-24 15:37:29 INFO  LoginPage:36 - Clearing the Password field
+2018-01-24 15:37:29 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-24 15:37:29 INFO  LoginPage:40 - Clicked on Login button
+2018-01-24 15:37:29 INFO  TC_009_VerifyFooterModeOfDelivery:32 - ======= TC_009_VerifyFooterModeOfDelivery Test Started ======
+2018-01-24 15:37:37 INFO  ToBeVerified:79 - Clicked on the first Order

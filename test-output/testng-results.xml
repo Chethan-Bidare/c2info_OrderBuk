@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33147" started-at="2018-01-23T12:05:17Z" finished-at="2018-01-23T12:05:51Z">
+  <suite name="Default suite" duration-ms="26562" started-at="2018-01-24T10:07:15Z" finished-at="2018-01-24T10:07:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33147" started-at="2018-01-23T12:05:17Z" finished-at="2018-01-23T12:05:51Z">
-      <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton">
-        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton@61009542]" name="setup" is-config="true" duration-ms="13493" started-at="2018-01-23T17:35:17Z" finished-at="2018-01-23T17:35:31Z">
+    <test name="Default test" duration-ms="26562" started-at="2018-01-24T10:07:15Z" finished-at="2018-01-24T10:07:42Z">
+      <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery">
+        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery@61009542]" name="setup" is-config="true" duration-ms="13453" started-at="2018-01-24T15:37:15Z" finished-at="2018-01-24T15:37:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton@61009542]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-01-23T17:35:31Z" finished-at="2018-01-23T17:35:31Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery@61009542]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2018-01-24T15:37:29Z" finished-at="2018-01-24T15:37:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton.verifyOrderhistorybutton() throws java.lang.InterruptedException]]>
+                <![CDATA[public void c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery.verifyFooterModeOfDelivery() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyOrderhistorybutton()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton@61009542]" name="verifyOrderhistorybutton" duration-ms="19377" started-at="2018-01-23T17:35:31Z" finished-at="2018-01-23T17:35:50Z">
+        <test-method status="PASS" signature="verifyFooterModeOfDelivery()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery@61009542]" name="verifyFooterModeOfDelivery" duration-ms="12814" started-at="2018-01-24T15:37:29Z" finished-at="2018-01-24T15:37:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOrderhistorybutton -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T17:35:50Z" finished-at="2018-01-23T17:35:50Z">
+        </test-method> <!-- verifyFooterModeOfDelivery -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery@61009542]" name="endTest" is-config="true" duration-ms="278" started-at="2018-01-24T15:37:42Z" finished-at="2018-01-24T15:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-24T15:37:42Z" finished-at="2018-01-24T15:37:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyOrderhistorybutton status=SUCCESS method=TC_003_VerifyOrderHistoryButton.verifyOrderhistorybutton()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFooterModeOfDelivery status=SUCCESS method=TC_009_VerifyFooterModeOfDelivery.verifyFooterModeOfDelivery()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton@61009542]" name="endTest" is-config="true" duration-ms="259" started-at="2018-01-23T17:35:50Z" finished-at="2018-01-23T17:35:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton -->
+      </class> <!-- c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

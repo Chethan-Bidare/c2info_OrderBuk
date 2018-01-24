@@ -82,7 +82,7 @@ public class NewItemPutOnHold extends TestBase{
 	}
 	
 	public String getPrescriptionPopUpTitle(){
-		String parentWindow = driver.getWindowHandle();
+		//String parentWindow = driver.getWindowHandle();
 		for(String childWindow : driver.getWindowHandles()){
 			driver.switchTo().window(childWindow);
 			

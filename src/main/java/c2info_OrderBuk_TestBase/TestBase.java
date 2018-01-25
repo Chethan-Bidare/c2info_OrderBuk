@@ -194,6 +194,7 @@ public class TestBase {
 		}
 		else if(Result.getStatus()==ITestResult.FAILURE){
 			Test.log(LogStatus.FAIL, Result.getName()+" Test is Failed");
+			Test.log(LogStatus.FAIL, Test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName())));
 		}
 		else if(Result.getStatus()==ITestResult.SKIP){
 			Test.log(LogStatus.SKIP, Result.getName()+" Test is Skipped");
@@ -216,7 +217,7 @@ public class TestBase {
 	public void afterMethod(ITestResult Result){
 		getResult(Result);
 	}
-	@AfterClass()
+	@AfterClass(alwaysRun=true)
 	public void endTest(){
 		driver.close();
 		extent.endTest(Test);

@@ -32,7 +32,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		OrderSentToServer oss = new OrderSentToServer();
-		db.selectBucket(APP.getProperty("OrderInvoicedPageTitle"));
+		db.selectBucket(APP.getProperty("OrderSentToServerPageTitle"));
 		tbv.select100Orders();
 		tbv.selectAnOrder();
 		String orderID = oss.getOrderIDFromOSSPage();

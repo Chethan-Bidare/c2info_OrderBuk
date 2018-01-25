@@ -12,7 +12,7 @@ import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.OrderSentToServer;
 import c2info_OrderBuk_UIPages.ToBeVerified;
-
+ 
 public class TC_007_VerifyFooterModeOfPayment extends TestBase{
 	
 public static final Logger log = Logger.getLogger(TC_007_VerifyFooterModeOfPayment.class.getName());

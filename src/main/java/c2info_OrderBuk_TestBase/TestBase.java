@@ -132,7 +132,7 @@ public class TestBase {
 		return pageTitle ;
 	}
 	
-	public void getScreenshot(String methodName){
+	public String getScreenshot(String methodName){
 		
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
@@ -140,8 +140,10 @@ public class TestBase {
 		try {
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Screenshots//";
-			File destFile = new File(ReportDirectory+"_"+methodName+formatter.format(calendar.getTime()+".png"));
+			String destination = ReportDirectory+"_"+methodName+formatter.format(calendar.getTime()+".png");
+			File destFile = new File(destination);
 			FileUtils.copyFile(srcFile, destFile);
+			return destination ;
 		} catch (WebDriverException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -149,6 +151,7 @@ public class TestBase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return null ;
 	}
 	
 	public void SelectItemNameFromAutoSuggestionSearch(String ItemName){

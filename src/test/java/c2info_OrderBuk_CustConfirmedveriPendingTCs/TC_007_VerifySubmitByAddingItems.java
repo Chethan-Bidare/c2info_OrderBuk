@@ -14,7 +14,7 @@ import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
 public class TC_007_VerifySubmitByAddingItems extends TestBase{
-
+  
 public static final Logger log = Logger.getLogger(TC_007_VerifySubmitByAddingItems.class.getName());
 	
 	@BeforeClass

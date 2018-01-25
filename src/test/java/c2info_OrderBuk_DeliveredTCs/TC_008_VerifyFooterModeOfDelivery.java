@@ -12,7 +12,7 @@ import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.OrderSentToServer;
 import c2info_OrderBuk_UIPages.ToBeVerified;
-
+ 
 public class TC_008_VerifyFooterModeOfDelivery extends TestBase{
 	
 public static final Logger log = Logger.getLogger(TC_008_VerifyFooterModeOfDelivery.class.getName());

@@ -14,7 +14,7 @@ import c2info_OrderBuk_UIPages.NewItemPutOnHold;
 import c2info_OrderBuk_UIPages.OrderQuery;
 import c2info_OrderBuk_UIPages.OrderSentToServer;
 import c2info_OrderBuk_UIPages.ToBeVerified;
-
+ 
 public class TC_003_VerifyOrderClosedButton extends TestBase{
 	
 public static final Logger log = Logger.getLogger(TC_003_VerifyOrderClosedButton.class.getName());

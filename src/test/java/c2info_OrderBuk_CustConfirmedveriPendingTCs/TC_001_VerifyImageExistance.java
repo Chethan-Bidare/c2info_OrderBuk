@@ -24,7 +24,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyImageExistance.cl
 		lp.doLogin(OR.getProperty("UserName"), OR.getProperty("Password"));
 		
 	}
-	
+
 	@Test(priority=0)
 	public void verifyImageInPrescriptionPage() throws InterruptedException{
 		log.info("======= TC_001_VerifyImageExistanceInPrescriptionPage Test Started ======");

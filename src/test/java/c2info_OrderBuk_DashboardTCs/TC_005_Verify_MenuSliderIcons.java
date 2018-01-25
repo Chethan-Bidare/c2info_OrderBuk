@@ -11,7 +11,7 @@ import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.LoginPage;
 
 public class TC_005_Verify_MenuSliderIcons extends TestBase {
-
+  
 public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.getName());
 	
 	@BeforeClass

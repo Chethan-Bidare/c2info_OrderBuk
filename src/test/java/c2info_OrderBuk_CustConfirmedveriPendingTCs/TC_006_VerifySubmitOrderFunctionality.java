@@ -16,7 +16,7 @@ import c2info_OrderBuk_UIPages.OrderQuery;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
 public class TC_006_VerifySubmitOrderFunctionality extends TestBase{
-
+  
 public static final Logger log = Logger.getLogger(TC_005_VerifyInvalidOrderFunctionality.class.getName());
 	
 	@BeforeClass

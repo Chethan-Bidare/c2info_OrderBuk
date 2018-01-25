@@ -15,7 +15,7 @@ import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
 public class TC_009_VerifyNewItemRequestSuccessMsg extends TestBase {
-
+  
 public static final Logger log = Logger.getLogger(TC_009_VerifyNewItemRequestSuccessMsg.class.getName());
 	
 	@BeforeClass

@@ -14,7 +14,7 @@ import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
 public class TC_002_VerifyValidButton extends TestBase {
-	
+
 
 public static final Logger log = Logger.getLogger(TC_002_VerifyValidButton.class.getName());
 	

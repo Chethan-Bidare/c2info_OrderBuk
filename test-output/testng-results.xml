@@ -1,73 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="165201" started-at="2018-01-25T11:46:30Z" finished-at="2018-01-25T11:49:16Z">
+  <suite name="Default suite" duration-ms="42022" started-at="2018-01-25T13:17:54Z" finished-at="2018-01-25T13:18:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="165201" started-at="2018-01-25T11:46:30Z" finished-at="2018-01-25T11:49:16Z">
-      <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton">
-        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="setup" is-config="true" duration-ms="16621" started-at="2018-01-25T17:16:30Z" finished-at="2018-01-25T17:16:47Z">
+    <test name="Default test" duration-ms="42022" started-at="2018-01-25T13:17:54Z" finished-at="2018-01-25T13:18:36Z">
+      <class name="c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal">
+        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@176d53b2]" name="setup" is-config="true" duration-ms="15755" started-at="2018-01-25T18:47:54Z" finished-at="2018-01-25T18:48:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2018-01-25T17:16:47Z" finished-at="2018-01-25T17:16:47Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@176d53b2]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2018-01-25T18:48:10Z" finished-at="2018-01-25T18:48:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality() throws java.lang.InterruptedException]]>
+                <![CDATA[public void c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyOrderClosedButtonFunctionality()[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="verifyOrderClosedButtonFunctionality" duration-ms="76343" started-at="2018-01-25T17:16:47Z" finished-at="2018-01-25T17:18:03Z">
+        <test-method status="PASS" signature="verifySumOfSubTotalsWithGrandSubTotal()[pri:0, instance:c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@176d53b2]" name="verifySumOfSubTotalsWithGrandSubTotal" duration-ms="23291" started-at="2018-01-25T18:48:10Z" finished-at="2018-01-25T18:48:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyOrderClosedButtonFunctionality -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-25T17:18:03Z" finished-at="2018-01-25T17:18:03Z">
+        </test-method> <!-- verifySumOfSubTotalsWithGrandSubTotal -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@176d53b2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-25T18:48:34Z" finished-at="2018-01-25T18:48:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyOrderClosedButtonFunctionality status=SUCCESS method=TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2] output={null}]]]>
+                <![CDATA[[TestResult name=verifySumOfSubTotalsWithGrandSubTotal status=SUCCESS method=TC_005_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal()[pri:0, instance:c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@176d53b2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-25T17:18:03Z" finished-at="2018-01-25T17:18:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonMsg() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyOrderClosedButtonMsg()[pri:1, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="verifyOrderClosedButtonMsg" duration-ms="69196" started-at="2018-01-25T17:18:03Z" finished-at="2018-01-25T17:19:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOrderClosedButtonMsg -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-25T17:19:13Z" finished-at="2018-01-25T17:19:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyOrderClosedButtonMsg status=SUCCESS method=TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonMsg()[pri:1, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@176d53b2]" name="endTest" is-config="true" duration-ms="2975" started-at="2018-01-25T17:19:13Z" finished-at="2018-01-25T17:19:16Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@176d53b2]" name="endTest" is-config="true" duration-ms="2916" started-at="2018-01-25T18:48:34Z" finished-at="2018-01-25T18:48:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton -->
+      </class> <!-- c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

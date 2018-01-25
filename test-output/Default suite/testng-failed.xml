@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_004_VerifySumOfItemsWithGrandTotal">
+      <class name="c2info_OrderBuk_DeliveredTCs.TC_006_VerifyGrandTotal">
         <methods>
           <include name="setup"/>
-          <include name="verifySumOfItemsWithGrandTotal"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
+          <include name="verifySumOfSubTotalsWithGrandSubTotal"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_OrderInvoicedTCs.TC_004_VerifySumOfItemsWithGrandTotal -->
+      </class> <!-- c2info_OrderBuk_DeliveredTCs.TC_006_VerifyGrandTotal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

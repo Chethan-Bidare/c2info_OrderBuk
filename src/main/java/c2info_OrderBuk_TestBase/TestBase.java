@@ -103,7 +103,6 @@ public class TestBase {
 		try {
 			driver.manage().window().maximize();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -168,6 +167,21 @@ public class TestBase {
 	public void select100Orders(){
 		Select select = new Select(driver.findElement(By.name("bootstrap-table_length")));
 		select.selectByIndex(3);
+	}
+	
+	
+	public boolean isFileDownloaded(String fileName,String downloadPath){
+		boolean flag = false ;
+		File file = new File(downloadPath);
+		File[] dir = file.listFiles();
+		
+		for(int i=0; i<dir.length; i++){
+			if(dir[i].getName().equalsIgnoreCase(fileName)){
+				return flag = true ;
+			}
+		}
+		return flag ;
+		
 	}
 	
 	

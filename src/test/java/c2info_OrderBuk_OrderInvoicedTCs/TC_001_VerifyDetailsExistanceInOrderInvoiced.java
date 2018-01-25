@@ -1,4 +1,4 @@
-package c2info_OrderBuk_OrderSentToServerTCs;
+package c2info_OrderBuk_OrderInvoicedTCs;
 
 import java.io.IOException;
 
@@ -7,15 +7,16 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance;
 import c2info_OrderBuk_TestBase.TestBase;
 import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.OrderSentToServer;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
-public class TC_001_VerifyDetailsExistance extends TestBase{
+public class TC_001_VerifyDetailsExistanceInOrderInvoiced extends TestBase {
 
-	public static final Logger log = Logger.getLogger(TC_001_VerifyDetailsExistance.class.getName());
+public static final Logger log = Logger.getLogger(TC_001_VerifyDetailsExistance.class.getName());
 	
 	@BeforeClass
 	public void setup() throws IOException, InterruptedException{
@@ -32,7 +33,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		OrderSentToServer oss = new OrderSentToServer();
-		db.selectBucket(APP.getProperty("OrderInvoicedPageTitle"));
+		db.selectBucket(APP.getProperty("OrderSentToServerPageTitle"));
 		tbv.select100Orders();
 		tbv.selectAnOrder();
 		String orderID = oss.getOrderIDFromOSSPage();
@@ -110,4 +111,5 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(shippingAddress, "");
 		Assert.assertNotEquals(shippingAddress,"null");
 	}
+
 }

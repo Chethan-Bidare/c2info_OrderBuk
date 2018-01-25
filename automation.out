@@ -4983,3 +4983,26 @@
 2018-01-24 15:37:29 INFO  LoginPage:40 - Clicked on Login button
 2018-01-24 15:37:29 INFO  TC_009_VerifyFooterModeOfDelivery:32 - ======= TC_009_VerifyFooterModeOfDelivery Test Started ======
 2018-01-24 15:37:37 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-25 12:21:28 INFO  TC_001_VerifyDetailsExistance:23 - Initializing Setup
+2018-01-25 12:21:33 INFO  LoginPage:32 - Clearing the Username field
+2018-01-25 12:21:34 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-25 12:21:34 INFO  LoginPage:36 - Clearing the Password field
+2018-01-25 12:21:34 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-25 12:21:34 INFO  LoginPage:40 - Clicked on Login button
+2018-01-25 12:21:35 INFO  TC_001_VerifyDetailsExistance:31 - ======= verifyOrderIDIsNotNull Test Started ======
+2018-01-25 12:22:36 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-25 12:23:55 INFO  TC_001_VerifyDetailsExistance:46 - ======= verifyCustomerNameIsNotNull Test Started ======
+2018-01-25 12:23:55 INFO  TC_001_VerifyDetailsExistance:56 - ======= verifyCustomerNumIsNotNull Test Started ======
+2018-01-25 12:23:55 INFO  TC_001_VerifyDetailsExistance:66 - ======= verifyHeaderAmtIsNotNull Test Started ======
+2018-01-25 12:23:55 INFO  TC_001_VerifyDetailsExistance:76 - ======= verifyHeaderMOPIsNotNull Test Started ======
+2018-01-25 12:23:56 INFO  TC_001_VerifyDetailsExistance:86 - ======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======
+2018-01-25 12:23:56 INFO  TC_001_VerifyDetailsExistance:96 - ======= verifyShippingAddressIsNotNull Test Started ======
+2018-01-25 12:23:56 INFO  TC_001_VerifyDetailsExistance:106 - ======= verifyBillingAddressIsNotNull Test Started ======
+2018-01-25 13:35:18 INFO  TC_009_VerifyFooterModeOfDelivery:24 - Initializing Setup
+2018-01-25 13:35:23 INFO  LoginPage:32 - Clearing the Username field
+2018-01-25 13:35:24 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-25 13:35:24 INFO  LoginPage:36 - Clearing the Password field
+2018-01-25 13:35:24 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-25 13:35:24 INFO  LoginPage:40 - Clicked on Login button
+2018-01-25 13:35:25 INFO  TC_009_VerifyFooterModeOfDelivery:32 - ======= TC_009_VerifyFooterModeOfDelivery Test Started ======
+2018-01-25 13:36:42 INFO  ToBeVerified:79 - Clicked on the first Order

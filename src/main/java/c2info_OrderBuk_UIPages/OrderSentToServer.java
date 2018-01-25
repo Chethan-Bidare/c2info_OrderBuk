@@ -1,6 +1,8 @@
 package c2info_OrderBuk_UIPages;
 
 import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -56,6 +58,15 @@ public class OrderSentToServer extends TestBase{
 	
 	@FindBy(xpath=".//*[@class='col-sm-6 text-left']/span")
 	WebElement footerMOD ;
+	
+	@FindBy(xpath=".//*[contains(@class,'table-responsive col-md-2 col-lg-2 col-sm-3 text-right mar-top')]/button")
+	WebElement orderDownloadButton ;
+	
+	/*@FindBy(xpath=".//*[@class='col-sm-6 text-left']/span")
+	WebElement footerMOD ;
+	
+	@FindBy(xpath=".//*[@class='col-sm-6 text-left']/span")
+	WebElement footerMOD ;*/
 	
 	public OrderSentToServer(){
 		PageFactory.initElements(driver, this);
@@ -220,7 +231,26 @@ public class OrderSentToServer extends TestBase{
 		return footerMOP.getText();
 	}
 	
+	public void clickOnOrderDownloadPDFButton(){
+		orderDownloadButton.click();
+	}
 	
+	
+	public void clickOnInvDownloadPDFButton() throws InterruptedException{
+		List<WebElement> invList = driver.findElements(By.xpath(".//*[@class='panel panel-primary']"));
+		
+		for(int i=1; i<=invList.size(); i++){
+			if(i==1){
+				driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[2]/div[2]/div[4]/button")).click();
+			}
+			else{
+				driver.findElement(By.xpath(".//*[@id='accordion"+i+"']/div/div[1]")).click();
+				Thread.sleep(2000);
+				driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[2]/div[2]/div[4]/button")).click();
+			}
+		}
+		
+	}
 	
 	
 	

@@ -32,8 +32,8 @@ public class Listeners extends TestBase implements ITestListener{
 		try {
 			File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			
-			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//ScreenShots//" ;
-			File destFile = new File(ReportDirectory+"//Success//"+arg1+ "_"+formater.format(calendar.getTime())+".png") ;
+			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_ScreenShots//" ;
+			File destFile = new File(ReportDirectory+"Success//"+arg1+ "_"+formater.format(calendar.getTime())+".png") ;
 			FileUtils.copyFile(srcFile, destFile);
 			
 			
@@ -60,8 +60,8 @@ public class Listeners extends TestBase implements ITestListener{
 		try {
 			File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			
-			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info//OrderBuk//ScreenShots//" ;
-			File destFile = new File(ReportDirectory+"//Failure//"+arg1+ "_"+formater.format(calendar.getTime())+".png") ;
+			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_ScreenShots//" ;
+			File destFile = new File(ReportDirectory+"Failure//"+arg1+ "_"+formater.format(calendar.getTime())+".png") ;
 			FileUtils.copyFile(srcFile, destFile);
 			
 			

@@ -5185,3 +5185,18 @@
 2018-01-26 10:33:52 INFO  ToBeVerified:89 - Clicked on Invalid Button
 2018-01-26 10:33:53 INFO  ToBeVerified:92 - Clicked on Submit Button
 2018-01-26 10:34:04 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-01-26 13:00:58 INFO  TC_001_VerifyInvalidOrder:23 - Initializing Setup
+2018-01-26 13:01:03 INFO  LoginPage:32 - Clearing the Username field
+2018-01-26 13:01:03 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-26 13:01:03 INFO  LoginPage:36 - Clearing the Password field
+2018-01-26 13:01:04 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-26 13:01:04 INFO  LoginPage:40 - Clicked on Login button
+2018-01-26 13:01:30 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-01-26 13:03:00 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-01-26 13:17:01 INFO  TC_002_VerifyInvalidOrderFromTBV:25 - Initializing Setup
+2018-01-26 13:17:06 INFO  LoginPage:32 - Clearing the Username field
+2018-01-26 13:17:07 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-26 13:17:07 INFO  LoginPage:36 - Clearing the Password field
+2018-01-26 13:17:07 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-26 13:17:07 INFO  LoginPage:40 - Clicked on Login button
+2018-01-26 13:17:17 INFO  ToBeVerified:82 - Clicked on the first Order

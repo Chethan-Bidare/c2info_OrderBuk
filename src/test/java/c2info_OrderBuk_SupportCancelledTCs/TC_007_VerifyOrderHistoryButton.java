@@ -10,13 +10,14 @@ import org.testng.annotations.Test;
 import c2info_OrderBuk_TestBase.TestBase;
 import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.LoginPage;
-import c2info_OrderBuk_UIPages.OrderQuery;
-import c2info_OrderBuk_UIPages.SupportCancelled;
+import c2info_OrderBuk_UIPages.NewItemPutOnHold;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
-public class TC_004_VerifyInvalidPrescFromCCVP extends TestBase {
+public class TC_007_VerifyOrderHistoryButton extends TestBase{
+
 	
-public static final Logger log = Logger.getLogger(TC_004_VerifyInvalidPrescFromCCVP.class.getName());
+public static final Logger log = Logger.getLogger(TC_007_VerifyOrderHistoryButton.class.getName());
+	
 	
 	@BeforeClass
 	public void setup() throws IOException, InterruptedException{
@@ -28,24 +29,17 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyInvalidPrescFromC
 	}
 	
 	@Test
-	public void verifyInvalidOrder() throws InterruptedException{
+	public void verifyOrderhistorybutton() throws InterruptedException{
+		log.info("======= TC_007_VerifyOrderHistoryButton Test Started ======");
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
-		SupportCancelled sc = new SupportCancelled();
-		OrderQuery oq = new OrderQuery();
-		db.selectBucket(APP.getProperty("CCVPPageTitle"));
-		tbv.select100Orders();
-		tbv.selectAnOrder();
-		String orderid = tbv.getOrderIDInPrescImagePage();
-		tbv.makeOrderInvalid();
+		NewItemPutOnHold nph = new NewItemPutOnHold();
 		db.clickOnDashboardinMenu();
 		db.selectBucket(APP.getProperty("SupportCancelledPageTitle"));
-		oq.SearchOrder(orderid);
+		select100Orders();
 		tbv.selectAnOrder();
-		String cancelledOrderID = sc.getOrderIDInSC();
-		Assert.assertEquals(orderid, cancelledOrderID);
-		
-		
+		nph.clickOnOrderHistory();
+		boolean actualResult = nph.confirmOrderHistoryExistence();
+		Assert.assertTrue(actualResult==true);
 	}
-
 }

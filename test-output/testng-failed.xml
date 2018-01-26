@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_SupportCancelledTCs.TC_001_VerifyInvalidPrescFromTBV">
+      <class name="c2info_OrderBuk_SupportCancelledTCs.TC_003_VerifyInvalidOrderFromCCVP">
         <methods>
-          <include name="verifyInvalidPrescFromTBV"/>
+          <include name="verifyInvalidOrder"/>
+          <include name="setup"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
           <include name="endTest"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_SupportCancelledTCs.TC_001_VerifyInvalidPrescFromTBV -->
+      </class> <!-- c2info_OrderBuk_SupportCancelledTCs.TC_003_VerifyInvalidOrderFromCCVP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

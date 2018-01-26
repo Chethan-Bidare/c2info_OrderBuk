@@ -203,4 +203,13 @@ public class DigitizePage extends TestBase{
 		return OrderID ;
 		
 	}
+	
+	public void clickOnInvalidButton(){
+		InvalidBtn.click();
+	}
+	
+	public void cancelorderdetaisl() throws InterruptedException{
+		Thread.sleep(3000);
+		OrderCancellationSubmit.click();
+	}
 }

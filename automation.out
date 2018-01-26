@@ -5155,3 +5155,33 @@
 2018-01-25 20:33:26 INFO  LoginPage:40 - Clicked on Login button
 2018-01-25 20:33:26 INFO  TC_006_VerifyGrandTotal:32 - ======= TC_006_VerifyGrandTotal Test Started ======
 2018-01-25 20:33:42 INFO  ToBeVerified:79 - Clicked on the first Order
+2018-01-26 10:26:19 INFO  TC_001_VerifyInvalidPrescFromTBV:24 - Initializing Setup
+2018-01-26 10:26:24 INFO  LoginPage:32 - Clearing the Username field
+2018-01-26 10:26:25 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-26 10:26:25 INFO  LoginPage:36 - Clearing the Password field
+2018-01-26 10:26:25 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-26 10:26:25 INFO  LoginPage:40 - Clicked on Login button
+2018-01-26 10:26:40 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-01-26 10:26:44 INFO  ToBeVerified:89 - Clicked on Invalid Button
+2018-01-26 10:26:45 INFO  ToBeVerified:92 - Clicked on Submit Button
+2018-01-26 10:27:00 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-01-26 10:30:43 INFO  TC_001_VerifyInvalidPrescFromTBV:24 - Initializing Setup
+2018-01-26 10:30:48 INFO  LoginPage:32 - Clearing the Username field
+2018-01-26 10:30:49 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-26 10:30:49 INFO  LoginPage:36 - Clearing the Password field
+2018-01-26 10:30:49 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-26 10:30:49 INFO  LoginPage:40 - Clicked on Login button
+2018-01-26 10:31:04 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-01-26 10:31:10 INFO  ToBeVerified:89 - Clicked on Invalid Button
+2018-01-26 10:31:11 INFO  ToBeVerified:92 - Clicked on Submit Button
+2018-01-26 10:31:29 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-01-26 10:33:30 INFO  TC_001_VerifyInvalidPrescFromTBV:24 - Initializing Setup
+2018-01-26 10:33:36 INFO  LoginPage:32 - Clearing the Username field
+2018-01-26 10:33:36 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-01-26 10:33:36 INFO  LoginPage:36 - Clearing the Password field
+2018-01-26 10:33:36 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-01-26 10:33:37 INFO  LoginPage:40 - Clicked on Login button
+2018-01-26 10:33:46 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-01-26 10:33:52 INFO  ToBeVerified:89 - Clicked on Invalid Button
+2018-01-26 10:33:53 INFO  ToBeVerified:92 - Clicked on Submit Button
+2018-01-26 10:34:04 INFO  ToBeVerified:82 - Clicked on the first Order

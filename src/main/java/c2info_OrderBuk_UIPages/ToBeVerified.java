@@ -45,6 +45,9 @@ public class ToBeVerified extends TestBase{
 	@FindBy(xpath=".//*[@id='bootstrap-table']/tbody/tr[1]/td[1]")
 	WebElement FirstOrderID ;
 	
+	@FindBy(id="headid")
+	WebElement PrescPageOrderID ;
+	
 	public ToBeVerified(){
 		PageFactory.initElements(driver, this);
 	}
@@ -112,6 +115,13 @@ public class ToBeVerified extends TestBase{
 		else
 			return false ;
 		
+	}
+	
+	public String getOrderIDInPrescImagePage() throws InterruptedException{
+		Thread.sleep(5000);
+		String orderid = PrescPageOrderID.getText();
+		orderid = orderid.replaceAll("Prescription of order #","").trim();
+		return orderid ;
 	}
 	
 }

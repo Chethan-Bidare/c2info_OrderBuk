@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>67/25/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 19 12:06:58 IST 2018</td>
+<td>Started on:</td><td>Mon Jan 29 15:38:10 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>819 seconds (819335 ms)</td>
+<tr><td>Total time:</td><td>3398 seconds (3398276 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData.loginWithValidData()'><b>loginWithValidData</b><br>Test class: c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData</td>
+<td title='c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData.loginWithValidData()'><b>loginWithValidData</b><br>Test class: c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData<br/>
+<a href="#Output-1256837057" onClick='toggleBox("Output-1256837057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256837057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256837057">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\loginWithValidData_2018_01_29_15_01_539.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\loginWithValidData_2018_01_29_15_01_539.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td><div><pre>java.lang.AssertionError: expected [Dashboard] but found [Login]
 	at c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData.loginWithValidData(TC_001_LoginTestWithValidData.java:29)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1815007437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1815007437'><pre>java.lang.AssertionError: expected [Dashboard] but found [Login]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1256837057", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1256837057'><pre>java.lang.AssertionError: expected [Dashboard] but found [Login]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -114,20 +121,59 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>5</td>
-<td>c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData@525f1e4e</td></tr>
+<td>c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData@48524010</td></tr>
 <tr>
-<td title='c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks.verifyAllBucketlinks()'><b>verifyAllBucketlinks</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks</td>
-<td><div><pre>java.lang.IllegalArgumentException: Cannot format given Object as a Date
-	at java.text.DateFormat.format(DateFormat.java:310)
-	at java.text.Format.format(Format.java:157)
-	at c2info_OrderBuk_TestBase.TestBase.getScreenshot(TestBase.java:144)
-	at c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks.verifyAllBucketlinks(TC_001_VerifyAllBucketLinks.java:41)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace882646447", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace882646447'><pre>java.lang.IllegalArgumentException: Cannot format given Object as a Date
-	at java.text.DateFormat.format(DateFormat.java:310)
-	at java.text.Format.format(Format.java:157)
-	at c2info_OrderBuk_TestBase.TestBase.getScreenshot(TestBase.java:144)
-	at c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks.verifyAllBucketlinks(TC_001_VerifyAllBucketLinks.java:41)
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_005_VerifyCancelButtonFromRFO.verifyCancelButtonFromRFO()'><b>verifyCancelButtonFromRFO</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_005_VerifyCancelButtonFromRFO<br/>
+<a href="#Output-1309191417" onClick='toggleBox("Output-1309191417", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1309191417" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1309191417">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyCancelButtonFromRFO_2018_01_29_16_01_707.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyCancelButtonFromRFO_2018_01_29_16_01_707.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;../../web/order/dashboard?pgid=0&amp;amp;menuid=10&quot;&gt;...&lt;/a&gt; is not clickable at point (35, 25). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;myModalone&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block; padding-right: 17px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir19820_12407}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f06189a3a31f0c8e2b603280d1ffd1b5
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.Dashboard.clickOnDashboardinMenu(Dashboard.java:147)
+	at c2info_OrderBuk_SupportCancelledTCs.TC_005_VerifyCancelButtonFromRFO.verifyCancelButtonFromRFO(TC_005_VerifyCancelButtonFromRFO.java:42)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1309191417", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1309191417'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;../../web/order/dashboard?pgid=0&amp;amp;menuid=10&quot;&gt;...&lt;/a&gt; is not clickable at point (35, 25). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;myModalone&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block; padding-right: 17px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir19820_12407}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: f06189a3a31f0c8e2b603280d1ffd1b5
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.Dashboard.clickOnDashboardinMenu(Dashboard.java:147)
+	at c2info_OrderBuk_SupportCancelledTCs.TC_005_VerifyCancelButtonFromRFO.verifyCancelButtonFromRFO(TC_005_VerifyCancelButtonFromRFO.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -154,21 +200,68 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>58</td>
-<td>c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks@75f9eccc</td></tr>
+<td>65</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_005_VerifyCancelButtonFromRFO@79ad8b2f</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn.verifyConfirmButtonFunctionality()'><b>verifyConfirmButtonFunctionality</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn</td>
-<td><div><pre>java.lang.AssertionError: expected [ORDER CONFIRMED] but found [READY FOR ORDER]
-	at c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn.verifyConfirmButtonFunctionality(TC_005_VerifyConfirmBtn.java:45)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace331748029", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace331748029'><pre>java.lang.AssertionError: expected [ORDER CONFIRMED] but found [READY FOR ORDER]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn.verifyConfirmButtonFunctionality(TC_005_VerifyConfirmBtn.java:45)
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed.verifyCancelButtonFromRFO()'><b>verifyCancelButtonFromRFO</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed<br/>
+<a href="#Output-87035052" onClick='toggleBox("Output-87035052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-87035052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-87035052">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyCancelButtonFromRFO_2018_01_29_16_01_651.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyCancelButtonFromRFO_2018_01_29_16_01_651.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;cancel&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir20012_30314}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4956398895293f692e4575d58542cb9b
+*** Element info: {Using=id, value=cancel}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.ReadyForOrder.clickOnCancelBtnInRFOpage(ReadyForOrder.java:164)
+	at c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed.verifyCancelButtonFromRFO(TC_006_VerifyCancelButtonFromOrderConfirmed.java:43)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace87035052", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace87035052'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;cancel&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir20012_30314}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4956398895293f692e4575d58542cb9b
+*** Element info: {Using=id, value=cancel}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.ReadyForOrder.clickOnCancelBtnInRFOpage(ReadyForOrder.java:164)
+	at c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed.verifyCancelButtonFromRFO(TC_006_VerifyCancelButtonFromOrderConfirmed.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -195,21 +288,24 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>23</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn@35083305</td></tr>
+<td>70</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed@1df82230</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton.verifyReverifybutton()'><b>verifyReverifybutton</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton</td>
-<td><div><pre>java.lang.AssertionError: expected [TO BE VERIFIED] but found [Customer Confirmed Verification Pending]
-	at c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton.verifyReverifybutton(TC_007_VerifyReverifyButton.java:45)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1248276879", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1248276879'><pre>java.lang.AssertionError: expected [TO BE VERIFIED] but found [Customer Confirmed Verification Pending]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton.verifyReverifybutton(TC_007_VerifyReverifyButton.java:45)
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_010_VerifyDownloadPDFButton.verifyDownloadButton()'><b>verifyDownloadButton</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_010_VerifyDownloadPDFButton<br/>
+<a href="#Output-1728057672" onClick='toggleBox("Output-1728057672", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1728057672" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1728057672">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_143.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_143.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_010_VerifyDownloadPDFButton.verifyDownloadButton(TC_010_VerifyDownloadPDFButton.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1728057672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1728057672'><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_010_VerifyDownloadPDFButton.verifyDownloadButton(TC_010_VerifyDownloadPDFButton.java:46)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -237,13 +333,1158 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>19</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton@341b80b2</td></tr>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_010_VerifyDownloadPDFButton@327b636c</td></tr>
 <tr>
-<td title='c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName.verifyUserName()'><b>verifyUserName</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName</td>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton()'><b>verifyDownloadButton</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_009_VerifyDownloadPDFButton<br/>
+<a href="#Output-2139266166" onClick='toggleBox("Output-2139266166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2139266166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2139266166">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_381.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_381.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_OrderInvoicedTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2139266166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2139266166'><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_OrderInvoicedTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>19</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_009_VerifyDownloadPDFButton@fdefd3f</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton()'><b>verifyDownloadButton</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_009_VerifyDownloadPDFButton<br/>
+<a href="#Output-90096982" onClick='toggleBox("Output-90096982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-90096982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-90096982">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_315.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_315.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_InTransitTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace90096982", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace90096982'><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_InTransitTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>26</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_009_VerifyDownloadPDFButton@1460a8c0</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton()'><b>verifyDownloadButton</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_009_VerifyDownloadPDFButton<br/>
+<a href="#Output-33558975" onClick='toggleBox("Output-33558975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33558975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33558975">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_956.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_956.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_DeliveredTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace33558975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace33558975'><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_DeliveredTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>19</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_009_VerifyDownloadPDFButton@add0edd</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton()'><b>verifyDownloadButton</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_009_VerifyDownloadPDFButton<br/>
+<a href="#Output-1196200241" onClick='toggleBox("Output-1196200241", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1196200241" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1196200241">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_237.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyDownloadButton_2018_01_29_16_01_237.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_OrderReturnedTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1196200241", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1196200241'><pre>java.lang.NullPointerException
+	at c2info_OrderBuk_TestBase.TestBase.isFileDownloaded(TestBase.java:181)
+	at c2info_OrderBuk_OrderReturnedTCs.TC_009_VerifyDownloadPDFButton.verifyDownloadButton(TC_009_VerifyDownloadPDFButton.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>18</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_009_VerifyDownloadPDFButton@78b729e6</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment.verifyFooterModeOfPayment()'><b>verifyFooterModeOfPayment</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment<br/>
+<a href="#Output-806588571" onClick='toggleBox("Output-806588571", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-806588571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-806588571">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_832.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_832.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Card] but found []
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_008_VerifyFooterModeOfPayment.java:46)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace806588571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace806588571'><pre>java.lang.AssertionError: expected [Card] but found []
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_008_VerifyFooterModeOfPayment.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment@15761df8</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment()'><b>verifyFooterModeOfPayment</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment<br/>
+<a href="#Output-4015102" onClick='toggleBox("Output-4015102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4015102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4015102">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_795.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_795.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Card] but found []
+	at c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:47)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace4015102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace4015102'><pre>java.lang.AssertionError: expected [Card] but found []
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment@1a0dcaa</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment()'><b>verifyFooterModeOfPayment</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment<br/>
+<a href="#Output-1609754699" onClick='toggleBox("Output-1609754699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609754699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609754699">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_270.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_270.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Card] but found []
+	at c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:46)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1609754699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1609754699'><pre>java.lang.AssertionError: expected [Card] but found []
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment@8909f18</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment()'><b>verifyFooterModeOfPayment</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment<br/>
+<a href="#Output-1142402835" onClick='toggleBox("Output-1142402835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1142402835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1142402835">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_202.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_202.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Card] but found []
+	at c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:46)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1142402835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1142402835'><pre>java.lang.AssertionError: expected [Card] but found []
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment@1198b989</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment()'><b>verifyFooterModeOfPayment</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment<br/>
+<a href="#Output-494266287" onClick='toggleBox("Output-494266287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-494266287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-494266287">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_330.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyFooterModeOfPayment_2018_01_29_16_01_330.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Card] but found []
+	at c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:47)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace494266287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace494266287'><pre>java.lang.AssertionError: expected [Card] but found []
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment.verifyFooterModeOfPayment(TC_007_VerifyFooterModeOfPayment.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment@10db82ae</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV.verifyItemsAddedInTBV()'><b>verifyItemsAddedInTBV</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV<br/>
+<a href="#Output-492252770" onClick='toggleBox("Output-492252770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-492252770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-492252770">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyItemsAddedInTBV_2018_01_29_15_01_269.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyItemsAddedInTBV_2018_01_29_15_01_269.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;mrng4&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir5564_31695}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0996ec9d7ac44ec54cb6f1f9860f4a90
+*** Element info: {Using=id, value=mrng4}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at c2info_OrderBuk_UIPages.DigitizePage.addItemsAndDosage(DigitizePage.java:128)
+	at c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV.verifyItemsAddedInTBV(TC_001_VerifyItemsAddedFromTBV.java:42)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace492252770", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace492252770'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;mrng4&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir5564_31695}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 0996ec9d7ac44ec54cb6f1f9860f4a90
+*** Element info: {Using=id, value=mrng4}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at c2info_OrderBuk_UIPages.DigitizePage.addItemsAndDosage(DigitizePage.java:128)
+	at c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV.verifyItemsAddedInTBV(TC_001_VerifyItemsAddedFromTBV.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>95</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV@78b1cc93</td></tr>
+<tr>
+<td title='c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV.verifyNewItemFomTBV()'><b>verifyNewItemFomTBV</b><br>Test class: c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV<br/>
+<a href="#Output-438263665" onClick='toggleBox("Output-438263665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-438263665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-438263665">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyNewItemFomTBV_2018_01_29_16_01_278.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyNewItemFomTBV_2018_01_29_16_01_278.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;side-menu&apos;]/li[2]/a&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir21616_140}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3c9bd597685f83927536e8d59d65ec37
+*** Element info: {Using=xpath, value=.//*[@id=&apos;side-menu&apos;]/li[2]/a}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.Dashboard.clickOnDashboardinMenu(Dashboard.java:147)
+	at c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV.verifyNewItemFomTBV(TC_006_VerifyNewItemFromTBV.java:50)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace438263665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438263665'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;side-menu&apos;]/li[2]/a&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir21616_140}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3c9bd597685f83927536e8d59d65ec37
+*** Element info: {Using=xpath, value=.//*[@id=&apos;side-menu&apos;]/li[2]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.Dashboard.clickOnDashboardinMenu(Dashboard.java:147)
+	at c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV.verifyNewItemFomTBV(TC_006_VerifyNewItemFromTBV.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>85</td>
+<td>c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV@70be0a2b</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_008_VerifyNewItemRequestFunctionality.verifyNewItemRequest()'><b>verifyNewItemRequest</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_008_VerifyNewItemRequestFunctionality<br/>
+<a href="#Output-1848163207" onClick='toggleBox("Output-1848163207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1848163207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1848163207">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyNewItemRequest_2018_01_29_15_01_236.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyNewItemRequest_2018_01_29_15_01_236.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; id=&quot;btnsubmit&quot; class=&quot;btn btn-success btn-sm btn-rounded&quot; name=&quot;login-button&quot; onclick=&quot;return check()&quot;&gt;...&lt;/button&gt; is not clickable at point (452, 444). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;add-item&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block; padding-right: 17px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir13852_2549}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: e6ba7aa91bd0f4dd6fba1f7bc080292a
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.DigitizePage.clickOnSubmit(DigitizePage.java:161)
+	at c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_008_VerifyNewItemRequestFunctionality.verifyNewItemRequest(TC_008_VerifyNewItemRequestFunctionality.java:43)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1848163207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1848163207'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; id=&quot;btnsubmit&quot; class=&quot;btn btn-success btn-sm btn-rounded&quot; name=&quot;login-button&quot; onclick=&quot;return check()&quot;&gt;...&lt;/button&gt; is not clickable at point (452, 444). Other element would receive the click: &lt;div class=&quot;modal fade in&quot; id=&quot;add-item&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block; padding-right: 17px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir13852_2549}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: e6ba7aa91bd0f4dd6fba1f7bc080292a
+	at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.DigitizePage.clickOnSubmit(DigitizePage.java:161)
+	at c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_008_VerifyNewItemRequestFunctionality.verifyNewItemRequest(TC_008_VerifyNewItemRequestFunctionality.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>15</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_008_VerifyNewItemRequestFunctionality@3c153a1</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_002_VerifyViewPrescriptionButton.verifyPrescriptionButton()'><b>verifyPrescriptionButton</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_002_VerifyViewPrescriptionButton<br/>
+<a href="#Output-359806817" onClick='toggleBox("Output-359806817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-359806817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-359806817">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyPrescriptionButton_2018_01_29_15_01_913.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyPrescriptionButton_2018_01_29_15_01_913.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[contains(text(),&apos;View Prescription&apos;)]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9764_8286}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8f1ec5a310f6c01f22a805b1fb03343d
+*** Element info: {Using=xpath, value=.//*[contains(text(),&apos;View Prescription&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.NewItemPutOnHold.clickOnViewPrescriptionButton(NewItemPutOnHold.java:73)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_002_VerifyViewPrescriptionButton.verifyPrescriptionButton(TC_002_VerifyViewPrescriptionButton.java:40)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace359806817", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace359806817'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[contains(text(),&apos;View Prescription&apos;)]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir9764_8286}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 8f1ec5a310f6c01f22a805b1fb03343d
+*** Element info: {Using=xpath, value=.//*[contains(text(),&apos;View Prescription&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.NewItemPutOnHold.clickOnViewPrescriptionButton(NewItemPutOnHold.java:73)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_002_VerifyViewPrescriptionButton.verifyPrescriptionButton(TC_002_VerifyViewPrescriptionButton.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>67</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_002_VerifyViewPrescriptionButton@3e3047e6</td></tr>
+<tr>
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG.verifyReverifyFunctionality()'><b>verifyReverifyFunctionality</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG<br/>
+<a href="#Output-1626800713" onClick='toggleBox("Output-1626800713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1626800713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1626800713">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyReverifyFunctionality_2018_01_29_16_01_382.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyReverifyFunctionality_2018_01_29_16_01_382.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [TO BE VERIFIED] but found [Customer Confirmed Verification Pending]
+	at c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG.verifyReverifyFunctionality(TC_008_VerifyReverifyButtonFunctionalityandMSG.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1626800713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1626800713'><pre>java.lang.AssertionError: expected [TO BE VERIFIED] but found [Customer Confirmed Verification Pending]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG.verifyReverifyFunctionality(TC_008_VerifyReverifyButtonFunctionalityandMSG.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG@13c10b87</td></tr>
+<tr>
+<td title='c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg.verifyReverifyFunctionality()'><b>verifyReverifyFunctionality</b><br>Test class: c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg<br/>
+<a href="#Output-483635512" onClick='toggleBox("Output-483635512", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-483635512" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-483635512">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyReverifyFunctionality_2018_01_29_16_01_317.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyReverifyFunctionality_2018_01_29_16_01_317.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [TO BE VERIFIED] but found [Customer Confirmed Verification Pending]
+	at c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg.verifyReverifyFunctionality(TC_002_VerifyReverifyFunctionalityandMsg.java:50)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace483635512", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace483635512'><pre>java.lang.AssertionError: expected [TO BE VERIFIED] but found [Customer Confirmed Verification Pending]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg.verifyReverifyFunctionality(TC_002_VerifyReverifyFunctionalityandMsg.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>15</td>
+<td>c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg@6293abcc</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_007_VerifySubmitByAddingItems.verifySubmitOrderFunctionality()'><b>verifySubmitOrderFunctionality</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_007_VerifySubmitByAddingItems<br/>
+<a href="#Output-967460257" onClick='toggleBox("Output-967460257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-967460257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-967460257">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySubmitOrderFunctionality_2018_01_29_15_01_796.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySubmitOrderFunctionality_2018_01_29_15_01_796.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//button[contains(text(),&apos;Valid&apos;)]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir11664_32051}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 33c77553623f09976e3d9714bf5ba58e
+*** Element info: {Using=xpath, value=.//button[contains(text(),&apos;Valid&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.ToBeVerified.makeOrderValid(ToBeVerified.java:96)
+	at c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_007_VerifySubmitByAddingItems.verifySubmitOrderFunctionality(TC_007_VerifySubmitByAddingItems.java:36)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace967460257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace967460257'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//button[contains(text(),&apos;Valid&apos;)]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir11664_32051}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 33c77553623f09976e3d9714bf5ba58e
+*** Element info: {Using=xpath, value=.//button[contains(text(),&apos;Valid&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at c2info_OrderBuk_UIPages.ToBeVerified.makeOrderValid(ToBeVerified.java:96)
+	at c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_007_VerifySubmitByAddingItems.verifySubmitOrderFunctionality(TC_007_VerifySubmitByAddingItems.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>66</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_007_VerifySubmitByAddingItems@6156496</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal.verifySumOfItemsWithGrandTotal()'><b>verifySumOfItemsWithGrandTotal</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal<br/>
+<a href="#Output-101162229" onClick='toggleBox("Output-101162229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-101162229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-101162229">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfItemsWithGrandTotal_2018_01_29_15_01_972.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfItemsWithGrandTotal_2018_01_29_15_01_972.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;4,600.00&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getItemwiseTotal(OrderSentToServer.java:155)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal.verifySumOfItemsWithGrandTotal(TC_005_VerifySumOfItemsWithGrandTotal.java:40)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace101162229", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace101162229'><pre>java.lang.NumberFormatException: For input string: &quot;4,600.00&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getItemwiseTotal(OrderSentToServer.java:155)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal.verifySumOfItemsWithGrandTotal(TC_005_VerifySumOfItemsWithGrandTotal.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal@5db45159</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_006_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_006_VerifySumOfSubTotalsWithGrandSubTotal<br/>
+<a href="#Output-691096777" onClick='toggleBox("Output-691096777", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-691096777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-691096777">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_966.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_966.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;4,601.80&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getCalculatedTotalOfEachSubTotal(OrderSentToServer.java:193)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_006_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal(TC_006_VerifySumOfSubTotalsWithGrandSubTotal.java:41)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace691096777", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace691096777'><pre>java.lang.NumberFormatException: For input string: &quot;4,601.80&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getCalculatedTotalOfEachSubTotal(OrderSentToServer.java:193)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_006_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal(TC_006_VerifySumOfSubTotalsWithGrandSubTotal.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_006_VerifySumOfSubTotalsWithGrandSubTotal@6107227e</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_007_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_007_VerifyGrandTotal<br/>
+<a href="#Output-749098095" onClick='toggleBox("Output-749098095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749098095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749098095">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_694.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_694.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;4,142.00&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getGrandTotal(OrderSentToServer.java:170)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_007_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal(TC_007_VerifyGrandTotal.java:44)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace749098095", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace749098095'><pre>java.lang.NumberFormatException: For input string: &quot;4,142.00&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getGrandTotal(OrderSentToServer.java:170)
+	at c2info_OrderBuk_OrderSentToServerTCs.TC_007_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal(TC_007_VerifyGrandTotal.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_007_VerifyGrandTotal@7c417213</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal<br/>
+<a href="#Output-492947164" onClick='toggleBox("Output-492947164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-492947164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-492947164">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_936.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_936.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: For input string: &quot;1,859.00&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getDiscountValue(OrderSentToServer.java:216)
+	at c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal(TC_006_VerifyGrandTotal.java:42)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace492947164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace492947164'><pre>java.lang.NumberFormatException: For input string: &quot;1,859.00&quot;
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at c2info_OrderBuk_UIPages.OrderSentToServer.getDiscountValue(OrderSentToServer.java:216)
+	at c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal(TC_006_VerifyGrandTotal.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>12</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal@78047b92</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName.verifyUserName()'><b>verifyUserName</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName<br/>
+<a href="#Output-1400973979" onClick='toggleBox("Output-1400973979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1400973979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1400973979">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyUserName_2018_01_29_15_01_404.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Failure\verifyUserName_2018_01_29_15_01_404.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td><div><pre>java.lang.AssertionError: expected [Welcome UAT00PUAT00P] but found [Welcome UAT00P]
 	at c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName.verifyUserName(TC_004_Verify_UserName.java:32)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1585571244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1585571244'><pre>java.lang.AssertionError: expected [Welcome UAT00PUAT00P] but found [Welcome UAT00P]
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1400973979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1400973979'><pre>java.lang.AssertionError: expected [Welcome UAT00PUAT00P] but found [Welcome UAT00P]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -278,7 +1519,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>9</td>
-<td>c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName@67e2d983</td></tr>
+<td>c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName@7920ba90</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -288,105 +1529,809 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder.VerifyOrderPushedToReadyForOrder()'><b>VerifyOrderPushedToReadyForOrder</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder</td>
+<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder.VerifyOrderPushedToReadyForOrder()'><b>VerifyOrderPushedToReadyForOrder</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder<br/>
+<a href="#Output-1807894765" onClick='toggleBox("Output-1807894765", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1807894765" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1807894765">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\VerifyOrderPushedToReadyForOrder_2018_01_29_15_01_807.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\VerifyOrderPushedToReadyForOrder_2018_01_29_15_01_807.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
-<td>55</td>
-<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@ca263c2</td></tr>
+<td>61</td>
+<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder@3b938003</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm.deselectAllitemsAndCOnfirmOrder()'><b>deselectAllitemsAndCOnfirmOrder</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm</td>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm.deselectAllitemsAndCOnfirmOrder()'><b>deselectAllitemsAndCOnfirmOrder</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm<br/>
+<a href="#Output-131037934" onClick='toggleBox("Output-131037934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131037934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131037934">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\deselectAllitemsAndCOnfirmOrder_2018_01_29_15_01_817.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\deselectAllitemsAndCOnfirmOrder_2018_01_29_15_01_817.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
-<td>14</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@55a1c291</td></tr>
+<td>15</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_008_VerifyByDeselectingAllItemsAndConfirm@436a4e4b</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_006_VerifyCancelButton.verifyCancelButtonFunctionality()'><b>verifyCancelButtonFunctionality</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_006_VerifyCancelButton</td>
+<td title='c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks.verifyAllBucketlinks()'><b>verifyAllBucketlinks</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks<br/>
+<a href="#Output-611289995" onClick='toggleBox("Output-611289995", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-611289995" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-611289995">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyAllBucketlinks_2018_01_29_15_01_316.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyAllBucketlinks_2018_01_29_15_01_316.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
-<td>18</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_006_VerifyCancelButton@8e0379d</td></tr>
+<td>50</td>
+<td>c2info_OrderBuk_DashboardTCs.TC_001_VerifyAllBucketLinks@4b168fa9</td></tr>
 <tr>
-<td title='c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons.verifyDashboardLinkInMenuSlider()'><b>verifyDashboardLinkInMenuSlider</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons</td>
+<td title='c2info_OrderBuk_NewItemPutOnHoldTCs.TC_001_VerifyAtleastOneItemIsAddedasNewItem.verifyAtleastOneItemIsAddedasNewItem()'><b>verifyAtleastOneItemIsAddedasNewItem</b><br>Test class: c2info_OrderBuk_NewItemPutOnHoldTCs.TC_001_VerifyAtleastOneItemIsAddedasNewItem<br/>
+<a href="#Output-2042120257" onClick='toggleBox("Output-2042120257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2042120257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2042120257">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyAtleastOneItemIsAddedasNewItem_2018_01_29_16_01_751.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyAtleastOneItemIsAddedasNewItem_2018_01_29_16_01_751.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
 <td>6</td>
-<td>c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons@5d47c63f</td></tr>
+<td>c2info_OrderBuk_NewItemPutOnHoldTCs.TC_001_VerifyAtleastOneItemIsAddedasNewItem@5a955565</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_007_VerifyDoseAsUnit.verifyDosage()'><b>verifyDosage</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_007_VerifyDoseAsUnit</td>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_006_VerifyCancelButton.verifyCancelButtonFunctionality()'><b>verifyCancelButtonFunctionality</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_006_VerifyCancelButton<br/>
+<a href="#Output-809860628" onClick='toggleBox("Output-809860628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-809860628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-809860628">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyCancelButtonFunctionality_2018_01_29_15_01_91.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyCancelButtonFunctionality_2018_01_29_15_01_91.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_006_VerifyCancelButton@475e586c</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality.verifyCancelButtonFunctionality()'><b>verifyCancelButtonFunctionality</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality<br/>
+<a href="#Output-1227224309" onClick='toggleBox("Output-1227224309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1227224309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1227224309">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyCancelButtonFunctionality_2018_01_29_15_01_520.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyCancelButtonFunctionality_2018_01_29_15_01_520.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality@5c1a8622</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn.verifyConfirmButtonFunctionality()'><b>verifyConfirmButtonFunctionality</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn<br/>
+<a href="#Output-225553858" onClick='toggleBox("Output-225553858", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-225553858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-225553858">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyConfirmButtonFunctionality_2018_01_29_15_01_389.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyConfirmButtonFunctionality_2018_01_29_15_01_389.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn@6295d394</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons.verifyDashboardLinkInMenuSlider()'><b>verifyDashboardLinkInMenuSlider</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons<br/>
+<a href="#Output-1337829755" onClick='toggleBox("Output-1337829755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1337829755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1337829755">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyDashboardLinkInMenuSlider_2018_01_29_15_01_402.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyDashboardLinkInMenuSlider_2018_01_29_15_01_402.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons@6b419da</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_007_VerifyDoseAsUnit.verifyDosage()'><b>verifyDosage</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_007_VerifyDoseAsUnit<br/>
+<a href="#Output-67620673" onClick='toggleBox("Output-67620673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-67620673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-67620673">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyDosage_2018_01_29_15_01_869.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyDosage_2018_01_29_15_01_869.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_007_VerifyDoseAsUnit@589b3632</td></tr>
+<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_007_VerifyDoseAsUnit@6f3b5d16</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt.verifyGrandTotal()'><b>verifyGrandTotal</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt</td>
-<td></td>
-<td>16</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt@52e677af</td></tr>
-<tr>
-<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance.verifyImageInPrescriptionPage()'><b>verifyImageInPrescriptionPage</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance</td>
-<td></td>
-<td>10</td>
-<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance@3bbc39f8</td></tr>
-<tr>
-<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_001_VerifyImageExistance.verifyImageInPrescriptionPage()'><b>verifyImageInPrescriptionPage</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_001_VerifyImageExistance</td>
-<td></td>
-<td>10</td>
-<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_001_VerifyImageExistance@2145433b</td></tr>
-<tr>
-<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_004_VerifyInvalidButton.verifyInvalidButton()'><b>verifyInvalidButton</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_004_VerifyInvalidButton</td>
-<td></td>
-<td>9</td>
-<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_004_VerifyInvalidButton@29f69090</td></tr>
-<tr>
-<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton.verifyInvalidButton()'><b>verifyInvalidButton</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton</td>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery.verifyFooterModeOfDelivery()'><b>verifyFooterModeOfDelivery</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery<br/>
+<a href="#Output-1499825229" onClick='toggleBox("Output-1499825229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1499825229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1499825229">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_478.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_478.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
 <td>12</td>
-<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton@40e6dfe1</td></tr>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery@6ab7a896</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_001_VerifyInvalidOrder.verifyInvalidOrder()'><b>verifyInvalidOrder</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_001_VerifyInvalidOrder</td>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_008_VerifyFooterModeOfDelivery.verifyFooterModeOfDelivery()'><b>verifyFooterModeOfDelivery</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_008_VerifyFooterModeOfDelivery<br/>
+<a href="#Output-775741122" onClick='toggleBox("Output-775741122", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-775741122" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-775741122">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_466.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_466.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
-<td>5</td>
-<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_001_VerifyInvalidOrder@5ea434c8</td></tr>
+<td>12</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_008_VerifyFooterModeOfDelivery@3bd40a57</td></tr>
 <tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV.verifyItemsAddedInTBV()'><b>verifyItemsAddedInTBV</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV</td>
+<td title='c2info_OrderBuk_InTransitTCs.TC_008_VerifyFooterModeOfDelivery.verifyFooterModeOfDelivery()'><b>verifyFooterModeOfDelivery</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_008_VerifyFooterModeOfDelivery<br/>
+<a href="#Output-1591683105" onClick='toggleBox("Output-1591683105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1591683105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1591683105">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_785.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_785.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
-<td>55</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_001_VerifyItemsAddedFromTBV@45f45fa1</td></tr>
+<td>12</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_008_VerifyFooterModeOfDelivery@79ca92b9</td></tr>
 <tr>
-<td title='c2info_OrderBuk_DashboardTCs.TC_003_VerifyLogOut.verifyLogoutInDashboard()'><b>verifyLogoutInDashboard</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_003_VerifyLogOut</td>
-<td></td>
-<td>70</td>
-<td>c2info_OrderBuk_DashboardTCs.TC_003_VerifyLogOut@4de5031f</td></tr>
-<tr>
-<td title='c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket.verifyOrderCountToBeVerified()'><b>verifyOrderCountToBeVerified</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket</td>
-<td></td>
-<td>17</td>
-<td>c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket@52aa2946</td></tr>
-<tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_002_VerifyDetailsExistence.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_002_VerifyDetailsExistence</td>
-<td></td>
-<td>9</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_002_VerifyDetailsExistence@4c6e276e</td></tr>
-<tr>
-<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence</td>
-<td></td>
-<td>10</td>
-<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence@1b083826</td></tr>
-<tr>
-<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt.verifySubTotalAmt()'><b>verifySubTotalAmt</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt</td>
-<td></td>
-<td>11</td>
-<td>c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt@534df152</td></tr>
-<tr>
-<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage.verifySubmitButtonFunctionality()'><b>verifySubmitButtonFunctionality</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage</td>
-<td></td>
-<td>42</td>
-<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage@568bf312</td></tr>
-<tr>
-<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_003_VerifyValidButton.verifyValidButtonInPrescriptionPage()'><b>verifyValidButtonInPrescriptionPage</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_003_VerifyValidButton</td>
-<td></td>
-<td>8</td>
-<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_003_VerifyValidButton@4ae3c1cd</td></tr>
-<tr>
-<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton.verifyValidButtonInPrescriptionPage()'><b>verifyValidButtonInPrescriptionPage</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton</td>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_008_VerifyFooterModeOfDelivery.verifyFooterModeOfDelivery()'><b>verifyFooterModeOfDelivery</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_008_VerifyFooterModeOfDelivery<br/>
+<a href="#Output-1318313145" onClick='toggleBox("Output-1318313145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1318313145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1318313145">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_66.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_66.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
 <td></td>
 <td>14</td>
-<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton@2890c451</td></tr>
+<td>c2info_OrderBuk_DeliveredTCs.TC_008_VerifyFooterModeOfDelivery@7ff95560</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_008_VerifyFooterModeOfDelivery.verifyFooterModeOfDelivery()'><b>verifyFooterModeOfDelivery</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_008_VerifyFooterModeOfDelivery<br/>
+<a href="#Output-1019157412" onClick='toggleBox("Output-1019157412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1019157412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1019157412">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_622.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyFooterModeOfDelivery_2018_01_29_16_01_622.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_008_VerifyFooterModeOfDelivery@501edcf1</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt.verifyGrandTotal()'><b>verifyGrandTotal</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt<br/>
+<a href="#Output-980533504" onClick='toggleBox("Output-980533504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-980533504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-980533504">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyGrandTotal_2018_01_29_15_01_602.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyGrandTotal_2018_01_29_15_01_602.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt@143640d5</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance.verifyImageInPrescriptionPage()'><b>verifyImageInPrescriptionPage</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance<br/>
+<a href="#Output-105966264" onClick='toggleBox("Output-105966264", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-105966264" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-105966264">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyImageInPrescriptionPage_2018_01_29_15_01_15.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyImageInPrescriptionPage_2018_01_29_15_01_15.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance@5906ebcb</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_001_VerifyImageExistance.verifyImageInPrescriptionPage()'><b>verifyImageInPrescriptionPage</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_001_VerifyImageExistance<br/>
+<a href="#Output-790229674" onClick='toggleBox("Output-790229674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-790229674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-790229674">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyImageInPrescriptionPage_2018_01_29_15_01_769.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyImageInPrescriptionPage_2018_01_29_15_01_769.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_001_VerifyImageExistance@f2f2cc1</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_004_VerifyInvalidButton.verifyInvalidButton()'><b>verifyInvalidButton</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_004_VerifyInvalidButton<br/>
+<a href="#Output-1445424568" onClick='toggleBox("Output-1445424568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1445424568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1445424568">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidButton_2018_01_29_15_01_728.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidButton_2018_01_29_15_01_728.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_004_VerifyInvalidButton@3d299e3</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton.verifyInvalidButton()'><b>verifyInvalidButton</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton<br/>
+<a href="#Output-1475759966" onClick='toggleBox("Output-1475759966", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1475759966" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1475759966">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidButton_2018_01_29_15_01_454.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidButton_2018_01_29_15_01_454.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton@3b2cf7ab</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_001_VerifyInvalidOrder.verifyInvalidOrder()'><b>verifyInvalidOrder</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_001_VerifyInvalidOrder<br/>
+<a href="#Output-333693383" onClick='toggleBox("Output-333693383", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-333693383" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-333693383">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_15_01_813.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_15_01_813.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_001_VerifyInvalidOrder@3b2da18f</td></tr>
+<tr>
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_002_VerifyInvalidOrderFromTBV.verifyInvalidOrder()'><b>verifyInvalidOrder</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_002_VerifyInvalidOrderFromTBV<br/>
+<a href="#Output-1349872758" onClick='toggleBox("Output-1349872758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1349872758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1349872758">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_16_01_709.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_16_01_709.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_002_VerifyInvalidOrderFromTBV@27c86f2d</td></tr>
+<tr>
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_003_VerifyInvalidOrderFromCCVP.verifyInvalidOrder()'><b>verifyInvalidOrder</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_003_VerifyInvalidOrderFromCCVP<br/>
+<a href="#Output-1841099284" onClick='toggleBox("Output-1841099284", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1841099284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1841099284">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_16_01_86.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_16_01_86.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_003_VerifyInvalidOrderFromCCVP@197d671</td></tr>
+<tr>
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_004_VerifyInvalidPrescFromCCVP.verifyInvalidOrder()'><b>verifyInvalidOrder</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_004_VerifyInvalidPrescFromCCVP<br/>
+<a href="#Output-412410893" onClick='toggleBox("Output-412410893", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-412410893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-412410893">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_16_01_179.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidOrder_2018_01_29_16_01_179.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_004_VerifyInvalidPrescFromCCVP@402e37bc</td></tr>
+<tr>
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_001_VerifyInvalidPrescFromTBV.verifyInvalidPrescFromTBV()'><b>verifyInvalidPrescFromTBV</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_001_VerifyInvalidPrescFromTBV<br/>
+<a href="#Output-1063801186" onClick='toggleBox("Output-1063801186", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1063801186" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063801186">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidPrescFromTBV_2018_01_29_16_01_786.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyInvalidPrescFromTBV_2018_01_29_16_01_786.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_001_VerifyInvalidPrescFromTBV@6b4a4e18</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DashboardTCs.TC_003_VerifyLogOut.verifyLogoutInDashboard()'><b>verifyLogoutInDashboard</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_003_VerifyLogOut<br/>
+<a href="#Output-2123533871" onClick='toggleBox("Output-2123533871", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2123533871" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2123533871">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyLogoutInDashboard_2018_01_29_15_01_952.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyLogoutInDashboard_2018_01_29_15_01_952.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>c2info_OrderBuk_DashboardTCs.TC_003_VerifyLogOut@23282c25</td></tr>
+<tr>
+<td title='c2info_OrderBuk_NewItemPutOnHoldTCs.TC_007_VerifyNewItemFromCCVP.verifyNewItemFromCCVP()'><b>verifyNewItemFromCCVP</b><br>Test class: c2info_OrderBuk_NewItemPutOnHoldTCs.TC_007_VerifyNewItemFromCCVP<br/>
+<a href="#Output-182584006" onClick='toggleBox("Output-182584006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-182584006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-182584006">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyNewItemFromCCVP_2018_01_29_16_01_718.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyNewItemFromCCVP_2018_01_29_16_01_718.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>c2info_OrderBuk_NewItemPutOnHoldTCs.TC_007_VerifyNewItemFromCCVP@2133814f</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg.verifyNewItemRequestSuccessMsg()'><b>verifyNewItemRequestSuccessMsg</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg<br/>
+<a href="#Output-1314228008" onClick='toggleBox("Output-1314228008", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1314228008" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1314228008">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyNewItemRequestSuccessMsg_2018_01_29_15_01_620.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyNewItemRequestSuccessMsg_2018_01_29_15_01_620.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg@b62fe6d</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_004_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()'><b>verifyOrderClosedButtonFunctionality</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_004_VerifyOrderClosedButton<br/>
+<a href="#Output-816804727" onClick='toggleBox("Output-816804727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-816804727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-816804727">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_15_01_211.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_15_01_211.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_004_VerifyOrderClosedButton@2b6856dd</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()'><b>verifyOrderClosedButtonFunctionality</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton<br/>
+<a href="#Output-837719796" onClick='toggleBox("Output-837719796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-837719796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-837719796">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_628.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_628.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton@3745e5c6</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()'><b>verifyOrderClosedButtonFunctionality</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_003_VerifyOrderClosedButton<br/>
+<a href="#Output-348084146" onClick='toggleBox("Output-348084146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-348084146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-348084146">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_978.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_978.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_003_VerifyOrderClosedButton@11dc3715</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()'><b>verifyOrderClosedButtonFunctionality</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_003_VerifyOrderClosedButton<br/>
+<a href="#Output-430983166" onClick='toggleBox("Output-430983166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-430983166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-430983166">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_157.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_157.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_003_VerifyOrderClosedButton@6e75aa0d</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_003_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()'><b>verifyOrderClosedButtonFunctionality</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_003_VerifyOrderClosedButton<br/>
+<a href="#Output-1389808948" onClick='toggleBox("Output-1389808948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1389808948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1389808948">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_514.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_514.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_003_VerifyOrderClosedButton@4b44655e</td></tr>
+<tr>
+<td title='c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton.verifyOrderClosedButtonFunctionality()'><b>verifyOrderClosedButtonFunctionality</b><br>Test class: c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton<br/>
+<a href="#Output-267533031" onClick='toggleBox("Output-267533031", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-267533031" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-267533031">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_362.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderClosedButtonFunctionality_2018_01_29_16_01_362.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton@f8c1ddd</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket.verifyOrderCountToBeVerified()'><b>verifyOrderCountToBeVerified</b><br>Test class: c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket<br/>
+<a href="#Output-2143739483" onClick='toggleBox("Output-2143739483", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2143739483" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2143739483">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderCountToBeVerified_2018_01_29_15_01_724.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderCountToBeVerified_2018_01_29_15_01_724.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket@1a84f40f</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_002_VerifyDetailsExistence.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_002_VerifyDetailsExistence<br/>
+<a href="#Output-1484275564" onClick='toggleBox("Output-1484275564", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1484275564" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1484275564">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_15_01_736.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_15_01_736.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_002_VerifyDetailsExistence@6646153</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence<br/>
+<a href="#Output-220432328" onClick='toggleBox("Output-220432328", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-220432328" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-220432328">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_15_01_217.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_15_01_217.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence@2aa5fe93</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance<br/>
+<a href="#Output-1450712470" onClick='toggleBox("Output-1450712470", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1450712470" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1450712470">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_15_01_55.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_15_01_55.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance@13acb0d1</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_001_VerifyDetailsExistanceInOrderInvoiced.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_001_VerifyDetailsExistanceInOrderInvoiced<br/>
+<a href="#Output-2058174333" onClick='toggleBox("Output-2058174333", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2058174333" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2058174333">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_188.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_188.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_001_VerifyDetailsExistanceInOrderInvoiced@45dd4eda</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_001_VerifyDetailsExistanceInTransit.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_001_VerifyDetailsExistanceInTransit<br/>
+<a href="#Output-496425074" onClick='toggleBox("Output-496425074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-496425074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-496425074">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_377.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_377.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_001_VerifyDetailsExistanceInTransit@d83da2e</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_001_VerifyDetailsExistanceInOrderDelivered.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_001_VerifyDetailsExistanceInOrderDelivered<br/>
+<a href="#Output-1881218633" onClick='toggleBox("Output-1881218633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1881218633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1881218633">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_739.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_739.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_001_VerifyDetailsExistanceInOrderDelivered@4f638935</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_001_VerifyDetailsExistanceInOrderReturned.verifyOrderIDIsNotNull()'><b>verifyOrderIDIsNotNull</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_001_VerifyDetailsExistanceInOrderReturned<br/>
+<a href="#Output-178342381" onClick='toggleBox("Output-178342381", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-178342381" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-178342381">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_795.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderIDIsNotNull_2018_01_29_16_01_795.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_001_VerifyDetailsExistanceInOrderReturned@2aa3cd93</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton.verifyOrderhistorybutton()'><b>verifyOrderhistorybutton</b><br>Test class: c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton<br/>
+<a href="#Output-1747721875" onClick='toggleBox("Output-1747721875", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1747721875" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1747721875">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_15_01_773.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_15_01_773.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton@37e547da</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_002_VerifyOrderHistoryButton.verifyOrderhistorybutton()'><b>verifyOrderhistorybutton</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_002_VerifyOrderHistoryButton<br/>
+<a href="#Output-1679002380" onClick='toggleBox("Output-1679002380", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1679002380" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1679002380">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_396.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_396.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_002_VerifyOrderHistoryButton@60611244</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_002_VerifyOrderHistoryButton.verifyOrderhistorybutton()'><b>verifyOrderhistorybutton</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_002_VerifyOrderHistoryButton<br/>
+<a href="#Output-1181191753" onClick='toggleBox("Output-1181191753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1181191753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1181191753">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_681.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_681.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_002_VerifyOrderHistoryButton@a4102b8</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_002_VerifyOrderHistoryButton.verifyOrderhistorybutton()'><b>verifyOrderhistorybutton</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_002_VerifyOrderHistoryButton<br/>
+<a href="#Output-577682023" onClick='toggleBox("Output-577682023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-577682023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-577682023">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_805.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_805.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_002_VerifyOrderHistoryButton@4387b79e</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_002_VerifyOrderHistoryButton.verifyOrderhistorybutton()'><b>verifyOrderhistorybutton</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_002_VerifyOrderHistoryButton<br/>
+<a href="#Output-1315908533" onClick='toggleBox("Output-1315908533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1315908533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1315908533">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_716.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_716.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_002_VerifyOrderHistoryButton@7ea37dbf</td></tr>
+<tr>
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_007_VerifyOrderHistoryButton.verifyOrderhistorybutton()'><b>verifyOrderhistorybutton</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_007_VerifyOrderHistoryButton<br/>
+<a href="#Output-419923787" onClick='toggleBox("Output-419923787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-419923787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-419923787">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_617.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_617.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_007_VerifyOrderHistoryButton@22635ba0</td></tr>
+<tr>
+<td title='c2info_OrderBuk_NewItemPutOnHoldTCs.TC_004_VerifyOrderHistoryButton.verifyOrderhistorybutton()'><b>verifyOrderhistorybutton</b><br>Test class: c2info_OrderBuk_NewItemPutOnHoldTCs.TC_004_VerifyOrderHistoryButton<br/>
+<a href="#Output-1156729376" onClick='toggleBox("Output-1156729376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1156729376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1156729376">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_937.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyOrderhistorybutton_2018_01_29_16_01_937.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>c2info_OrderBuk_NewItemPutOnHoldTCs.TC_004_VerifyOrderHistoryButton@7fc2413d</td></tr>
+<tr>
+<td title='c2info_OrderBuk_SupportCancelledTCs.TC_009_VerifyViewPrescriptionButton.verifyPrescriptionButton()'><b>verifyPrescriptionButton</b><br>Test class: c2info_OrderBuk_SupportCancelledTCs.TC_009_VerifyViewPrescriptionButton<br/>
+<a href="#Output-1755634886" onClick='toggleBox("Output-1755634886", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1755634886" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1755634886">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyPrescriptionButton_2018_01_29_16_01_126.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyPrescriptionButton_2018_01_29_16_01_126.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>c2info_OrderBuk_SupportCancelledTCs.TC_009_VerifyViewPrescriptionButton@6a01e23</td></tr>
+<tr>
+<td title='c2info_OrderBuk_NewItemPutOnHoldTCs.TC_003_VerifyViewPrescriptionButton.verifyPrescriptionButton()'><b>verifyPrescriptionButton</b><br>Test class: c2info_OrderBuk_NewItemPutOnHoldTCs.TC_003_VerifyViewPrescriptionButton<br/>
+<a href="#Output-85435056" onClick='toggleBox("Output-85435056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-85435056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-85435056">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyPrescriptionButton_2018_01_29_16_01_298.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyPrescriptionButton_2018_01_29_16_01_298.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>92</td>
+<td>c2info_OrderBuk_NewItemPutOnHoldTCs.TC_003_VerifyViewPrescriptionButton@7995092a</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton.verifyReverifybutton()'><b>verifyReverifybutton</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton<br/>
+<a href="#Output-687399269" onClick='toggleBox("Output-687399269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-687399269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-687399269">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyReverifybutton_2018_01_29_15_01_677.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyReverifybutton_2018_01_29_15_01_677.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton@657c8ad9</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt.verifySubTotalAmt()'><b>verifySubTotalAmt</b><br>Test class: c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt<br/>
+<a href="#Output-61304908" onClick='toggleBox("Output-61304908", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-61304908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-61304908">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySubTotalAmt_2018_01_29_15_01_53.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySubTotalAmt_2018_01_29_15_01_53.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt@21507a04</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage.verifySubmitButtonFunctionality()'><b>verifySubmitButtonFunctionality</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage<br/>
+<a href="#Output-1533547487" onClick='toggleBox("Output-1533547487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1533547487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1533547487">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySubmitButtonFunctionality_2018_01_29_15_01_859.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySubmitButtonFunctionality_2018_01_29_15_01_859.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_005_VerifySubmitButtonInDigitizePage@55a561cf</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality.verifySubmitOrderFunctionality()'><b>verifySubmitOrderFunctionality</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality<br/>
+<a href="#Output-195163481" onClick='toggleBox("Output-195163481", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-195163481" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-195163481">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySubmitOrderFunctionality_2018_01_29_15_01_11.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySubmitOrderFunctionality_2018_01_29_15_01_11.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality@5ad851c9</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_004_VerifySumOfItemsWithGrandTotal.verifySumOfItemsWithGrandTotal()'><b>verifySumOfItemsWithGrandTotal</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_004_VerifySumOfItemsWithGrandTotal<br/>
+<a href="#Output-1541232265" onClick='toggleBox("Output-1541232265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1541232265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1541232265">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_752.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_752.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_004_VerifySumOfItemsWithGrandTotal@5e4c8041</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_004_VerifySumOfItemsWithGrandSubTotal.verifySumOfItemsWithGrandTotal()'><b>verifySumOfItemsWithGrandTotal</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_004_VerifySumOfItemsWithGrandSubTotal<br/>
+<a href="#Output-2095373876" onClick='toggleBox("Output-2095373876", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2095373876" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2095373876">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_374.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_374.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_004_VerifySumOfItemsWithGrandSubTotal@69930714</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_004_VerifySumOfItemsWithGrandSubTotal.verifySumOfItemsWithGrandTotal()'><b>verifySumOfItemsWithGrandTotal</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_004_VerifySumOfItemsWithGrandSubTotal<br/>
+<a href="#Output-60221145" onClick='toggleBox("Output-60221145", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-60221145" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-60221145">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_837.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_837.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_004_VerifySumOfItemsWithGrandSubTotal@7fc229ab</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_004_VerifySumOfItemsWithGrandSubTotal.verifySumOfItemsWithGrandTotal()'><b>verifySumOfItemsWithGrandTotal</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_004_VerifySumOfItemsWithGrandSubTotal<br/>
+<a href="#Output-866370634" onClick='toggleBox("Output-866370634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-866370634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-866370634">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_523.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfItemsWithGrandTotal_2018_01_29_16_01_523.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_004_VerifySumOfItemsWithGrandSubTotal@290d210d</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal<br/>
+<a href="#Output-303846650" onClick='toggleBox("Output-303846650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-303846650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-303846650">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_436.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_436.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@71c8becc</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderInvoicedTCs.TC_006_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_OrderInvoicedTCs.TC_006_VerifyGrandTotal<br/>
+<a href="#Output-115939475" onClick='toggleBox("Output-115939475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-115939475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-115939475">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_882.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_882.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>c2info_OrderBuk_OrderInvoicedTCs.TC_006_VerifyGrandTotal@19d37183</td></tr>
+<tr>
+<td title='c2info_OrderBuk_InTransitTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_InTransitTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal<br/>
+<a href="#Output-2052814491" onClick='toggleBox("Output-2052814491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2052814491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2052814491">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_334.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_334.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_InTransitTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@7a52f2a2</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal<br/>
+<a href="#Output-468950278" onClick='toggleBox("Output-468950278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-468950278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-468950278">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_346.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_346.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@2cbb3d47</td></tr>
+<tr>
+<td title='c2info_OrderBuk_DeliveredTCs.TC_006_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_DeliveredTCs.TC_006_VerifyGrandTotal<br/>
+<a href="#Output-911857585" onClick='toggleBox("Output-911857585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-911857585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-911857585">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_15.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_15.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>c2info_OrderBuk_DeliveredTCs.TC_006_VerifyGrandTotal@527e5409</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal<br/>
+<a href="#Output-447144896" onClick='toggleBox("Output-447144896", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-447144896" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-447144896">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_305.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_305.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal@1d76aeea</td></tr>
+<tr>
+<td title='c2info_OrderBuk_OrderReturnedTCs.TC_006_VerifyGrandTotal.verifySumOfSubTotalsWithGrandSubTotal()'><b>verifySumOfSubTotalsWithGrandSubTotal</b><br>Test class: c2info_OrderBuk_OrderReturnedTCs.TC_006_VerifyGrandTotal<br/>
+<a href="#Output-1202653598" onClick='toggleBox("Output-1202653598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202653598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202653598">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_992.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifySumOfSubTotalsWithGrandSubTotal_2018_01_29_16_01_992.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>c2info_OrderBuk_OrderReturnedTCs.TC_006_VerifyGrandTotal@78dd667e</td></tr>
+<tr>
+<td title='c2info_OrderBuk_ToBeVerifiedTCs.TC_003_VerifyValidButton.verifyValidButtonInPrescriptionPage()'><b>verifyValidButtonInPrescriptionPage</b><br>Test class: c2info_OrderBuk_ToBeVerifiedTCs.TC_003_VerifyValidButton<br/>
+<a href="#Output-58890945" onClick='toggleBox("Output-58890945", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-58890945" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-58890945">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyValidButtonInPrescriptionPage_2018_01_29_15_01_98.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyValidButtonInPrescriptionPage_2018_01_29_15_01_98.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>c2info_OrderBuk_ToBeVerifiedTCs.TC_003_VerifyValidButton@258e2e41</td></tr>
+<tr>
+<td title='c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton.verifyValidButtonInPrescriptionPage()'><b>verifyValidButtonInPrescriptionPage</b><br>Test class: c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton<br/>
+<a href="#Output-845119401" onClick='toggleBox("Output-845119401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-845119401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-845119401">
+<a href='E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyValidButtonInPrescriptionPage_2018_01_29_15_01_401.png' ><img src = 'E:\workspace\c2info_OrderBuk\src\main\java\c2info_OrderBuk_ScreenShots\Success\verifyValidButtonInPrescriptionPage_2018_01_29_15_01_401.png' hieght='100' width='100' /></a><br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton@3a079870</td></tr>
 </table><p>
 </body>
 </html>

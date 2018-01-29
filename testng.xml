@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="false" thread-count="1">
 <listeners>
 <listener class-name="c2info_OrderBuk_Listeners.Listeners"></listener>
 </listeners>
@@ -31,6 +31,73 @@
   <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_002_VerifyValidButton"></class>
   <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_003_VerifyInvalidButton"></class>
   <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_004_VerifyCustomerDetailsExistence"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_005_VerifyInvalidOrderFunctionality"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_007_VerifySubmitByAddingItems"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_008_VerifyNewItemRequestFunctionality"></class>
+  <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_001_VerifyDetailsExistance"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_002_VerifyViewPrescriptionButton"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_003_VerifyOrderHistoryButton"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_004_VerifyOrderClosedButton"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_006_VerifySumOfSubTotalsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_007_VerifyGrandTotal"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_009_VerifyFooterModeOfDelivery"></class>
+  <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_010_VerifyDownloadPDFButton"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_001_VerifyDetailsExistanceInOrderInvoiced"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_002_VerifyOrderHistoryButton"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_003_VerifyOrderClosedButton"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_004_VerifySumOfItemsWithGrandTotal"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_006_VerifyGrandTotal"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_008_VerifyFooterModeOfDelivery"></class>
+  <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_009_VerifyDownloadPDFButton"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_001_VerifyDetailsExistanceInTransit"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_002_VerifyOrderHistoryButton"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_003_VerifyOrderClosedButton"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_004_VerifySumOfItemsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_008_VerifyFooterModeOfDelivery"></class>
+  <class name="c2info_OrderBuk_InTransitTCs.TC_009_VerifyDownloadPDFButton"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_001_VerifyDetailsExistanceInOrderDelivered"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_002_VerifyOrderHistoryButton"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_003_VerifyOrderClosedButton"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_004_VerifySumOfItemsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_006_VerifyGrandTotal"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_008_VerifyFooterModeOfDelivery"></class>
+  <class name="c2info_OrderBuk_DeliveredTCs.TC_009_VerifyDownloadPDFButton"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_001_VerifyDetailsExistanceInOrderReturned"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_002_VerifyOrderHistoryButton"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_003_VerifyOrderClosedButton"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_004_VerifySumOfItemsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_005_VerifySumOfSubTotalsWithGrandSubTotal"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_006_VerifyGrandTotal"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_008_VerifyFooterModeOfDelivery"></class>
+  <class name="c2info_OrderBuk_OrderReturnedTCs.TC_009_VerifyDownloadPDFButton"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_001_VerifyInvalidPrescFromTBV"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_002_VerifyInvalidOrderFromTBV"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_003_VerifyInvalidOrderFromCCVP"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_004_VerifyInvalidPrescFromCCVP"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_005_VerifyCancelButtonFromRFO"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_007_VerifyOrderHistoryButton"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG"></class>
+  <class name="c2info_OrderBuk_SupportCancelledTCs.TC_009_VerifyViewPrescriptionButton"></class>
+  <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_001_VerifyAtleastOneItemIsAddedasNewItem"></class>
+  <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg"></class>
+  <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_003_VerifyViewPrescriptionButton"></class>
+  <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_004_VerifyOrderHistoryButton"></class>
+  <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_005_VerifyOrderClosedButton"></class>
+  <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV"></class>
+  <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_007_VerifyNewItemFromCCVP"></class>
   
   </classes>
   </test> <!-- Test -->

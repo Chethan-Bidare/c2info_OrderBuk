@@ -140,7 +140,7 @@ public class TestBase {
 		try {
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			String ReportDirectory = System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Screenshots//";
-			String destination = ReportDirectory+"_"+methodName+formatter.format(calendar.getTime()+".png");
+			String destination = ReportDirectory+"_"+methodName+"_"+formatter.format(calendar.getTime())+".png";
 			File destFile = new File(destination);
 			FileUtils.copyFile(srcFile, destFile);
 			return destination ;

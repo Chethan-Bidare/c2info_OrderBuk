@@ -25,7 +25,7 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyValidButton.class
 	}
 	
 	@Test
-	public void verifyValidButtonInPrescriptionPage(){
+	public void verifyValidButtonInPrescriptionPage() throws InterruptedException{
 		log.info("======= TC_003_VerifyValidButton Test Started ======");
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));

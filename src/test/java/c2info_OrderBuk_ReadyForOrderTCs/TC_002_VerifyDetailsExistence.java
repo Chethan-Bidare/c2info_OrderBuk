@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyDetailsExistence.
 	}
 	
 	@Test(priority=0)
-	public void verifyOrderIDIsNotNull(){
+	public void verifyOrderIDIsNotNull() throws InterruptedException{
 		log.info("======= verifyOrderIDIsNotNull Test Started ======");
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));

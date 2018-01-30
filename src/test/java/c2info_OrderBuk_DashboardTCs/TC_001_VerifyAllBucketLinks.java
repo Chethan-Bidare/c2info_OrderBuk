@@ -34,7 +34,7 @@ public class TC_001_VerifyAllBucketLinks extends TestBase{
 		if(ExpectedValue.size()==ActualValue.size()){
 			for(int i=0;i<ExpectedValue.size(); i++){
 				try {
-					Assert.assertEquals(ActualValue.get(i).toUpperCase(),ExpectedValue.get(i).toUpperCase());
+					Assert.assertEquals(ActualValue.get(i),ExpectedValue.get(i));
 					log.info("Page Title Verified successfully for : "+ExpectedValue.get(i));
 				} catch (AssertionError e) {
 					log.info("Page Title verification failed for : "+ExpectedValue.get(i));

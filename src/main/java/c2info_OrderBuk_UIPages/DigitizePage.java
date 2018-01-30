@@ -172,6 +172,7 @@ public class DigitizePage extends TestBase{
 		NewItemMfac.sendKeys("TestMfac");
 		NewItemCnt.sendKeys("TestContent");
 		
+		
 	}
 	
 	/*public void addMultipleRows(){

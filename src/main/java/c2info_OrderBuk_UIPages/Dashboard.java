@@ -143,7 +143,7 @@ public class Dashboard extends TestBase {
 	}
 	
 	public void clickOnDashboardinMenu() throws InterruptedException{
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		DashboardIcon.click();
 		waitforPageToLoad();
 	}
@@ -176,5 +176,10 @@ public class Dashboard extends TestBase {
 		ImgVideoLinks.click();
 		Video.click();
 		waitforPageToLoad();
+	}
+
+	public int getTableSize() {
+		return driver.findElements(By.xpath(".//*[@id='bootstrap-table']/tbody/tr")).size();
+		
 	}
 }

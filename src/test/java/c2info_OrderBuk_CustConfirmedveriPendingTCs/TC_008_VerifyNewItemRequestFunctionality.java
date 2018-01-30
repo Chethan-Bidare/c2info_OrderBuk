@@ -40,6 +40,7 @@ public static final Logger log = Logger.getLogger(TC_008_VerifyNewItemRequestFun
 		String OrderID = dp.getOrderIDFromDigitizePage();
 		dp.clickOnRequestNewItem();
 		dp.requestNewItemDetails();
+		dp.confirmNewItemRequest();
 		dp.clickOnSubmit();
 		db.clickOnDashboardinMenu();
 		db.selectBucket("Order Query");

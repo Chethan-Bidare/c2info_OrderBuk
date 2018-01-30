@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_InTransitTCs.TC_001_VerifyDetailsExistanceInTransit">
+      <class name="c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV">
         <methods>
-          <include name="verifyHeaderMOPIsNotNull"/>
           <include name="beforeMethod"/>
+          <include name="pushOrderToReadyForOrder"/>
           <include name="afterMethod"/>
-          <include name="endTest"/>
           <include name="setup"/>
+          <include name="endTest"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_InTransitTCs.TC_001_VerifyDetailsExistanceInTransit -->
+      </class> <!-- c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

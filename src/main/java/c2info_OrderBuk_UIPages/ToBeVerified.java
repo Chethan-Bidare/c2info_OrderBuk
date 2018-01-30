@@ -77,10 +77,10 @@ public class ToBeVerified extends TestBase{
 		return OrderSize ;
 	}
 	
-	public void selectAnOrder(){
+	public void selectAnOrder() throws InterruptedException{
 		FirstOrder.click();
 		log.info("Clicked on the first Order");
-		waitforPageToLoad();
+		Thread.sleep(5000);
 	}
 	
 	public void makeOrderInvalid(){
@@ -122,6 +122,17 @@ public class ToBeVerified extends TestBase{
 		String orderid = PrescPageOrderID.getText();
 		orderid = orderid.replaceAll("Prescription of order #","").trim();
 		return orderid ;
+	}
+	
+	
+	public void selectOrderFromOrderID(String orderID){
+		List<WebElement> orders = driver.findElements(By.xpath(".//*[@id='bootstrap-table']/tbody/tr"));
+		for(int i=1; i<=orders.size(); i++){
+			String getOrderID = driver.findElement(By.xpath(".//*[@id='bootstrap-table']/tbody/tr["+i+"]/td[1]")).getText();
+			if(getOrderID.equalsIgnoreCase(orderID)){
+				driver.findElement(By.xpath(".//*[@id='bootstrap-table']/tbody/tr["+i+"]/td[1]")).click();
+			}
+		}
 	}
 	
 }

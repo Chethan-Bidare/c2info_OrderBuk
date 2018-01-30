@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyAtleastOneItemIsA
 	}
 	
 	@Test
-	public void verifyAtleastOneItemIsAddedasNewItem(){
+	public void verifyAtleastOneItemIsAddedasNewItem() throws InterruptedException{
 		log.info("======= TC_001_VerifyAtleastOneItemIsAddedasNewItem Test Started ======");
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("NewItemPutOnHoldPageTitle"));

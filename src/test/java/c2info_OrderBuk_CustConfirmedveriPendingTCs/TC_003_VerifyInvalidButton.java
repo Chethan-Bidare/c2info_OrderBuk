@@ -26,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyInvalidButton.cla
 	}
 	
 	@Test
-	public void verifyInvalidButton(){
+	public void verifyInvalidButton() throws InterruptedException{
 		log.info("======= TC_003_VerifyInvalidButton Test Started ======");
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("CCVPPageTitle"));

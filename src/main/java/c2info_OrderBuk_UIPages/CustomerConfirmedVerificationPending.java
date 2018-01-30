@@ -93,7 +93,8 @@ public class CustomerConfirmedVerificationPending extends TestBase {
 		return ShippingAddress.getText();
 	}
 	
-	public void clickOnSubmitButton(){
+	public void clickOnSubmitButton() throws InterruptedException{
+		Thread.sleep(5000);
 		waitforPageToLoad();
 		SubmitBtn.click();
 	}

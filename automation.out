@@ -7626,3 +7626,35 @@
 2018-02-01 12:36:11 INFO  LoginPage:38 - Entering the Password :UAT00P
 2018-02-01 12:36:11 INFO  LoginPage:40 - Clicked on Login button
 2018-02-01 12:36:21 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-01 14:17:24 INFO  TC_010_VerifyBySelectingOnly1Item:25 - Initializing Setup
+2018-02-01 14:17:24 INFO  TC_010_VerifyBySelectingOnly1Item:26 - Initializing Setup
+2018-02-01 14:17:29 INFO  LoginPage:32 - Clearing the Username field
+2018-02-01 14:17:30 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-01 14:17:30 INFO  LoginPage:36 - Clearing the Password field
+2018-02-01 14:17:30 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-01 14:17:30 INFO  LoginPage:40 - Clicked on Login button
+2018-02-01 14:17:35 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-01 14:23:40 INFO  TC_010_VerifyBySelectingOnly1Item:25 - Initializing Setup
+2018-02-01 14:23:40 INFO  TC_010_VerifyBySelectingOnly1Item:26 - Initializing Setup
+2018-02-01 14:23:46 INFO  LoginPage:32 - Clearing the Username field
+2018-02-01 14:23:46 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-01 14:23:46 INFO  LoginPage:36 - Clearing the Password field
+2018-02-01 14:23:46 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-01 14:23:46 INFO  LoginPage:40 - Clicked on Login button
+2018-02-01 14:23:51 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-01 15:34:02 INFO  TC_010_VerifyBySelectingOnly1Item:25 - Initializing Setup
+2018-02-01 15:34:02 INFO  TC_010_VerifyBySelectingOnly1Item:26 - Initializing Setup
+2018-02-01 15:34:07 INFO  LoginPage:32 - Clearing the Username field
+2018-02-01 15:34:07 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-01 15:34:07 INFO  LoginPage:36 - Clearing the Password field
+2018-02-01 15:34:07 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-01 15:34:07 INFO  LoginPage:40 - Clicked on Login button
+2018-02-01 15:34:29 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-01 15:39:48 INFO  TC_010_VerifyBySelectingOnly1Item:25 - Initializing Setup
+2018-02-01 15:39:48 INFO  TC_010_VerifyBySelectingOnly1Item:26 - Initializing Setup
+2018-02-01 15:39:53 INFO  LoginPage:32 - Clearing the Username field
+2018-02-01 15:39:53 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-01 15:39:53 INFO  LoginPage:36 - Clearing the Password field
+2018-02-01 15:39:53 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-01 15:39:53 INFO  LoginPage:40 - Clicked on Login button
+2018-02-01 15:39:59 INFO  ToBeVerified:82 - Clicked on the first Order

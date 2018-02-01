@@ -259,7 +259,7 @@ public class OrderSentToServer extends TestBase{
 		
 		for(int i=1; i<=noOfTransactions; i++){
 			if(i==1){
-				String itemName = driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[1]/table/tbody/tr["+i+"]/td[1]")).getText();
+				String itemName = driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[1]/table/tbody/tr["+i+"]/td[1]")).getAttribute("value");
 				itemList.add(itemName);
 			}
 			else{

@@ -197,7 +197,8 @@ public class ReadyForOrder extends TestBase{
 			for(int i=0; i<itemlist.size(); i++){
 				driver.findElement(By.id("itemchk"+i+"")).click();
 			}
-			String itemName = driver.findElement(By.id("itemchk0")).getText();
+			String itemName = driver.findElement(By.id("01")).getText();
+			System.out.println();
 			driver.findElement(By.id("itemchk0")).click();
 			return itemName ;
 		}

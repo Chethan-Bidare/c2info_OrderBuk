@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse-1665438437\testng-customsuite.xml</span>
+                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse-1006004464\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -128,16 +128,16 @@
                   <a name="verifyBySelectingOnly1Item">
                   </a> <!-- verifyBySelectingOnly1Item -->
                   <span class="method-name">verifyBySelectingOnly1Item</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
   (Session info: chrome=64.0.3282.119)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.37 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Command duration or timeout: 197.93 seconds
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir22132_29274}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.119, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: efb2666c92f4ef5707c6f1bde2776f1c
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir22716_10588}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.119, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 6027f0deb1174966957ddf6e6863365b
+*** Element info: {Using=xpath, value=.//*[@id=&apos;wrapper&apos;]/div/div[1]/div/div/div/label}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -145,10 +145,15 @@ Session ID: efb2666c92f4ef5707c6f1bde2776f1c
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
-	at c2info_OrderBuk_UIPages.ReadyForOrder.selectOrder(ReadyForOrder.java:65)
-	at c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item.verifyBySelectingOnly1Item(TC_010_VerifyBySelectingOnly1Item.java:52)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at c2info_OrderBuk_UIPages.ReadyForOrder.getOrderIDFromRFOPage(ReadyForOrder.java:75)
+	at c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item.verifyBySelectingOnly1Item(TC_010_VerifyBySelectingOnly1Item.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -183,7 +188,7 @@ Session ID: efb2666c92f4ef5707c6f1bde2776f1c
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse-1665438437\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse-1006004464\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -236,12 +241,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyBySelectingOnly1Item')
 data.setCell(0, 2, 'c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item')
-data.setCell(0, 3, 114004);
+data.setCell(0, 3, 228590);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -274,21 +279,25 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item.verifyBySelectingOnly...)</span>
-                <span class="method-start">13488 ms</span>
+                <span class="method-start">14758 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyBySelectingOnly1Item</span>
-                <span class="method-start">13493 ms</span>
+                <span class="method-start">14763 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">afterMethod([TestResult name=verifyBySelectingOnly1Item status=FAILURE method=TC_010_VerifyBySelectingOnly1Item....)</span>
-                <span class="method-start">127500 ms</span>
+                <span class="method-start">243356 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">endTest</span>
-                <span class="method-start">127832 ms</span>
+                <span class="method-start">1272168 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

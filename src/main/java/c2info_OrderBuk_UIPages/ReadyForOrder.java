@@ -188,7 +188,20 @@ public class ReadyForOrder extends TestBase{
 		for(int i=0; i<itemlist.size(); i++){
 			driver.findElement(By.id("itemchk"+i+"")).click();
 		}
+		
 	}
+		
+		public String select1Item() {
+		
+			List<WebElement> itemlist = driver.findElements(By.xpath(".//*[@id='printTable']/tbody/tr"));
+			for(int i=0; i<itemlist.size(); i++){
+				driver.findElement(By.id("itemchk"+i+"")).click();
+			}
+			String itemName = driver.findElement(By.id("itemchk0")).getText();
+			driver.findElement(By.id("itemchk0")).click();
+			return itemName ;
+		}
+	
 	
 	
 	

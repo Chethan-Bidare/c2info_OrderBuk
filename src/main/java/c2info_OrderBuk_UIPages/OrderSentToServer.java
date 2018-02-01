@@ -161,7 +161,7 @@ public class OrderSentToServer extends TestBase{
 		for(double i : value){
 			sum +=i ;
 		}
-		return sum ;
+		return Math.round(sum) ;
 		
 	}
 	
@@ -253,7 +253,28 @@ public class OrderSentToServer extends TestBase{
 	}
 	
 	
-	
+	public ArrayList<String> getItemList() throws InterruptedException{
+		int noOfTransactions = driver.findElements(By.xpath(".//*[@class='panel panel-primary']")).size();
+		ArrayList<String> itemList = new ArrayList<String>();
+		
+		for(int i=1; i<=noOfTransactions; i++){
+			if(i==1){
+				String itemName = driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[1]/table/tbody/tr["+i+"]/td[1]")).getText();
+				itemList.add(itemName);
+			}
+			else{
+				driver.findElement(By.xpath(".//*[@id='accordion"+i+"']/div/div[1]")).click();
+				Thread.sleep(2000);
+				String itemName = driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[1]/table/tbody/tr["+i+"]/td[1]")).getText();
+				itemList.add(itemName);
+			}
+		}
+		for(String value : itemList){
+			System.out.println(value);			
+			
+        }
+		return itemList;
+	}
 	
 	
 	

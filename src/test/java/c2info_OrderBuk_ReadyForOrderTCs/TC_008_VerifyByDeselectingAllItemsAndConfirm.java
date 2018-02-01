@@ -36,6 +36,7 @@ public static final Logger log = Logger.getLogger(TC_007_VerifyReverifyButton.cl
 		tbv.selectAnOrder();
 		rfo.UncheckAllItems();
 		rfo.clickOnConfirmBtnInRFOpage();
+		Thread.sleep(30000);
 		Assert.assertEquals(getPageTitle(), APP.getProperty("ReadyforOrderPageTitleInside"));
 	}
 }

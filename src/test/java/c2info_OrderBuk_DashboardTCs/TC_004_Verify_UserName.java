@@ -29,6 +29,8 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 		loginpage.doLogin(OR.getProperty("UserName"), OR.getProperty("Password"));
 		Dashboard db = new Dashboard();
 		String ActualResult = db.getUserName();
-		Assert.assertEquals(ActualResult,"Welcome"+" "+OR.getProperty("UserName"));
+		String Expectedresult = "Welcome"+" "+OR.getProperty("UserName");
+		Expectedresult = Expectedresult.substring(6);
+		Assert.assertEquals(ActualResult,Expectedresult);
 	}
 }

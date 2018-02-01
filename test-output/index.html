@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse-1666112005\testng-customsuite.xml</span>
+                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse-1665438437\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV" hash-for-method="pushOrderToReadyForOrder">pushOrderToReadyForOrder</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item" hash-for-method="verifyBySelectingOnly1Item">verifyBySelectingOnly1Item</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,21 +120,35 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV</span>
+              <span class="class-name">c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="pushOrderToReadyForOrder">
-                  </a> <!-- pushOrderToReadyForOrder -->
-                  <span class="method-name">pushOrderToReadyForOrder</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [888.95] but found [875.0]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV.pushOrderToReadyForOrder(TC_001_VerifyOrderInConfirmedOrderFromTBV.java:79)
+                  <a name="verifyBySelectingOnly1Item">
+                  </a> <!-- verifyBySelectingOnly1Item -->
+                  <span class="method-name">verifyBySelectingOnly1Item</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=64.0.3282.119)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.37 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\User1\AppData\Local\Temp\scoped_dir22132_29274}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.119, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: efb2666c92f4ef5707c6f1bde2776f1c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)
+	at c2info_OrderBuk_UIPages.ReadyForOrder.selectOrder(ReadyForOrder.java:65)
+	at c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item.verifyBySelectingOnly1Item(TC_010_VerifyBySelectingOnly1Item.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,7 +183,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse-1666112005\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse-1665438437\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -178,7 +192,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV&quot;/&gt;
+      &lt;class name=&quot;c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -220,14 +234,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'pushOrderToReadyForOrder')
-data.setCell(0, 2, 'c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV')
-data.setCell(0, 3, 186619);
+data.setCell(0, 1, 'verifyBySelectingOnly1Item')
+data.setCell(0, 2, 'c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item')
+data.setCell(0, 3, 114004);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -253,28 +267,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void c2info_OrderBuk_IntegrationSuiteTCs.TC_001_VerifyOrderInConfirmedOrderFromTBV.pushOrderT...)</span>
-                <span class="method-start">13033 ms</span>
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_ReadyForOrderTCs.TC_010_VerifyBySelectingOnly1Item.verifyBySelectingOnly...)</span>
+                <span class="method-start">13488 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">pushOrderToReadyForOrder</span>
-                <span class="method-start">13038 ms</span>
+                <span class="method-name">verifyBySelectingOnly1Item</span>
+                <span class="method-start">13493 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=pushOrderToReadyForOrder status=FAILURE method=TC_001_VerifyOrderInConfirmedOrderFr...)</span>
-                <span class="method-start">199660 ms</span>
+                <span class="method-name">afterMethod([TestResult name=verifyBySelectingOnly1Item status=FAILURE method=TC_010_VerifyBySelectingOnly1Item....)</span>
+                <span class="method-start">127500 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">200024 ms</span>
+                <span class="method-start">127832 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

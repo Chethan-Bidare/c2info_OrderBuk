@@ -1,6 +1,7 @@
 package c2info_OrderBuk_IntegrationSuiteTCs;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -29,7 +30,7 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyValuesFromRFOtoOr
 	}
 	
 	@Test(priority=0)
-	public void verifyGrandTotalValues() throws InterruptedException{
+	public HashMap<String,Double> verifyGrandTotalValues() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		ReadyForOrder rfo = new ReadyForOrder();
@@ -50,14 +51,20 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyValuesFromRFOtoOr
 		tbv.select100Orders();
 		rfo.selectOrder(orderID);
 		Thread.sleep(5000);
+		HashMap<String, Double> valuesInOC = new HashMap<String, Double>();
 		double actualGrandTotal = oc.getGrandSubTotalInOCpage();
+		valuesInOC.put("grandTotalInOC", actualGrandTotal);
 		double actualSubtotal = oc.getGrandSubTotalInOCpage();
+		valuesInOC.put("subTotalInOC", actualSubtotal);
 		double actualDiscount = oc.getDiscountValueInOCpage();
+		valuesInOC.put("discInOC", actualDiscount);
 		double actualDelCharges = oc.getDeliveryValueInOCpage();
+		valuesInOC.put("deliveryInOC", actualDelCharges);
 		Assert.assertEquals(actualGrandTotal, expectedGrandTotal);
 		Assert.assertEquals(actualSubtotal, expectedSubTotal);
 		Assert.assertEquals(actualDiscount, expectedDiscount);
 		Assert.assertEquals(actualDelCharges, expectedDeliveryCharges);
+		return valuesInOC ;
 	}
 	
 

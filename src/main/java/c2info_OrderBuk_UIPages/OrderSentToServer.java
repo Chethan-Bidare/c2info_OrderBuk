@@ -265,7 +265,7 @@ public class OrderSentToServer extends TestBase{
 			else{
 				driver.findElement(By.xpath(".//*[@id='accordion"+i+"']/div/div[1]")).click();
 				Thread.sleep(2000);
-				String itemName = driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[1]/table/tbody/tr["+i+"]/td[1]")).getText();
+				String itemName = driver.findElement(By.xpath(".//*[@id='collapse"+i+"']/div/div[1]/table/tbody/tr["+i+"]/td[1]")).getAttribute("value");
 				itemList.add(itemName);
 			}
 		}

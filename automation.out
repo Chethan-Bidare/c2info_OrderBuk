@@ -7658,3 +7658,82 @@
 2018-02-01 15:39:53 INFO  LoginPage:38 - Entering the Password :UAT00P
 2018-02-01 15:39:53 INFO  LoginPage:40 - Clicked on Login button
 2018-02-01 15:39:59 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 20:05:54 INFO  TC_010_VerifyBySelectingOnly1Item:25 - Initializing Setup
+2018-02-04 20:05:54 INFO  TC_010_VerifyBySelectingOnly1Item:26 - Initializing Setup
+2018-02-04 20:05:59 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 20:05:59 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 20:05:59 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 20:05:59 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 20:06:00 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 20:06:05 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 21:10:36 INFO  TC_010_VerifyBySelectingOnly1Item:26 - Initializing Setup
+2018-02-04 21:10:36 INFO  TC_010_VerifyBySelectingOnly1Item:27 - Initializing Setup
+2018-02-04 21:10:41 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 21:10:42 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 21:10:42 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 21:10:42 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 21:10:42 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 21:10:49 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 21:19:37 INFO  TC_010_VerifyBySelectingOnly1Item:23 - Initializing Setup
+2018-02-04 21:19:37 INFO  TC_010_VerifyBySelectingOnly1Item:24 - Initializing Setup
+2018-02-04 21:19:42 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 21:19:43 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 21:19:43 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 21:19:43 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 21:19:43 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 21:19:50 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 21:26:41 INFO  TC_010_VerifyBySelectingOnly1Item:23 - Initializing Setup
+2018-02-04 21:26:41 INFO  TC_010_VerifyBySelectingOnly1Item:24 - Initializing Setup
+2018-02-04 21:26:46 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 21:26:47 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 21:26:47 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 21:26:47 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 21:26:47 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 21:26:54 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 22:09:27 INFO  TC_010_VerifyBySelectingOnly1Item:23 - Initializing Setup
+2018-02-04 22:09:27 INFO  TC_010_VerifyBySelectingOnly1Item:24 - Initializing Setup
+2018-02-04 22:09:32 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 22:09:33 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 22:09:33 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 22:09:33 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 22:09:33 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 22:14:07 INFO  TC_010_VerifyBySelectingOnly1Item:23 - Initializing Setup
+2018-02-04 22:14:07 INFO  TC_010_VerifyBySelectingOnly1Item:24 - Initializing Setup
+2018-02-04 22:14:12 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 22:14:13 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 22:14:13 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 22:14:13 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 22:14:13 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 22:14:21 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 22:35:09 INFO  TC_009_VerifyByAddingItemsInRFO:25 - Initializing Setup
+2018-02-04 22:35:09 INFO  TC_009_VerifyByAddingItemsInRFO:26 - Initializing Setup
+2018-02-04 22:35:14 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 22:35:14 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 22:35:15 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 22:35:15 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 22:35:15 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 22:35:22 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 22:36:58 INFO  TC_009_VerifyByAddingItemsInRFO:25 - Initializing Setup
+2018-02-04 22:36:58 INFO  TC_009_VerifyByAddingItemsInRFO:26 - Initializing Setup
+2018-02-04 22:37:04 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 22:37:04 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 22:37:04 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 22:37:05 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 22:37:05 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 22:37:13 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 22:43:17 INFO  TC_002_AddItemsInRFOandVerifyInOrderConfirmed:25 - Initializing Setup
+2018-02-04 22:43:17 INFO  TC_002_AddItemsInRFOandVerifyInOrderConfirmed:26 - Initializing Setup
+2018-02-04 22:43:22 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 22:43:23 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 22:43:23 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 22:43:23 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 22:43:23 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 22:43:30 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-04 23:24:19 INFO  TC_003_VerifyValuesFromRFOtoOrderConfirmedPage:24 - Initializing Setup
+2018-02-04 23:24:19 INFO  TC_003_VerifyValuesFromRFOtoOrderConfirmedPage:25 - Initializing Setup
+2018-02-04 23:24:24 INFO  LoginPage:32 - Clearing the Username field
+2018-02-04 23:24:24 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-04 23:24:24 INFO  LoginPage:36 - Clearing the Password field
+2018-02-04 23:24:25 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-04 23:24:25 INFO  LoginPage:40 - Clicked on Login button
+2018-02-04 23:24:31 INFO  ToBeVerified:82 - Clicked on the first Order

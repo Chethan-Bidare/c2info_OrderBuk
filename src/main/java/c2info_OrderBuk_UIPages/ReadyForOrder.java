@@ -55,6 +55,9 @@ public class ReadyForOrder extends TestBase{
 	@FindBy(id="btncancel")
 	WebElement ordercancelbtn ;
 	
+	@FindBy(id="ll")
+	WebElement itemSearch ;
+	
 	public ReadyForOrder(){
 		PageFactory.initElements(driver, this);
 	}
@@ -64,7 +67,7 @@ public class ReadyForOrder extends TestBase{
 		for(WebElement we : orderIDs){
 			if(we.getText().equals(OrderID)){
 				we.click();
-				
+				break ;
 			}
 			
 		}
@@ -178,8 +181,11 @@ public class ReadyForOrder extends TestBase{
 		Searchbox.sendKeys(OrderID);
 	}
 	
-	public void enterSearchdata(String ItemName){
-		
+	public void enterItemNameInSearch(String ItemName) throws InterruptedException{
+		itemSearch.clear();
+		itemSearch.sendKeys(ItemName);
+		Thread.sleep(6000);
+		SelectItemNameFromAutoSuggestionSearch(ItemName);
 	}
 	
 	public void UncheckAllItems() throws InterruptedException{

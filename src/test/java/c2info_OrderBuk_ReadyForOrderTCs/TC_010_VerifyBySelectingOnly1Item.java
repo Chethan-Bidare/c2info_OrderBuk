@@ -1,8 +1,6 @@
 package c2info_OrderBuk_ReadyForOrderTCs;
 
 import java.io.IOException;
-import java.util.ArrayList;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -11,7 +9,7 @@ import org.testng.annotations.Test;
 import c2info_OrderBuk_TestBase.TestBase;
 import c2info_OrderBuk_UIPages.Dashboard;
 import c2info_OrderBuk_UIPages.LoginPage;
-import c2info_OrderBuk_UIPages.OrderSentToServer;
+import c2info_OrderBuk_UIPages.OrderConfirmed;
 import c2info_OrderBuk_UIPages.ReadyForOrder;
 import c2info_OrderBuk_UIPages.ToBeVerified;
 
@@ -34,26 +32,22 @@ public static final Logger log = Logger.getLogger(TC_010_VerifyBySelectingOnly1I
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		ReadyForOrder rfo = new ReadyForOrder();
-		OrderSentToServer oss = new OrderSentToServer();
-		
+		OrderConfirmed oc = new OrderConfirmed();
 		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));
 		tbv.select100Orders();
 		tbv.selectAnOrder();
 		Thread.sleep(3000);
-		
 		String orderID = rfo.getOrderIDFromRFOPage();
 		String itemName = rfo.select1Item();
-		System.out.println("item name = "+itemName);
 		rfo.clickOnConfirmBtnInRFOpage();
 		db.clickOnDashboardinMenu();
-		Thread.sleep(65000);
-		db.clickOnDashboardinMenu();
-		db.selectBucket(APP.getProperty("OrderSentToServerPageTitle"));
+		db.selectBucket(APP.getProperty("OrderConfirmedPageTitle"));
 		tbv.select100Orders();
 		rfo.selectOrder(orderID);
-		Thread.sleep(10000);
-		ArrayList<String> itemNames = oss.getItemList();
-		Assert.assertTrue(itemNames.contains(itemName)==true);
+		Thread.sleep(5000);
+		String itemNameFoundInConfirmedOrder = oc.getItemList().get(0); 
+		//Dolo 650mg Tab
+		Assert.assertTrue(itemNameFoundInConfirmedOrder.equalsIgnoreCase(itemName)==true);
 		
 		
 	}

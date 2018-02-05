@@ -1,6 +1,7 @@
 package c2info_OrderBuk_UIPages;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -186,6 +187,39 @@ public class OrderConfirmed extends TestBase{
 			
         }
 		return itemList;
+	}
+	
+	public HashMap<String,Integer> getItemNamesWithQty() throws InterruptedException{
+		
+		int noOfTransactions = driver.findElements(By.xpath(".//*[@class='panel panel-primary']")).size();
+		HashMap<String,Integer> itemNamesWithQty = new HashMap<String, Integer>();
+		for(int i=0; i<noOfTransactions;i++){
+			int tablesize=driver.findElements(By.xpath(".//*[@id='DataTables_Table_"+i+"']/tbody/tr")).size();
+			for(int j=1; j<=tablesize; j++)
+			if(i==0){
+				String itemName = driver.findElement(By.xpath(".//*[@id='DataTables_Table_"+i+"']/tbody/tr["+j+"]/td[1]")).getText();
+				String qty = driver.findElement(By.xpath(".//*[@id='DataTables_Table_"+i+"']/tbody/tr["+j+"]/td[3]")).getText();
+				int quantity = Integer.parseInt(qty);
+				itemNamesWithQty.put(itemName, quantity);
+			}
+			else{
+				List<WebElement> noOfTrans = driver.findElements(By.xpath(".//*[@id='accordion']/div/div[1]"));
+				WebElement temp = noOfTrans.get(i);
+				temp.click();
+				Thread.sleep(2000);
+				String itemName = driver.findElement(By.xpath(".//*[@id='DataTables_Table_"+i+"']/tbody/tr["+j+"]/td[1]")).getText();
+				String qty = driver.findElement(By.xpath(".//*[@id='DataTables_Table_"+i+"']/tbody/tr["+j+"]/td[3]")).getText();
+				int quantity = Integer.parseInt(qty);
+				itemNamesWithQty.put(itemName, quantity);
+			}
+		}
+		for(String val :itemNamesWithQty.keySet()){
+			
+			String key = val.toString();
+			int value = itemNamesWithQty.get(val);
+			System.out.println("Key -"+key +"----- Value-"+value);
+		}
+		return itemNamesWithQty;
 	}
 	
 	

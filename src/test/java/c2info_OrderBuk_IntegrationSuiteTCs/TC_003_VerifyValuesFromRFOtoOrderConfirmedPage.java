@@ -1,9 +1,6 @@
 package c2info_OrderBuk_IntegrationSuiteTCs;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

@@ -1,6 +1,7 @@
 package c2info_OrderBuk_UIPages;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -207,6 +208,25 @@ public class ReadyForOrder extends TestBase{
 			System.out.println();
 			driver.findElement(By.id("itemchk0")).click();
 			return itemName ;
+		}
+		
+		public HashMap<String, Integer> getItemNamesAndQtyInRFO(){
+			List<WebElement> itemlist = driver.findElements(By.xpath(".//*[@id='printTable']/tbody/tr"));
+			HashMap<String, Integer> itemNameAndQty = new HashMap<String, Integer>();
+			for(int i=0;i<itemlist.size(); i++){
+				String key = driver.findElement(By.xpath(".//*[@id='"+i+"1']")).getText();
+				String val = driver.findElement(By.xpath(".//*[@id='qty"+i+"']")).getAttribute("value");
+				int value = Integer.parseInt(val);
+				itemNameAndQty.put(key, value);
+			}
+			for(String check : itemNameAndQty.keySet()){
+				String key = check.toString();
+				int val = itemNameAndQty.get(check);
+				System.out.println("Key ="+key);
+				System.out.println("Value ="+val);
+			}
+			
+			return itemNameAndQty ;
 		}
 	
 	

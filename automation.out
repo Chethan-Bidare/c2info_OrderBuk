@@ -7778,3 +7778,32 @@
 2018-02-05 12:37:05 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
 2018-02-05 12:37:05 INFO  DigitizePage:137 - Clearing the text field for Night dosage
 2018-02-05 12:37:05 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-02-05 16:20:36 INFO  TC_004_VerifyItemNamesAndQtyFromRFOtoOC:25 - Initializing Setup
+2018-02-05 16:20:41 INFO  LoginPage:32 - Clearing the Username field
+2018-02-05 16:20:41 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-05 16:20:41 INFO  LoginPage:36 - Clearing the Password field
+2018-02-05 16:20:41 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-05 16:20:41 INFO  LoginPage:40 - Clicked on Login button
+2018-02-05 16:20:46 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-05 16:54:16 INFO  TC_004_VerifyItemNamesAndQtyFromRFOtoOC:25 - Initializing Setup
+2018-02-05 16:54:21 INFO  LoginPage:32 - Clearing the Username field
+2018-02-05 16:54:21 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-05 16:54:21 INFO  LoginPage:36 - Clearing the Password field
+2018-02-05 16:54:21 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-05 16:54:21 INFO  LoginPage:40 - Clicked on Login button
+2018-02-05 16:54:27 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-05 17:21:48 INFO  TC_004_VerifyItemNamesAndQtyFromRFOtoOC:25 - Initializing Setup
+2018-02-05 17:21:54 INFO  LoginPage:32 - Clearing the Username field
+2018-02-05 17:21:54 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-05 17:21:54 INFO  LoginPage:36 - Clearing the Password field
+2018-02-05 17:21:54 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-05 17:21:54 INFO  LoginPage:40 - Clicked on Login button
+2018-02-05 17:21:59 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-05 17:28:25 INFO  TC_004_VerifyItemNamesAndQtyFromRFOtoOC:25 - Initializing Setup
+2018-02-05 17:28:30 INFO  LoginPage:32 - Clearing the Username field
+2018-02-05 17:28:30 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-02-05 17:28:30 INFO  LoginPage:36 - Clearing the Password field
+2018-02-05 17:28:30 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-02-05 17:28:30 INFO  LoginPage:40 - Clicked on Login button
+2018-02-05 17:28:36 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-02-05 17:28:57 INFO  ToBeVerified:82 - Clicked on the first Order

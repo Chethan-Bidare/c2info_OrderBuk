@@ -66,7 +66,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyOrderInConfirmedO
 		
 		double expectedTotal = rfo.getGrandTotal();
 		rfo.clickOnConfirmBtnInRFOpage();
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		db.clickOnDashboardinMenu();
 		Thread.sleep(65000);
 		db.selectBucket(APP.getProperty("OrderSentToServerPageTitle"));

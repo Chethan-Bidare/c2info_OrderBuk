@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_IntegrationSuiteTCs.TC_003_VerifyValuesFromRFOtoOrderConfirmedPage">
+      <class name="c2info_OrderBuk_IntegrationSuiteTCs.TC_004_VerifyItemNamesAndQtyFromRFOtoOC">
         <methods>
+          <include name="verifyItemNamesAndQtyFromRFOtoOC"/>
           <include name="setup"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="verifyGrandTotalValues"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_IntegrationSuiteTCs.TC_003_VerifyValuesFromRFOtoOrderConfirmedPage -->
+      </class> <!-- c2info_OrderBuk_IntegrationSuiteTCs.TC_004_VerifyItemNamesAndQtyFromRFOtoOC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

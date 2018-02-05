@@ -131,9 +131,11 @@ public class ToBeVerified extends TestBase{
 			String getOrderID = driver.findElement(By.xpath(".//*[@id='bootstrap-table']/tbody/tr["+i+"]/td[1]")).getText();
 			if(getOrderID.equalsIgnoreCase(orderID)){
 				driver.findElement(By.xpath(".//*[@id='bootstrap-table']/tbody/tr["+i+"]/td[1]")).click();
+				break ;
 			}
 		}
 	}
+
 	
 }
 

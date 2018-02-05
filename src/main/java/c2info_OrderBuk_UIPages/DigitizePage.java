@@ -110,7 +110,7 @@ public class DigitizePage extends TestBase{
 	
 	public ArrayList<String> getItemNames(){
 		ArrayList<String> ItemNames = new ArrayList<String>();
-		ItemNames.add("Crocin Advance 500mg Tab");
+		ItemNames.add("Ranolaz 500mg Tab");
 		ItemNames.add("Dolo 650mg Tab");
 		ItemNames.add("Woodwards Gripe Water 130ml");
 		ItemNames.add("Rantac 300mg Tab");

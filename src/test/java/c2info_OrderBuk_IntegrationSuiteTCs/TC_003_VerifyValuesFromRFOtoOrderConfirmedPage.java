@@ -1,6 +1,7 @@
 package c2info_OrderBuk_IntegrationSuiteTCs;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import org.apache.log4j.Logger;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 
 import c2info_OrderBuk_TestBase.TestBase;
 import c2info_OrderBuk_UIPages.Dashboard;
+import c2info_OrderBuk_UIPages.DigitizePage;
 import c2info_OrderBuk_UIPages.LoginPage;
 import c2info_OrderBuk_UIPages.OrderConfirmed;
 import c2info_OrderBuk_UIPages.ReadyForOrder;
@@ -30,18 +32,31 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyValuesFromRFOtoOr
 	}
 	
 	@Test(priority=0)
-	public HashMap<String,Double> verifyGrandTotalValues() throws InterruptedException{
+	public void verifyGrandTotalValues() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();
 		ReadyForOrder rfo = new ReadyForOrder();
 		OrderConfirmed oc = new OrderConfirmed();
+		DigitizePage dp = new DigitizePage();
 		
-		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));
+		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));
 		tbv.select100Orders();
 		tbv.selectAnOrder();
-		Thread.sleep(3000);
+		tbv.makeOrderValid();
+		dp.addPatientDetails(APP.getProperty("CustomerName"),APP.getProperty("DoctorName"));
+		String orderid = dp.getOrderIDFromDigitizePage();
+		//ArrayList<String> expectedItemNames = dp.getItemNames();
+		dp.addItemsAndDosage();
+		dp.clickOnSubmit();
+		db.clickOnDashboardinMenu();
+		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));
+		tbv.select100Orders();
+		rfo.selectOrder(orderid);
+		Thread.sleep(5000);
+		
 		String orderID = rfo.getOrderIDFromRFOPage();
 		double expectedGrandTotal = rfo.getGrandTotal();
+		expectedGrandTotal = Math.round(expectedGrandTotal);
 		double expectedSubTotal = rfo.getSubTotal();
 		double expectedDiscount = rfo.getDiscount();
 		double expectedDeliveryCharges = rfo.getDeliverycharge();
@@ -51,20 +66,15 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyValuesFromRFOtoOr
 		tbv.select100Orders();
 		rfo.selectOrder(orderID);
 		Thread.sleep(5000);
-		HashMap<String, Double> valuesInOC = new HashMap<String, Double>();
 		double actualGrandTotal = oc.getGrandSubTotalInOCpage();
-		valuesInOC.put("grandTotalInOC", actualGrandTotal);
 		double actualSubtotal = oc.getGrandSubTotalInOCpage();
-		valuesInOC.put("subTotalInOC", actualSubtotal);
 		double actualDiscount = oc.getDiscountValueInOCpage();
-		valuesInOC.put("discInOC", actualDiscount);
 		double actualDelCharges = oc.getDeliveryValueInOCpage();
-		valuesInOC.put("deliveryInOC", actualDelCharges);
 		Assert.assertEquals(actualGrandTotal, expectedGrandTotal);
 		Assert.assertEquals(actualSubtotal, expectedSubTotal);
 		Assert.assertEquals(actualDiscount, expectedDiscount);
 		Assert.assertEquals(actualDelCharges, expectedDeliveryCharges);
-		return valuesInOC ;
+		
 	}
 	
 

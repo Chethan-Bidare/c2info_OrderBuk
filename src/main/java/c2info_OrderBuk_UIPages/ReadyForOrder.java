@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.internal.WebElementToJsonConverter;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -90,6 +92,7 @@ public class ReadyForOrder extends TestBase{
 		for(int i=1; i<=itemlist.size(); i++){
 			String temp = driver.findElement(By.xpath(".//*[@id='printTable']/tbody/tr["+i+"]/td[2]")).getText();
 			ItemNames.add(temp);
+			
 		}
 		return ItemNames ;
 	}
@@ -214,10 +217,28 @@ public class ReadyForOrder extends TestBase{
 			List<WebElement> itemlist = driver.findElements(By.xpath(".//*[@id='printTable']/tbody/tr"));
 			HashMap<String, Integer> itemNameAndQty = new HashMap<String, Integer>();
 			for(int i=0;i<itemlist.size(); i++){
-				String key = driver.findElement(By.xpath(".//*[@id='"+i+"1']")).getText();
-				String val = driver.findElement(By.xpath(".//*[@id='qty"+i+"']")).getAttribute("value");
-				int value = Integer.parseInt(val);
-				itemNameAndQty.put(key, value);
+				String val;
+				try {
+					String key = driver.findElement(By.xpath(".//*[@id='"+i+"1']")).getText();
+					val = driver.findElement(By.xpath(".//*[@id='qty"+i+"']")).getAttribute("value");
+					int value = Integer.parseInt(val);
+					itemNameAndQty.put(key, value);
+				} 
+				catch(NoSuchElementException e){
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				try {
+					String tempKey = driver.findElement(By.xpath(".//*[@id='+i+']/td[2]")).getText();
+					String tempval = driver.findElement(By.xpath(".//*[@id='qty"+i+"']")).getAttribute("value");
+					int tempvalue = Integer.parseInt(tempval);
+					itemNameAndQty.put(tempKey, tempvalue);
+				} catch (NoSuchElementException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
 			}
 			for(String check : itemNameAndQty.keySet()){
 				String key = check.toString();
@@ -229,7 +250,27 @@ public class ReadyForOrder extends TestBase{
 			return itemNameAndQty ;
 		}
 	
-	
+		public int getNoOfItems(){
+			List<WebElement> itemlist = driver.findElements(By.xpath(".//*[@id='printTable']/tbody/tr"));
+			int noOfItems = itemlist.size();
+			return noOfItems ;
+		}
+		
+		public void increaseQtyForAddedItem() throws InterruptedException{
+			int noOfItems = getNoOfItems();
+			driver.findElement(By.xpath(".//*[@id='"+noOfItems+"3']/a[2]")).click();
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(".//*[@id='"+noOfItems+"3']/a[2]")).click();
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(".//*[@id='"+noOfItems+"3']/a[2]")).click();
+			Thread.sleep(2000);
+		}
+		
+		public int getItemQty(String itemName){
+			HashMap<String,Integer> itemlist = getItemNamesAndQtyInRFO();
+			int qty = itemlist.get(itemName);
+			return qty;
+		}
 	
 	
 	

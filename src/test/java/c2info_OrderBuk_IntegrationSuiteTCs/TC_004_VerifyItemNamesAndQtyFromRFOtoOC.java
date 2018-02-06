@@ -37,17 +37,30 @@ public class TC_004_VerifyItemNamesAndQtyFromRFOtoOC extends TestBase{
 				OrderConfirmed oc = new OrderConfirmed();
 				DigitizePage dp = new DigitizePage();
 				
-				db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));
+				db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));
 				tbv.select100Orders();
 				tbv.selectAnOrder();
+				tbv.makeOrderValid();
+				dp.addPatientDetails(APP.getProperty("CustomerName"),APP.getProperty("DoctorName"));
+				String orderid = dp.getOrderIDFromDigitizePage();
+				//ArrayList<String> expectedItemNames = dp.getItemNames();
+				dp.addItemsAndDosage();
+				dp.clickOnSubmit();
+				db.clickOnDashboardinMenu();
+				db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));
+				tbv.select100Orders();
+				rfo.selectOrder(orderid);
 				Thread.sleep(3000);
 				HashMap<String, Integer> expectedItemAndQty = rfo.getItemNamesAndQtyInRFO();
+				rfo.clickOnConfirmBtnInRFOpage();
+				Thread.sleep(5000);
 				db.clickOnDashboardinMenu();
 				db.selectBucket(APP.getProperty("OrderConfirmedPageTitle"));
 				db.select100Orders();
-				tbv.selectAnOrder();
+				rfo.selectOrder(orderid);
 				Thread.sleep(5000);
 				HashMap<String, Integer> actualItemsAndQty = oc.getItemNamesWithQty();
+				Assert.assertTrue(actualItemsAndQty.equals(expectedItemAndQty)==true);
 				
 			}
     

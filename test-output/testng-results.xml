@@ -1,33 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="462952" started-at="2018-02-06T11:41:41Z" finished-at="2018-02-06T11:49:24Z">
+  <suite name="Default suite" duration-ms="237874" started-at="2018-02-07T08:23:18Z" finished-at="2018-02-07T08:27:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="462952" started-at="2018-02-06T11:41:41Z" finished-at="2018-02-06T11:49:24Z">
-      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage@61009542]" name="setup" is-config="true" duration-ms="13520" started-at="2018-02-06T17:11:41Z" finished-at="2018-02-06T17:11:55Z">
+    <test name="Default test" duration-ms="237874" started-at="2018-02-07T08:23:18Z" finished-at="2018-02-07T08:27:15Z">
+      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown">
+        <test-method status="PASS" signature="setup()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="setup" is-config="true" duration-ms="19280" started-at="2018-02-07T13:53:18Z" finished-at="2018-02-07T13:53:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage@61009542]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2018-02-06T17:11:55Z" finished-at="2018-02-06T17:11:55Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-02-07T13:53:37Z" finished-at="2018-02-07T13:53:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage.verifyQtyIncrease() throws java.lang.InterruptedException]]>
+                <![CDATA[public void c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeCard() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verifyQtyIncrease()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage@61009542]" name="verifyQtyIncrease" duration-ms="448454" started-at="2018-02-06T17:11:55Z" finished-at="2018-02-06T17:19:23Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="PASS" signature="verifyPaymentModeCard()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="verifyPaymentModeCard" duration-ms="35257" started-at="2018-02-07T13:53:37Z" finished-at="2018-02-07T13:54:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentModeCard -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-07T13:54:12Z" finished-at="2018-02-07T13:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaymentModeCard status=SUCCESS method=TC_013_VerifyPaymentDropdown.verifyPaymentModeCard()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-02-07T13:54:12Z" finished-at="2018-02-07T13:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeCash() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyPaymentModeCash()[pri:1, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="verifyPaymentModeCash" duration-ms="43962" started-at="2018-02-07T13:54:12Z" finished-at="2018-02-07T13:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentModeCash -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-07T13:54:56Z" finished-at="2018-02-07T13:54:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaymentModeCash status=SUCCESS method=TC_013_VerifyPaymentDropdown.verifyPaymentModeCash()[pri:1, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="verifyPaymentModeOnline()[pri:2, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="verifyPaymentModeOnline" duration-ms="138703" started-at="2018-02-07T13:54:56Z" finished-at="2018-02-07T13:57:15Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Online Payment
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at c2info_OrderBuk_UIPages.ReadyForOrder.getItemQty(ReadyForOrder.java:271)
-	at c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage.verifyQtyIncrease(TC_011_VerifyNewItemQtyIsIncreasedInRFOPage.java:42)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Online Payment
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ChethanBidare-pc', ip: '172.16.18.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at c2info_OrderBuk_UIPages.ReadyForOrder.selectPaymentTypeDropdown(ReadyForOrder.java:284)
+	at c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeOnline(TC_013_VerifyPaymentDropdown.java:92)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,26 +108,37 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyQtyIncrease -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage@61009542]" name="afterMethod" is-config="true" duration-ms="657" started-at="2018-02-06T17:19:23Z" finished-at="2018-02-06T17:19:24Z">
+        </test-method> <!-- verifyPaymentModeOnline -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-07T13:54:56Z" finished-at="2018-02-07T13:54:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQtyIncrease status=FAILURE method=TC_011_VerifyNewItemQtyIsIncreasedInRFOPage.verifyQtyIncrease()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage@61009542] output={null}]]]>
+                <![CDATA[public void c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeOnline() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="afterMethod" is-config="true" duration-ms="345" started-at="2018-02-07T13:57:15Z" finished-at="2018-02-07T13:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaymentModeOnline status=FAILURE method=TC_013_VerifyPaymentDropdown.verifyPaymentModeOnline()[pri:2, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage@61009542]" name="endTest" is-config="true" duration-ms="300" started-at="2018-02-06T17:19:24Z" finished-at="2018-02-06T17:19:24Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown@61009542]" name="endTest" is-config="true" duration-ms="297" started-at="2018-02-07T13:57:15Z" finished-at="2018-02-07T13:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_011_VerifyNewItemQtyIsIncreasedInRFOPage -->
+      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

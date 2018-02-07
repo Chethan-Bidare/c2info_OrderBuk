@@ -5,11 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.internal.WebElementToJsonConverter;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import c2info_OrderBuk_TestBase.TestBase;
@@ -60,6 +59,12 @@ public class ReadyForOrder extends TestBase{
 	
 	@FindBy(id="ll")
 	WebElement itemSearch ;
+	
+	@FindBy(id="delivery")
+	WebElement deliveryDropdown ;
+	
+	@FindBy(id="payment")
+	WebElement paymentDropdown ;
 	
 	public ReadyForOrder(){
 		PageFactory.initElements(driver, this);
@@ -188,7 +193,7 @@ public class ReadyForOrder extends TestBase{
 	public void enterItemNameInSearch(String ItemName) throws InterruptedException{
 		itemSearch.clear();
 		itemSearch.sendKeys(ItemName);
-		Thread.sleep(6000);
+		Thread.sleep(10000);
 		SelectItemNameFromAutoSuggestionSearch(ItemName);
 	}
 	
@@ -213,32 +218,17 @@ public class ReadyForOrder extends TestBase{
 			return itemName ;
 		}
 		
-		public HashMap<String, Integer> getItemNamesAndQtyInRFO(){
+		public HashMap<String,Integer> getItemNamesAndQtyInRFO(){
 			List<WebElement> itemlist = driver.findElements(By.xpath(".//*[@id='printTable']/tbody/tr"));
 			HashMap<String, Integer> itemNameAndQty = new HashMap<String, Integer>();
 			for(int i=0;i<itemlist.size(); i++){
 				String val;
-				try {
+				
 					String key = driver.findElement(By.xpath(".//*[@id='"+i+"1']")).getText();
 					val = driver.findElement(By.xpath(".//*[@id='qty"+i+"']")).getAttribute("value");
 					int value = Integer.parseInt(val);
-					itemNameAndQty.put(key, value);
-				} 
-				catch(NoSuchElementException e){
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				
-				try {
-					String tempKey = driver.findElement(By.xpath(".//*[@id='+i+']/td[2]")).getText();
-					String tempval = driver.findElement(By.xpath(".//*[@id='qty"+i+"']")).getAttribute("value");
-					int tempvalue = Integer.parseInt(tempval);
-					itemNameAndQty.put(tempKey, tempvalue);
-				} catch (NoSuchElementException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				
+					itemNameAndQty.put(key, value);		
+					
 			}
 			for(String check : itemNameAndQty.keySet()){
 				String key = check.toString();
@@ -257,13 +247,13 @@ public class ReadyForOrder extends TestBase{
 		}
 		
 		public void increaseQtyForAddedItem() throws InterruptedException{
-			int noOfItems = getNoOfItems();
+			int noOfItems = getNoOfItems() - 1 ;
 			driver.findElement(By.xpath(".//*[@id='"+noOfItems+"3']/a[2]")).click();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			driver.findElement(By.xpath(".//*[@id='"+noOfItems+"3']/a[2]")).click();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			driver.findElement(By.xpath(".//*[@id='"+noOfItems+"3']/a[2]")).click();
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 		}
 		
 		public int getItemQty(String itemName){
@@ -271,10 +261,30 @@ public class ReadyForOrder extends TestBase{
 			int qty = itemlist.get(itemName);
 			return qty;
 		}
+		
+	/*	public HashMap<String, Integer> getItemListAfterAddingItems(){
+			HashMap<String, Integer> itemList = getItemNamesAndQtyInRFO();
+			int noOfItems = getNoOfItems();
+			String tempKey = driver.findElement(By.xpath(".//*[@id='"+noOfItems+"']/td[2]")).getText();
+			String tempval = driver.findElement(By.xpath(".//*[@id='qty"+noOfItems+"']")).getAttribute("value");
+			int tempvalue = Integer.parseInt(tempval);
+			itemList.put(tempKey, tempvalue);
+			return itemList ;
+			
+		}
+	*/
 	
-	
-	
-	
+		public void selectDeliveryTypeDropdown(String deliveryType){
+			Select select = new Select(deliveryDropdown);
+			select.selectByVisibleText(deliveryType);
+		}
+		
+		public void selectPaymentTypeDropdown(String paymentType){
+			Select select = new Select(paymentDropdown);
+			select.selectByVisibleText(paymentType);
+		}
+		
+		
 	
 	
 	

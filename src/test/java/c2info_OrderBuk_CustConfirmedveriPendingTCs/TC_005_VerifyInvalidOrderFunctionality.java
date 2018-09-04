@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_005_VerifyInvalidOrderFunct
 		
 	}
 	
-	@Test
+	@Test(priority=48)
 	public void verifyCancelButtonFunctionality() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("CCVPPageTitle"));

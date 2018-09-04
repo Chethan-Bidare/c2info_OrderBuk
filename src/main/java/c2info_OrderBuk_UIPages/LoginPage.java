@@ -22,6 +22,9 @@ public class LoginPage extends TestBase{
 	@FindBy(name="login-button")
 	WebElement LoginBtn ;
 	
+	@FindBy(xpath=".//*[@id='login-form']/div[2]/div/p")
+	WebElement errorMsg ;
+	
 	public LoginPage(){
 		PageFactory.initElements(driver, this);
 	}
@@ -40,5 +43,9 @@ public class LoginPage extends TestBase{
 		log.info("Clicked on Login button");
 		waitforPageToLoad();
 		
+	}
+	
+	public String getInvalidUserNameOrPwdMSG(){
+		return errorMsg.getText();
 	}
 }

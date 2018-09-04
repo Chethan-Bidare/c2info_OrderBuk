@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_007_VerifyGrandTotal.class.
 		
 	}
 	
-	@Test
+	@Test(priority=68)
 	public void verifySumOfSubTotalsWithGrandSubTotal() throws InterruptedException{
 		log.info("======= TC_007_VerifyGrandTotal Test Started ======");
 		Dashboard db = new Dashboard();

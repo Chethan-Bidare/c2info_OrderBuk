@@ -26,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_007_VerifySubmitByAddingIte
 		
 	}
 	
-	@Test
+	@Test(priority=50)
 	public void verifySubmitOrderFunctionality() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("CCVPPageTitle"));

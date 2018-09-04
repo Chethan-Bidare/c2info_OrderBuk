@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyValidButton.class
 		
 	}
 	
-	@Test
+	@Test(priority=42)
 	public void verifyValidButtonInPrescriptionPage() throws InterruptedException{
 		log.info("======= TC_002_VerifyValidButton Test Started ======");
 		Dashboard db = new Dashboard();

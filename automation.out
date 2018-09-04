@@ -8049,3 +8049,584 @@
 2018-02-07 13:53:42 INFO  ToBeVerified:82 - Clicked on the first Order
 2018-02-07 13:54:25 INFO  ToBeVerified:82 - Clicked on the first Order
 2018-02-07 13:55:09 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:47:43 INFO  TC_001_LoginTestWithValidData:20 - Initializing Setup
+2018-09-03 10:47:43 INFO  TC_001_LoginTestWithValidData:26 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-03 10:47:49 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:47:49 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:47:49 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:47:49 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:47:49 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:48:05 INFO  TC_001_VerifyAllBucketLinks:21 - Initializing Setup
+2018-09-03 10:48:05 INFO  TC_001_VerifyAllBucketLinks:28 - ======= TC_001_VerifyAllBucketLinks Test Started ======
+2018-09-03 10:48:10 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:48:10 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:48:11 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:48:11 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:48:11 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:48:16 INFO  Dashboard:82 - Getting the count of bucket links : 17
+2018-09-03 10:48:16 INFO  Dashboard:84 - Storing the webelements of all the buckets into a list
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:16 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:82 - Getting the count of bucket links : 17
+2018-09-03 10:48:21 INFO  Dashboard:84 - Storing the webelements of all the buckets into a list
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:21 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:48:22 INFO  Dashboard:99 - Clicking on the bucket named :To Be Verified
+2018-09-03 10:48:22 INFO  Dashboard:101 - Storing the page title of the bucket :To Be Verified
+2018-09-03 10:48:24 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:25 INFO  Dashboard:99 - Clicking on the bucket named :Customer Confirmed Verification Pending
+2018-09-03 10:48:25 INFO  Dashboard:101 - Storing the page title of the bucket :Customer Confirmed Verification Pending
+2018-09-03 10:48:27 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:27 INFO  Dashboard:99 - Clicking on the bucket named :Customer Confirmed Put On Hold
+2018-09-03 10:48:27 INFO  Dashboard:101 - Storing the page title of the bucket :Customer Confirmed Put On Hold
+2018-09-03 10:48:29 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:30 INFO  Dashboard:99 - Clicking on the bucket named :No Price Put On Hold
+2018-09-03 10:48:30 INFO  Dashboard:101 - Storing the page title of the bucket :No Price Put On Hold
+2018-09-03 10:48:32 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:33 INFO  Dashboard:99 - Clicking on the bucket named :New Item Put On Hold
+2018-09-03 10:48:33 INFO  Dashboard:101 - Storing the page title of the bucket :New Item Put On Hold
+2018-09-03 10:48:34 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:35 INFO  Dashboard:99 - Clicking on the bucket named :Ready For Order
+2018-09-03 10:48:35 INFO  Dashboard:101 - Storing the page title of the bucket :Ready For Order
+2018-09-03 10:48:37 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:38 INFO  Dashboard:99 - Clicking on the bucket named :Order Confirmed
+2018-09-03 10:48:38 INFO  Dashboard:101 - Storing the page title of the bucket :Order Confirmed
+2018-09-03 10:48:39 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:41 INFO  Dashboard:99 - Clicking on the bucket named :Order Sent To Server
+2018-09-03 10:48:41 INFO  Dashboard:101 - Storing the page title of the bucket :Order Sent To Server
+2018-09-03 10:48:42 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:43 INFO  Dashboard:99 - Clicking on the bucket named :Order Put On Hold
+2018-09-03 10:48:43 INFO  Dashboard:101 - Storing the page title of the bucket :Order Put On Hold
+2018-09-03 10:48:45 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:46 INFO  Dashboard:99 - Clicking on the bucket named :Order Invoiced
+2018-09-03 10:48:46 INFO  Dashboard:101 - Storing the page title of the bucket :Order Invoiced
+2018-09-03 10:48:47 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:48 INFO  Dashboard:99 - Clicking on the bucket named :In Transit
+2018-09-03 10:48:48 INFO  Dashboard:101 - Storing the page title of the bucket :In Transit
+2018-09-03 10:48:50 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:51 INFO  Dashboard:99 - Clicking on the bucket named :Order Delivered
+2018-09-03 10:48:51 INFO  Dashboard:101 - Storing the page title of the bucket :Order Delivered
+2018-09-03 10:48:52 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:53 INFO  Dashboard:99 - Clicking on the bucket named :Order Returned
+2018-09-03 10:48:53 INFO  Dashboard:101 - Storing the page title of the bucket :Order Returned
+2018-09-03 10:48:55 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:56 INFO  Dashboard:99 - Clicking on the bucket named :Support Cancelled
+2018-09-03 10:48:56 INFO  Dashboard:101 - Storing the page title of the bucket :Support Cancelled
+2018-09-03 10:48:57 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:48:58 INFO  Dashboard:99 - Clicking on the bucket named :Customer Cancelled
+2018-09-03 10:48:58 INFO  Dashboard:101 - Storing the page title of the bucket :Customer Cancelled
+2018-09-03 10:49:00 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:49:01 INFO  Dashboard:99 - Clicking on the bucket named :Order Closed
+2018-09-03 10:49:01 INFO  Dashboard:101 - Storing the page title of the bucket :Order Closed
+2018-09-03 10:49:02 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:49:06 INFO  Dashboard:99 - Clicking on the bucket named :Order Query
+2018-09-03 10:49:06 INFO  Dashboard:101 - Storing the page title of the bucket :Order Query
+2018-09-03 10:49:07 INFO  Dashboard:104 - Navigating back to dashboard
+2018-09-03 10:49:07 INFO  TC_001_VerifyAllBucketLinks:40 - Page Title verification failed for : To Be Verified
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Customer Confirmed Verification Pending
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:40 - Page Title verification failed for : Customer Confirmed Put On Hold
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : No Price Put On Hold
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : New Item Put On Hold
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Ready For Order
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Confirmed
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:40 - Page Title verification failed for : Order Sent To Server
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Put On Hold
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Invoiced
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : In Transit
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Delivered
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Returned
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Support Cancelled
+2018-09-03 10:49:08 INFO  TC_001_VerifyAllBucketLinks:40 - Page Title verification failed for : Customer Cancelled
+2018-09-03 10:49:09 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Closed
+2018-09-03 10:49:09 INFO  TC_001_VerifyAllBucketLinks:38 - Page Title Verified successfully for : Order Query
+2018-09-03 10:49:09 INFO  TC_001_VerifyAllBucketLinks:45 - ======= TC_001_VerifyAllBucketLinks Finished ======
+2018-09-03 10:49:15 INFO  TC_002_VerifyOrderCountInEachbucket:23 - Initializing Setup
+2018-09-03 10:49:15 INFO  TC_002_VerifyOrderCountInEachbucket:29 - ======= TC_002_VerifyOrderCountInEachbucket Test Started ======
+2018-09-03 10:49:20 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:49:20 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:49:20 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:49:20 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:49:20 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:49:30 INFO  Dashboard:82 - Getting the count of bucket links : 17
+2018-09-03 10:49:31 INFO  Dashboard:84 - Storing the webelements of all the buckets into a list
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:88 - Storing the text of all the links into an arraylist
+2018-09-03 10:49:31 INFO  Dashboard:116 - Storing the webelements of all the buckets into a list
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 122
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 193
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 1
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 2
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 2
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 1
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 27
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 675
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 58
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 90
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 0
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 60
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 0
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 114
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 115
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 31
+2018-09-03 10:49:31 INFO  Dashboard:128 - Adding the values to an array : 0
+2018-09-03 10:49:33 INFO  ToBeVerified:74 - Order Count :70
+2018-09-03 10:49:39 INFO  TC_003_VerifyLogOut:20 - Initializing Setup
+2018-09-03 10:49:39 INFO  TC_003_VerifyLogOut:26 - ======= TC_003_VerifyLogOut Test Started ======
+2018-09-03 10:49:45 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:49:45 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:49:45 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:49:45 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:49:45 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:50:52 INFO  Dashboard:138 - Clicked on LogOut Proxy element for: DefaultElementLocator 'By.xpath: .//*[@class='fa fa-sign-out']'
+2018-09-03 10:50:58 INFO  TC_004_Verify_UserName:21 - Initializing Setup
+2018-09-03 10:50:58 INFO  TC_004_Verify_UserName:27 - ======= TC_003_VerifyLogOut Test Started ======
+2018-09-03 10:51:04 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:51:04 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:51:04 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:51:04 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:51:04 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:51:16 INFO  TC_004_Verify_UserName:20 - Initializing Setup
+2018-09-03 10:51:21 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:51:21 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:51:21 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:51:22 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:51:22 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:51:46 INFO  TC_001_VerifyInvalidOrder:23 - Initializing Setup
+2018-09-03 10:51:51 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:51:51 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:51:51 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:51:51 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:51:51 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:51:58 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:52:05 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 10:52:17 INFO  TC_002_VerifyImageExistance:22 - Initializing Setup
+2018-09-03 10:52:22 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:52:22 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:52:22 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:52:22 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:52:22 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:52:22 INFO  TC_002_VerifyImageExistance:30 - ======= TC_002_VerifyImageExistanceInPrescriptionPage Test Started ======
+2018-09-03 10:52:30 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:52:41 INFO  TC_002_VerifyImageExistance:42 - ======= TC_002_VerifyImageExistanceInPrescriptionPage Test Started ======
+2018-09-03 10:53:47 INFO  TC_003_VerifyValidButton:21 - Initializing Setup
+2018-09-03 10:53:52 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:53:52 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:53:52 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:53:53 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:53:53 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:53:53 INFO  TC_003_VerifyValidButton:29 - ======= TC_003_VerifyValidButton Test Started ======
+2018-09-03 10:53:59 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:54:06 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 10:54:13 INFO  TC_004_VerifyInvalidButton:21 - Initializing Setup
+2018-09-03 10:54:18 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:54:18 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:54:18 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:54:18 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:54:18 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:54:18 INFO  TC_004_VerifyInvalidButton:29 - ======= TC_004_VerifyInvalidButton Test Started ======
+2018-09-03 10:54:25 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:54:30 INFO  ToBeVerified:89 - Clicked on Invalid Button
+2018-09-03 10:54:30 INFO  ToBeVerified:92 - Clicked on Submit Button
+2018-09-03 10:54:39 INFO  TC_005_VerifySubmitButtonInDigitizePage:24 - Initializing Setup
+2018-09-03 10:54:44 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:54:44 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:54:44 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:54:44 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:54:44 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:54:51 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:54:58 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 10:55:05 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:55:05 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:55:05 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:55:05 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:05 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:55:05 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:12 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:55:12 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:55:12 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:55:12 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:12 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:55:12 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:19 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:55:19 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:55:19 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:55:19 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:19 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:55:19 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:25 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:55:25 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:55:25 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:55:26 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:26 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:55:26 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:55:39 INFO  TC_006_VerifyOnSubmitReadyForOrder:25 - Initializing Setup
+2018-09-03 10:55:44 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:55:44 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:55:44 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:55:44 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:55:44 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:55:50 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:55:57 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 10:56:04 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:56:04 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:56:04 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:56:04 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:04 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:56:04 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:11 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:56:11 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:56:11 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:56:11 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:11 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:56:11 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:18 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:56:18 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:56:18 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:56:18 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:18 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:56:18 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:24 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:56:25 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:56:25 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:56:25 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:25 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:56:25 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:56:56 INFO  TC_001_VerifyItemsAddedFromTBV:25 - Initializing Setup
+2018-09-03 10:57:01 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:57:01 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:57:01 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:57:01 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:57:02 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:57:07 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:57:14 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 10:57:21 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:57:21 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:57:21 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:57:21 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:57:21 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:57:22 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:57:28 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:57:28 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:57:28 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:57:28 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:57:28 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:57:28 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:57:35 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:57:35 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:57:35 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:57:35 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:57:35 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:57:35 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:57:42 INFO  DigitizePage:129 - Clearing the text field for Morning dosage
+2018-09-03 10:57:42 INFO  DigitizePage:131 - Entering the Qty for Morning dosage
+2018-09-03 10:57:42 INFO  DigitizePage:133 - Clearing the text field for Afternoon dosage
+2018-09-03 10:57:42 INFO  DigitizePage:135 - Entering the Qty for Afternoon dosage
+2018-09-03 10:57:42 INFO  DigitizePage:137 - Clearing the text field for Night dosage
+2018-09-03 10:57:42 INFO  DigitizePage:139 - Entering the Qty for Afternoon dosage
+2018-09-03 10:59:13 INFO  TC_002_VerifyDetailsExistence:23 - Initializing Setup
+2018-09-03 10:59:19 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:59:19 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:59:19 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:59:19 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:59:19 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:59:19 INFO  TC_002_VerifyDetailsExistence:31 - ======= verifyOrderIDIsNotNull Test Started ======
+2018-09-03 10:59:25 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 10:59:30 INFO  TC_002_VerifyDetailsExistence:45 - ======= verifyCustomerNameIsNotNull Test Started ======
+2018-09-03 10:59:31 INFO  TC_002_VerifyDetailsExistence:55 - ======= verifyCustomerNumberIsNotNull Test Started ======
+2018-09-03 10:59:37 INFO  TC_003_VerifySubTotalwithItemWiseAmt:22 - Initializing Setup
+2018-09-03 10:59:42 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 10:59:42 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 10:59:42 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 10:59:42 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 10:59:42 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 10:59:50 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:00:07 INFO  TC_004_VerifyGrandTotalAmt:23 - Initializing Setup
+2018-09-03 11:00:12 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:00:12 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:00:12 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:00:12 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:00:12 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:00:19 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:00:42 INFO  TC_005_VerifyConfirmBtn:24 - Initializing Setup
+2018-09-03 11:00:47 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:00:47 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:00:48 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:00:48 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:00:48 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:00:54 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:01:25 INFO  TC_006_VerifyCancelButton:24 - Initializing Setup
+2018-09-03 11:01:30 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:01:31 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:01:31 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:01:31 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:01:31 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:01:37 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:02:05 INFO  TC_007_VerifyReverifyButton:24 - Initializing Setup
+2018-09-03 11:02:10 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:02:10 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:02:10 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:02:10 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:02:10 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:02:16 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:03:27 INFO  TC_007_VerifyReverifyButton:23 - Initializing Setup
+2018-09-03 11:03:33 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:03:33 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:03:33 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:03:33 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:03:33 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:03:39 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:04:29 INFO  TC_001_VerifyImageExistance:22 - Initializing Setup
+2018-09-03 11:04:34 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:04:34 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:04:34 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:04:35 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:04:35 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:04:35 INFO  TC_001_VerifyImageExistance:30 - ======= TC_001_VerifyImageExistanceInPrescriptionPage Test Started ======
+2018-09-03 11:04:41 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:04:52 INFO  TC_001_VerifyImageExistance:42 - ======= TC_002_VerifyImageExistanceInDigitizePage Test Started ======
+2018-09-03 11:04:54 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 11:05:07 INFO  TC_002_VerifyValidButton:24 - Initializing Setup
+2018-09-03 11:05:12 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:05:12 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:05:12 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:05:12 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:05:12 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:05:12 INFO  TC_002_VerifyValidButton:32 - ======= TC_002_VerifyValidButton Test Started ======
+2018-09-03 11:05:19 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:05:27 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 11:05:34 INFO  TC_003_VerifyInvalidButton:22 - Initializing Setup
+2018-09-03 11:05:39 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:05:39 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:05:39 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:05:39 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:05:39 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:05:39 INFO  TC_003_VerifyInvalidButton:30 - ======= TC_003_VerifyInvalidButton Test Started ======
+2018-09-03 11:05:45 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:05:50 INFO  ToBeVerified:89 - Clicked on Invalid Button
+2018-09-03 11:05:51 INFO  ToBeVerified:92 - Clicked on Submit Button
+2018-09-03 11:05:59 INFO  TC_004_VerifyCustomerDetailsExistence:23 - Initializing Setup
+2018-09-03 11:06:05 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:06:05 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:06:05 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:06:05 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:06:05 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:06:12 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:06:25 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 11:06:33 INFO  TC_005_VerifyInvalidOrderFunctionality:24 - Initializing Setup
+2018-09-03 11:06:38 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:06:39 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:06:39 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:06:39 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:06:39 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:06:46 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:07:12 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 11:07:40 INFO  TC_005_VerifyInvalidOrderFunctionality:25 - Initializing Setup
+2018-09-03 11:07:45 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:07:45 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:07:45 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:07:45 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:07:46 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:07:53 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:08:01 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 11:11:14 INFO  TC_007_VerifySubmitByAddingItems:23 - Initializing Setup
+2018-09-03 11:11:19 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:11:19 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:11:19 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:11:19 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:11:19 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:11:26 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:11:34 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 11:13:50 INFO  TC_008_VerifyNewItemRequestFunctionality:24 - Initializing Setup
+2018-09-03 11:13:55 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:13:55 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:13:55 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:13:55 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:13:55 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:14:01 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:14:10 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-03 11:14:42 INFO  TC_009_VerifyNewItemRequestSuccessMsg:24 - Initializing Setup
+2018-09-03 11:14:47 INFO  LoginPage:32 - Clearing the Username field
+2018-09-03 11:14:47 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-03 11:14:47 INFO  LoginPage:36 - Clearing the Password field
+2018-09-03 11:14:47 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-03 11:14:47 INFO  LoginPage:40 - Clicked on Login button
+2018-09-03 11:14:53 INFO  ToBeVerified:82 - Clicked on the first Order
+2018-09-03 11:15:01 INFO  ToBeVerified:97 - Clicked on Valid Button
+2018-09-04 09:48:53 INFO  TC_004_Verify_UserName:21 - Initializing Setup
+2018-09-04 09:48:53 INFO  TC_004_Verify_UserName:26 - ======= TC_003_VerifyLogOut Test Started ======
+2018-09-04 09:48:59 INFO  LoginPage:32 - Clearing the Username field
+2018-09-04 09:48:59 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-04 09:48:59 INFO  LoginPage:36 - Clearing the Password field
+2018-09-04 09:48:59 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-04 09:48:59 INFO  LoginPage:40 - Clicked on Login button
+2018-09-04 09:51:00 INFO  TC_004_Verify_UserName:21 - Initializing Setup
+2018-09-04 09:51:00 INFO  TC_004_Verify_UserName:26 - ======= TC_003_VerifyLogOut Test Started ======
+2018-09-04 09:51:05 INFO  LoginPage:32 - Clearing the Username field
+2018-09-04 09:51:05 INFO  LoginPage:34 - Entering the Username :UAT00PUAT00P
+2018-09-04 09:51:05 INFO  LoginPage:36 - Clearing the Password field
+2018-09-04 09:51:05 INFO  LoginPage:38 - Entering the Password :UAT00P
+2018-09-04 09:51:05 INFO  LoginPage:40 - Clicked on Login button
+2018-09-04 10:34:10 INFO  TC_001_LoginTestWithValidData:23 - Initializing Setup
+2018-09-04 10:34:15 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:34:15 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:34:15 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:34:15 INFO  LoginPage:41 - Entering the Password :pwd
+2018-09-04 10:34:15 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:34:21 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:34:22 INFO  LoginPage:37 - Entering the Username :Chethan Bidare
+2018-09-04 10:34:22 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:34:22 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:34:22 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:34:22 INFO  TC_001_LoginTestWithValidData:29 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-04 10:34:27 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:34:27 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:34:27 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:34:27 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:34:27 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:39:26 INFO  TC_001_LoginTestWithValidData:24 - Initializing Setup
+2018-09-04 10:39:31 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:39:31 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:39:31 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:39:31 INFO  LoginPage:41 - Entering the Password :pwd
+2018-09-04 10:39:31 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:40:37 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:40:37 INFO  LoginPage:37 - Entering the Username :Chethan Bidare
+2018-09-04 10:40:37 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:40:37 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:40:37 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:40:37 INFO  TC_001_LoginTestWithValidData:30 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-04 10:40:42 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:40:42 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:40:42 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:40:42 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:40:42 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:50:11 INFO  TC_001_LoginTestWithValidData:24 - Initializing Setup
+2018-09-04 10:50:16 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:50:17 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:50:17 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:50:17 INFO  LoginPage:41 - Entering the Password :pwd
+2018-09-04 10:50:17 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:51:22 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:51:22 INFO  LoginPage:37 - Entering the Username :Chethan Bidare
+2018-09-04 10:51:22 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:51:22 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:51:22 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:51:23 INFO  TC_001_LoginTestWithValidData:30 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-04 10:51:28 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:51:28 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:51:28 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:51:28 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:51:28 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:52:53 INFO  TC_001_LoginTestWithValidData:24 - Initializing Setup
+2018-09-04 10:52:58 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:52:58 INFO  LoginPage:37 - Entering the Username :Chethan Bidare
+2018-09-04 10:52:58 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:52:58 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:52:58 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:54:04 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:54:04 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:54:04 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:54:04 INFO  LoginPage:41 - Entering the Password :pwd
+2018-09-04 10:54:04 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:54:04 INFO  TC_001_LoginTestWithValidData:30 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-04 10:54:09 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:54:10 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:54:10 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:54:10 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:54:10 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:55:10 INFO  TC_001_LoginTestWithValidData:24 - Initializing Setup
+2018-09-04 10:55:15 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:55:15 INFO  LoginPage:37 - Entering the Username :Chethan Bidare
+2018-09-04 10:55:15 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:55:15 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:55:15 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:55:22 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:55:22 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:55:22 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:55:22 INFO  LoginPage:41 - Entering the Password :pwd
+2018-09-04 10:55:22 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 10:55:23 INFO  TC_001_LoginTestWithValidData:30 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-04 10:55:28 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 10:55:28 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 10:55:28 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 10:55:28 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 10:55:28 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 11:10:53 INFO  TC_001_LoginTestWithValidData:24 - Initializing Setup
+2018-09-04 11:10:59 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 11:10:59 INFO  LoginPage:37 - Entering the Username :Chethan Bidare
+2018-09-04 11:10:59 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 11:10:59 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 11:10:59 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 11:11:05 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 11:11:05 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 11:11:05 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 11:11:05 INFO  LoginPage:41 - Entering the Password :pwd
+2018-09-04 11:11:05 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 11:11:06 INFO  TC_001_LoginTestWithValidData:30 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-04 11:11:11 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 11:11:11 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 11:11:11 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 11:11:11 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 11:11:11 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 11:15:32 INFO  TC_001_LoginTestWithValidData:24 - Initializing Setup
+2018-09-04 11:15:37 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 11:15:38 INFO  LoginPage:37 - Entering the Username :Chethan Bidare
+2018-09-04 11:15:38 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 11:15:38 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 11:15:38 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 11:15:46 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 11:15:46 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 11:15:46 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 11:15:46 INFO  LoginPage:41 - Entering the Password :pwd
+2018-09-04 11:15:46 INFO  LoginPage:43 - Clicked on Login button
+2018-09-04 11:15:46 INFO  TC_001_LoginTestWithValidData:30 - ======= TC_001_LoginTestWithValidData Test Started ======
+2018-09-04 11:15:51 INFO  LoginPage:35 - Clearing the Username field
+2018-09-04 11:15:51 INFO  LoginPage:37 - Entering the Username :UAT00PUAT00P
+2018-09-04 11:15:51 INFO  LoginPage:39 - Clearing the Password field
+2018-09-04 11:15:51 INFO  LoginPage:41 - Entering the Password :UAT00P
+2018-09-04 11:15:52 INFO  LoginPage:43 - Clicked on Login button

@@ -5,12 +5,19 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.http.HttpRequest;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
@@ -27,6 +34,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import com.gargoylesoftware.htmlunit.javascript.host.fetch.Response;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -59,7 +67,7 @@ public class TestBase {
 	
 	static{
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
+		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_YYYY_HH_mm_ss");
 		extent = new ExtentReports(System.getProperty("user.dir")+"//src//main//java//c2info_OrderBuk_Reports//"+formatter.format(calendar.getTime())+".html",false);
 	}
 	
@@ -84,17 +92,25 @@ public class TestBase {
 	}
 	
 	public void selectBrowser(String BrowserName){
-		if(BrowserName.equalsIgnoreCase("firefox")){
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
-			driver = new FirefoxDriver();
-			waitForElementToLoad();
-		
-		}
-		else if(BrowserName.equalsIgnoreCase("chrome")){
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
-			driver = new ChromeDriver();
-			waitForElementToLoad();
+		try {
+			if(BrowserName.equalsIgnoreCase("firefox")){
+				System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
+				driver = new FirefoxDriver();
+				waitForElementToLoad();
 			
+			}
+			else if(BrowserName.equalsIgnoreCase("chrome")){
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+				driver = new ChromeDriver();
+				waitForElementToLoad();
+				
+			}
+			else{
+				throw new Exception("Unknown Broswer Name specified or No Broswer Name specified");
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.getMessage();
 		}
 	}
 	
@@ -135,7 +151,7 @@ public class TestBase {
 	public String getScreenshot(String methodName){
 		
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formatter = new SimpleDateFormat("DD_MM_YYYY_HH_MM_SS");
+		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_YYYY_HH_mm_ss");
 		
 		try {
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -168,8 +184,13 @@ public class TestBase {
 	}
 	
 	public void select100Orders(){
-		Select select = new Select(driver.findElement(By.name("bootstrap-table_length")));
-		select.selectByIndex(3);
+		try {
+			Select select = new Select(driver.findElement(By.name("bootstrap-table_length")));
+			select.selectByIndex(3);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	
@@ -187,8 +208,45 @@ public class TestBase {
 		
 	}
 	
+	public void getBrokenLinks(){
+		List<WebElement> list = driver.findElements(By.tagName("a"));
+		System.out.println("total number of links : "+list.size());
+		ArrayList<String> links = new ArrayList<String>();
+		for(WebElement we : list){
+			if(we!=null){
+				String url = we.getAttribute("href");
+				if(url!=null && ! url.contains("javascript")){
+					verifyURLStatus(url);
+				}
+				else{
+					
+				}
+			}
+		}
+	}
 	
-	public void getResult(ITestResult Result){
+	public void verifyURLStatus(String url){
+		HttpClient client = HttpClientBuilder.create().build();
+		HttpGet request = new HttpGet(url);
+		try {
+			HttpResponse repsonse = client.execute(request);
+			if(repsonse.getStatusLine().getStatusCode()==200){
+				System.out.println("Valid Link : "+url);
+			}
+			else{
+				System.out.println("Invalid Link : "+url);
+			}
+		} catch (ClientProtocolException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+	public void getResult(ITestResult Result) throws Exception{
 		if(Result.getStatus()==ITestResult.SUCCESS){
 			Test.log(LogStatus.PASS, Result.getName()+" Test is Passed");
 		}
@@ -202,6 +260,9 @@ public class TestBase {
 		else if(Result.getStatus()==ITestResult.STARTED){
 			Test.log(LogStatus.INFO, Result.getName()+" Test is Started");
 		}
+		else{
+			throw new Exception(Result.getStatus() +"is undefined status");
+		}
 	}
 	
 	
@@ -214,7 +275,7 @@ public class TestBase {
 	}
 	
 	@AfterMethod()
-	public void afterMethod(ITestResult Result){
+	public void afterMethod(ITestResult Result) throws Exception{
 		getResult(Result);
 	}
 	@AfterClass(alwaysRun=true)

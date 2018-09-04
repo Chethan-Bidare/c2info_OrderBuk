@@ -26,7 +26,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=53)
 	public void verifyOrderIDIsNotNull() throws InterruptedException{
 		log.info("======= verifyOrderIDIsNotNull Test Started ======");
 		Dashboard db = new Dashboard();
@@ -41,7 +41,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(orderID,"null");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=54)
 	public void verifyCustomerNameIsNotNull(){
 		log.info("======= verifyCustomerNameIsNotNull Test Started ======");
 		OrderSentToServer oss = new OrderSentToServer();
@@ -51,7 +51,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(custName,"null");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=55)
 	public void verifyCustomerNumIsNotNull(){
 		log.info("======= verifyCustomerNumIsNotNull Test Started ======");
 		OrderSentToServer oss = new OrderSentToServer();
@@ -61,7 +61,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(custNum,"null");
 	}
 	
-	@Test(priority=3)
+	@Test(priority=56)
 	public void verifyHeaderAmtIsNotNull(){
 		log.info("======= verifyHeaderAmtIsNotNull Test Started ======");
 		OrderSentToServer oss = new OrderSentToServer();
@@ -71,7 +71,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(headerAmt,"null");
 	}
 	
-	@Test(priority=4)
+	@Test(priority=57)
 	public void verifyHeaderMOPIsNotNull(){
 		log.info("======= verifyHeaderMOPIsNotNull Test Started ======");
 		OrderSentToServer oss = new OrderSentToServer();
@@ -81,7 +81,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(headerMOP,"null");
 	}
 	
-	@Test(priority=5)
+	@Test(priority=58)
 	public void verifyHeaderModeOfDeliveryIsNotNull(){
 		log.info("======= verifyHeaderModeOfDeliveryIsNotNull Test Started ======");
 		OrderSentToServer oss = new OrderSentToServer();
@@ -91,7 +91,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(headerMOD,"null");
 	}
 	
-	@Test(priority=6)
+	@Test(priority=59)
 	public void verifyShippingAddressIsNotNull(){
 		log.info("======= verifyShippingAddressIsNotNull Test Started ======");
 		OrderSentToServer oss = new OrderSentToServer();
@@ -101,7 +101,7 @@ public class TC_001_VerifyDetailsExistance extends TestBase{
 		Assert.assertNotEquals(shippingAddress,"null");
 	}
 	
-	@Test(priority=7)
+	@Test(priority=60)
 	public void verifyBillingAddressIsNotNull(){
 		log.info("======= verifyBillingAddressIsNotNull Test Started ======");
 		OrderSentToServer oss = new OrderSentToServer();

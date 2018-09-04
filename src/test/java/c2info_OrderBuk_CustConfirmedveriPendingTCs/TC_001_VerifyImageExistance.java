@@ -25,7 +25,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyImageExistance.cl
 		
 	}
 
-	@Test(priority=0)
+	@Test(priority=40)
 	public void verifyImageInPrescriptionPage() throws InterruptedException{
 		log.info("======= TC_001_VerifyImageExistanceInPrescriptionPage Test Started ======");
 		Dashboard db = new Dashboard();
@@ -37,7 +37,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyImageExistance.cl
 		Assert.assertTrue(Result==true);
 	}
 	
-	@Test(priority=1)
+	@Test(priority=41)
 	public void verifyImageInDigitizePage() throws InterruptedException{
 		log.info("======= TC_002_VerifyImageExistanceInDigitizePage Test Started ======");	
 		ToBeVerified tbv = new ToBeVerified();

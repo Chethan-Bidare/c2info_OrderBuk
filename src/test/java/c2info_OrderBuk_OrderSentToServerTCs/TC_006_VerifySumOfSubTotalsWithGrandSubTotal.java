@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_006_VerifySumOfSubTotalsWit
 		
 	}
 	
-	@Test
+	@Test(priority=67)
 	public void verifySumOfSubTotalsWithGrandSubTotal() throws InterruptedException{
 		log.info("======= TC_006_VerifySumOfSubTotalsWithGrandSubTotal Test Started ======");
 		Dashboard db = new Dashboard();
@@ -41,7 +41,6 @@ public static final Logger log = Logger.getLogger(TC_006_VerifySumOfSubTotalsWit
 		double calculatedSubTotal = oss.getCalculatedTotalOfEachSubTotal();
 		double actualSubTotal = oss.getGrandSubTotal();
 		Assert.assertEquals(calculatedSubTotal, actualSubTotal);
-		
-		
+				
 	}
 }

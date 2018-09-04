@@ -28,7 +28,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyItemsAddedFromTBV
 		
 	}
 	
-	@Test
+	@Test(priority=22)
 	public void verifyItemsAddedInTBV() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));

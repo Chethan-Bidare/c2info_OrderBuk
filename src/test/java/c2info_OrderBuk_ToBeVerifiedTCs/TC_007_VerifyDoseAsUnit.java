@@ -22,7 +22,7 @@ public static final Logger log = Logger.getLogger(TC_007_VerifyDoseAsUnit.class.
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void verifyDosage(){
 		
 	}

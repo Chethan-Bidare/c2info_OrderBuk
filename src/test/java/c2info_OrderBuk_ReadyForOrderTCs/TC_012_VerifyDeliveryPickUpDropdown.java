@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_012_VerifyDeliveryPickUpDro
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=35)
 	public void verifyDeliveryChargesForPickUp() throws InterruptedException{
 		ReadyForOrder rfo = new ReadyForOrder();
 		Dashboard db = new Dashboard();
@@ -43,7 +43,7 @@ public static final Logger log = Logger.getLogger(TC_012_VerifyDeliveryPickUpDro
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=36)
 	public void verifyDeliveryChargesForDelivery() throws InterruptedException{
 		ReadyForOrder rfo = new ReadyForOrder();
 		

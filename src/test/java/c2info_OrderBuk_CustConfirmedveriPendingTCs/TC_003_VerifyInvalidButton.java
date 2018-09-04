@@ -25,7 +25,7 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyInvalidButton.cla
 		
 	}
 	
-	@Test
+	@Test(priority=43)
 	public void verifyInvalidButton() throws InterruptedException{
 		log.info("======= TC_003_VerifyInvalidButton Test Started ======");
 		Dashboard db = new Dashboard();

@@ -21,7 +21,7 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyLogOut.class.getN
 		
 	}
 	
-	@Test
+	@Test(priority=4)
 	public void verifyLogoutInDashboard() throws InterruptedException{
 		log.info("======= TC_003_VerifyLogOut Test Started ======");
 		LoginPage loginpage = new LoginPage();

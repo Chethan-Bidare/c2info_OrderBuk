@@ -24,7 +24,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyOrderCountInEachb
 		
 	}
 	
-	@Test
+	@Test(priority=3, enabled=false)
 	public void verifyOrderCountToBeVerified() throws InterruptedException{
 		log.info("======= TC_002_VerifyOrderCountInEachbucket Test Started ======");
 		LoginPage loginpage = new LoginPage();

@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyViewPrescriptionB
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=61)
 	public void verifyPrescriptionButton() throws InterruptedException{
 		log.info("======= TC_002_VerifyViewPrescriptionButton Test Started ======");
 		Dashboard db = new Dashboard();
@@ -42,7 +42,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyViewPrescriptionB
 		Assert.assertEquals(pagetitle, "View Prescription popup");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=62)
 	public void verifyImageExistanceinPrescPopUp(){
 		log.info("======= TC_002_VerifyViewPrescriptionButton Test Started ======");
 		NewItemPutOnHold nph = new NewItemPutOnHold();

@@ -26,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyDetailsExistence.
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=23)
 	public void verifyOrderIDIsNotNull() throws InterruptedException{
 		log.info("======= verifyOrderIDIsNotNull Test Started ======");
 		Dashboard db = new Dashboard();
@@ -40,7 +40,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyDetailsExistence.
 		Assert.assertNotEquals(orderID,"null");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=24)
 	public void verifyCustomerNameIsNotNull(){
 		log.info("======= verifyCustomerNameIsNotNull Test Started ======");
 		ReadyForOrder rfo = new ReadyForOrder();
@@ -50,7 +50,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyDetailsExistence.
 		Assert.assertNotEquals(custName,"null");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=25)
 	public void verifyCustomerNumberIsNotNull(){
 		log.info("======= verifyCustomerNumberIsNotNull Test Started ======");
 		ReadyForOrder rfo = new ReadyForOrder();

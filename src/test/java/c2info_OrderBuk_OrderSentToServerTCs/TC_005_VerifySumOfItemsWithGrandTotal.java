@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_005_VerifySumOfItemsWithGra
 		
 	}
 	
-	@Test
+	@Test(priority=66)
 	public void verifySumOfItemsWithGrandTotal() throws InterruptedException{
 		log.info("======= TC_005_VerifySumOfItemsWithGrandTotal Test Started ======");
 		Dashboard db = new Dashboard();

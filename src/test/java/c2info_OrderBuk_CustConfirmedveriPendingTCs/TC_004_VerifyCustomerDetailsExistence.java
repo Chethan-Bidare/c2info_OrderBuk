@@ -26,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyCustomerDetailsEx
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=44)
 	public void verifyOrderIDIsNotNull() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("CCVPPageTitle"));
@@ -41,7 +41,7 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyCustomerDetailsEx
 		Assert.assertNotEquals(orderID,"null");
 	}
 	
-	@Test(priority=1)
+	@Test(priority=45)
 	public void verifyCustomerNameIsNotNull(){
 		CustomerConfirmedVerificationPending ccvp = new CustomerConfirmedVerificationPending();
 		String custName = ccvp.getCustomerName();
@@ -50,7 +50,7 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyCustomerDetailsEx
 		Assert.assertNotEquals(custName,"null");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=46)
 	public void verifyCustomerNumberIsNotNull(){
 		CustomerConfirmedVerificationPending ccvp = new CustomerConfirmedVerificationPending();
 		String custNum = ccvp.getCustomerNumber();
@@ -59,7 +59,7 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyCustomerDetailsEx
 		Assert.assertNotEquals(custNum,"null");
 	}
 	
-	@Test(priority=3)
+	@Test(priority=47)
 	public void verifyShippingAddressIsNotNull(){
 		CustomerConfirmedVerificationPending ccvp = new CustomerConfirmedVerificationPending();
 		String shippingAddress = ccvp.getShippingAddress();

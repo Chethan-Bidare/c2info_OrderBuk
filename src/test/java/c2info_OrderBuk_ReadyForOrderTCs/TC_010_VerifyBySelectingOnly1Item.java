@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_010_VerifyBySelectingOnly1I
 		
 	}
 	
-	@Test
+	@Test(priority=33)
 	public void verifyBySelectingOnly1Item() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();

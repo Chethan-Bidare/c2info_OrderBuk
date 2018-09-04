@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_005_VerifyConfirmBtn.class.
 		
 	}
 	
-	@Test
+	@Test(priority=28)
 	public void verifyConfirmButtonFunctionality() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));

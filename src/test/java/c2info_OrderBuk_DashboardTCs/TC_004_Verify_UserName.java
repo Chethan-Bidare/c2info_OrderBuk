@@ -18,19 +18,19 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 	@BeforeClass
 	public void setup() throws IOException{
 		init();
-		log.info("Initializing Setup");
-		
+		log.info("Initializing Setup");	
 	}
 	
-	@Test
+	@Test(priority=5)
 	public void verifyUserName() throws InterruptedException{
 		log.info("======= TC_003_VerifyLogOut Test Started ======");
 		LoginPage loginpage = new LoginPage();
 		loginpage.doLogin(OR.getProperty("UserName"), OR.getProperty("Password"));
 		Dashboard db = new Dashboard();
 		String ActualResult = db.getUserName();
-		String Expectedresult = "Welcome"+" "+OR.getProperty("UserName");
-		Expectedresult = Expectedresult.substring(6);
+		String Expectedresult = OR.getProperty("UserName");
+		Expectedresult = Expectedresult.substring(Expectedresult.length()-6, Expectedresult.length());
+		Expectedresult="Welcome"+" "+Expectedresult ;
 		Assert.assertEquals(ActualResult,Expectedresult);
 	}
 }

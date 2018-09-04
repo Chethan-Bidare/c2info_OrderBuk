@@ -25,7 +25,7 @@ public static final Logger log = Logger.getLogger(TC_003_VerifySubTotalwithItemW
 		
 	}
 	
-	@Test
+	@Test(priority=26)
 	public void verifySubTotalAmt() throws InterruptedException{
 
 		Dashboard db = new Dashboard();

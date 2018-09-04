@@ -1,6 +1,5 @@
 package c2info_OrderBuk_UIPages;
 
-
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -61,19 +60,14 @@ public class ToBeVerified extends TestBase{
 		int paginateSize = paginate.size();
 		
 		for(int i=2; i<paginateSize;i++){
-			
 			int OrderSizePerPage = driver.findElements(By.xpath(".//*[@id='bootstrap-table']/tbody/tr")).size();	
 			OrderSize+= OrderSizePerPage ;
 			System.out.println(OrderSize);
 			NextBtn.click();
 			waitforPageToLoad();
-			
-			
 		}
 		
 			log.info("Order Count :"+OrderSize);	
-		
-		
 		return OrderSize ;
 	}
 	
@@ -114,7 +108,6 @@ public class ToBeVerified extends TestBase{
 		}
 		else
 			return false ;
-		
 	}
 	
 	public String getOrderIDInPrescImagePage() throws InterruptedException{
@@ -123,7 +116,6 @@ public class ToBeVerified extends TestBase{
 		orderid = orderid.replaceAll("Prescription of order #","").trim();
 		return orderid ;
 	}
-	
 	
 	public void selectOrderFromOrderID(String orderID){
 		List<WebElement> orders = driver.findElements(By.xpath(".//*[@id='bootstrap-table']/tbody/tr"));
@@ -135,29 +127,8 @@ public class ToBeVerified extends TestBase{
 			}
 		}
 	}
-
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

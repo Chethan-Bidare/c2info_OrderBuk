@@ -26,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_011_VerifyNewItemQtyIsIncre
 		
 	}
 	
-	@Test
+	@Test(priority=34)
 	public void verifyQtyIncrease() throws InterruptedException{
 		ReadyForOrder rfo = new ReadyForOrder();
 		Dashboard db = new Dashboard();

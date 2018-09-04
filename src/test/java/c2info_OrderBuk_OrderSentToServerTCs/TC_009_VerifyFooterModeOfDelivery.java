@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_009_VerifyFooterModeOfDeliv
 		
 	}
 	
-	@Test
+	@Test(priority=70)
 	public void verifyFooterModeOfDelivery() throws InterruptedException{
 		log.info("======= TC_009_VerifyFooterModeOfDelivery Test Started ======");
 		Dashboard db = new Dashboard();

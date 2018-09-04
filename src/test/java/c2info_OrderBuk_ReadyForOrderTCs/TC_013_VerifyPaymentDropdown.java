@@ -28,7 +28,7 @@ public static final Logger log = Logger.getLogger(TC_013_VerifyPaymentDropdown.c
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=37)
 	public void verifyPaymentModeCard() throws InterruptedException{
 		ReadyForOrder rfo = new ReadyForOrder();
 		Dashboard db = new Dashboard();
@@ -52,7 +52,7 @@ public static final Logger log = Logger.getLogger(TC_013_VerifyPaymentDropdown.c
 	}
 	
 
-	@Test(priority=1)
+	@Test(priority=38)
 	public void verifyPaymentModeCash() throws InterruptedException{
 		ReadyForOrder rfo = new ReadyForOrder();
 		Dashboard db = new Dashboard();
@@ -77,7 +77,7 @@ public static final Logger log = Logger.getLogger(TC_013_VerifyPaymentDropdown.c
 	}
 	
 
-	@Test(priority=2)
+	@Test(priority=39)
 	public void verifyPaymentModeOnline() throws InterruptedException{
 		ReadyForOrder rfo = new ReadyForOrder();
 		Dashboard db = new Dashboard();

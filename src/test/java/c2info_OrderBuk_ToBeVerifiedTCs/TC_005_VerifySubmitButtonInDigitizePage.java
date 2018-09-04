@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_005_VerifySubmitButtonInDig
 		
 	}
 	
-	@Test
+	@Test(priority=18)
 	public void verifySubmitButtonFunctionality() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));

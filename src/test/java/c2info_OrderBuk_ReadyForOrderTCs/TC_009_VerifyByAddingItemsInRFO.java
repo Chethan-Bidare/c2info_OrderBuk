@@ -28,7 +28,7 @@ public static final Logger log = Logger.getLogger(TC_009_VerifyByAddingItemsInRF
 		
 	}
 	
-	@Test
+	@Test(priority=32)
 	public void verifyByAddingItems() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();

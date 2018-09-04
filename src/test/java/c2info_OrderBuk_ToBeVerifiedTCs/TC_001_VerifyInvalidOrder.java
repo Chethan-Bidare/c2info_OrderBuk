@@ -26,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyInvalidOrder.clas
 		
 	}
 	
-	@Test
+	@Test(priority=13)
 	public void verifyInvalidOrder() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();

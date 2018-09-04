@@ -28,7 +28,7 @@ public static final Logger log = Logger.getLogger(TC_002_VerifyImageExistance.cl
 		
 	}
 	
-	@Test
+	@Test(priority=12)
 	public void verifySearchFunctionality() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		ToBeVerified tbv = new ToBeVerified();

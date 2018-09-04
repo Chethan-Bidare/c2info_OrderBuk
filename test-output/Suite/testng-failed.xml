@@ -4,116 +4,8 @@
   <listeners>
     <listener class-name="c2info_OrderBuk_Listeners.Listeners"/>
   </listeners>
-  <test name="Test(failed)">
+  <test thread-count="1" name="Test(failed)">
     <classes>
-      <class name="c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment">
-        <methods>
-          <include name="verifyFooterModeOfPayment"/>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_OrderInvoicedTCs.TC_007_VerifyFooterModeOfPayment -->
-      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn">
-        <methods>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="verifyConfirmButtonFunctionality"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_005_VerifyConfirmBtn -->
-      <class name="c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName">
-        <methods>
-          <include name="verifyUserName"/>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName -->
-      <class name="c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-          <include name="verifyFooterModeOfPayment"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_DeliveredTCs.TC_007_VerifyFooterModeOfPayment -->
-      <class name="c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment">
-        <methods>
-          <include name="setup"/>
-          <include name="verifyFooterModeOfPayment"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_InTransitTCs.TC_007_VerifyFooterModeOfPayment -->
-      <class name="c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG">
-        <methods>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="verifyReverifyFunctionality"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_SupportCancelledTCs.TC_008_VerifyReverifyButtonFunctionalityandMSG -->
-      <class name="c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="verifyFooterModeOfPayment"/>
-          <include name="afterMethod"/>
-          <include name="setup"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_OrderReturnedTCs.TC_007_VerifyFooterModeOfPayment -->
-      <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg">
-        <methods>
-          <include name="setup"/>
-          <include name="verifyReverifyFunctionality"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_NewItemPutOnHoldTCs.TC_002_VerifyReverifyFunctionalityandMsg -->
-      <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg">
-        <methods>
-          <include name="verifyNewItemRequestSuccessMsg"/>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg -->
-      <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal">
-        <methods>
-          <include name="verifySumOfItemsWithGrandTotal"/>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_OrderSentToServerTCs.TC_005_VerifySumOfItemsWithGrandTotal -->
-      <class name="c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment">
-        <methods>
-          <include name="setup"/>
-          <include name="verifyFooterModeOfPayment"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_OrderSentToServerTCs.TC_008_VerifyFooterModeOfPayment -->
-      <class name="c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal">
-        <methods>
-          <include name="setup"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="endTest"/>
-          <include name="verifySumOfSubTotalsWithGrandSubTotal"/>
-        </methods>
-      </class> <!-- c2info_OrderBuk_InTransitTCs.TC_006_VerifyGrandTotal -->
       <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality">
         <methods>
           <include name="verifySubmitOrderFunctionality"/>
@@ -123,24 +15,88 @@
           <include name="endTest"/>
         </methods>
       </class> <!-- c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_006_VerifySubmitOrderFunctionality -->
-      <class name="c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV">
+      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt">
         <methods>
+          <include name="verifyGrandTotal"/>
+          <include name="setup"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="verifyNewItemFomTBV"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_004_VerifyGrandTotalAmt -->
+      <class name="c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg">
+        <methods>
+          <include name="verifyNewItemRequestSuccessMsg"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_CustConfirmedveriPendingTCs.TC_009_VerifyNewItemRequestSuccessMsg -->
+      <class name="c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyOrderCountToBeVerified"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_002_VerifyOrderCountInEachbucket -->
+      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyReverifybutton"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_007_VerifyReverifyButton -->
+      <class name="c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="verifySubTotalAmt"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_ReadyForOrderTCs.TC_003_VerifySubTotalwithItemWiseAmt -->
+      <class name="c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons">
+        <methods>
+          <include name="verifyVideoInMenuSlider"/>
+          <include name="verifyImageInMenuSlider"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
           <include name="endTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_NewItemPutOnHoldTCs.TC_006_VerifyNewItemFromTBV -->
-      <class name="c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed">
+      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_005_Verify_MenuSliderIcons -->
+      <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance">
         <methods>
-          <include name="verifyCancelButtonFromRFO"/>
+          <include name="verifyImageInDigitizePage"/>
+          <include name="setup"/>
           <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="setup"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- c2info_OrderBuk_SupportCancelledTCs.TC_006_VerifyCancelButtonFromOrderConfirmed -->
+      </class> <!-- c2info_OrderBuk_ToBeVerifiedTCs.TC_002_VerifyImageExistance -->
+      <class name="c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName">
+        <methods>
+          <include name="verifyUserName"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_DashboardTCs.TC_004_Verify_UserName -->
+      <class name="c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder">
+        <methods>
+          <include name="VerifyOrderPushedToReadyForOrder"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- c2info_OrderBuk_ToBeVerifiedTCs.TC_006_VerifyOnSubmitReadyForOrder -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

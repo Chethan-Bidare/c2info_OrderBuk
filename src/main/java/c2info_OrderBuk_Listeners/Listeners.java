@@ -25,7 +25,7 @@ public class Listeners extends TestBase implements ITestListener{
 
 	public void onTestSuccess(ITestResult result) {
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formater = new SimpleDateFormat("YYYY_MM_DD_HH_MM_SS");
+		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_YYYY_HH_mm_ss");
 		
 		String arg1 = result.getName();
 		
@@ -53,7 +53,7 @@ public class Listeners extends TestBase implements ITestListener{
 
 	public void onTestFailure(ITestResult result) {
 		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formater = new SimpleDateFormat("YYYY_MM_DD_HH_MM_SS");
+		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_YYYY_HH_mm_ss");
 		
 		String arg1 = result.getName();
 		

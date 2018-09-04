@@ -28,7 +28,7 @@ public class TC_006_VerifyOnSubmitReadyForOrder extends TestBase {
 		
 	}
 	
-	@Test
+	@Test(priority=19)
 	public void VerifyOrderPushedToReadyForOrder() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));

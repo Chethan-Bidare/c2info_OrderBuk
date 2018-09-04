@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse-267389573\testng-customsuite.xml</span>
+                    <span>C:\Users\User1\AppData\Local\Temp\testng-eclipse-721817784\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown" hash-for-method="verifyPaymentModeOnline">verifyPaymentModeOnline</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,12 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown" hash-for-method="verifyPaymentModeCard">verifyPaymentModeCard</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData" hash-for-method="loginWithInvalidPWD">loginWithInvalidPWD</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown" hash-for-method="verifyPaymentModeCash">verifyPaymentModeCash</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData" hash-for-method="loginWithInvalidUserName">loginWithInvalidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData" hash-for-method="loginWithValidData">loginWithValidData</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -136,74 +127,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPaymentModeOnline">
-                  </a> <!-- verifyPaymentModeOnline -->
-                  <span class="method-name">verifyPaymentModeOnline</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Online Payment
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ChethanBidare-pc&apos;, ip: &apos;172.16.18.225&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
-	at c2info_OrderBuk_UIPages.ReadyForOrder.selectPaymentTypeDropdown(ReadyForOrder.java:284)
-	at c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeOnline(TC_013_VerifyPaymentDropdown.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:776)
-	at org.testng.TestRunner.run(TestRunner.java:634)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
-	at org.testng.TestNG.runSuites(TestNG.java:1161)
-	at org.testng.TestNG.run(TestNG.java:1129)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown</span>
+              <span class="class-name">c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyPaymentModeCard">
-                  </a> <!-- verifyPaymentModeCard -->
-                  <span class="method-name">verifyPaymentModeCard</span>
+                  <a name="loginWithInvalidPWD">
+                  </a> <!-- loginWithInvalidPWD -->
+                  <span class="method-name">loginWithInvalidPWD</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyPaymentModeCash">
-                  </a> <!-- verifyPaymentModeCash -->
-                  <span class="method-name">verifyPaymentModeCash</span>
+                  <a name="loginWithInvalidUserName">
+                  </a> <!-- loginWithInvalidUserName -->
+                  <span class="method-name">loginWithInvalidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidData">
+                  </a> <!-- loginWithValidData -->
+                  <span class="method-name">loginWithValidData</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,16 +159,16 @@ Driver info: driver.version: unknown
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse-267389573\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User1\AppData\Local\Temp\testng-eclipse-721817784\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown&quot;/&gt;
+      &lt;class name=&quot;c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -262,22 +210,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPaymentModeOnline')
-data.setCell(0, 2, 'c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown')
-data.setCell(0, 3, 138703);
+data.setCell(0, 1, 'loginWithValidData')
+data.setCell(0, 2, 'c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData')
+data.setCell(0, 3, 10859);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyPaymentModeCash')
-data.setCell(1, 2, 'c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown')
-data.setCell(1, 3, 43962);
+data.setCell(1, 1, 'loginWithInvalidUserName')
+data.setCell(1, 2, 'c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData')
+data.setCell(1, 3, 8485);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyPaymentModeCard')
-data.setCell(2, 2, 'c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown')
-data.setCell(2, 3, 35257);
+data.setCell(2, 1, 'loginWithInvalidPWD')
+data.setCell(2, 2, 'c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData')
+data.setCell(2, 3, 5362);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -303,52 +251,50 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeCard() th...)</span>
-                <span class="method-start">19287 ms</span>
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData.loginWithInvalidUserName() throw...)</span>
+                <span class="method-start">6516 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyPaymentModeCard</span>
-                <span class="method-start">19290 ms</span>
+                <span class="method-name">loginWithInvalidUserName</span>
+                <span class="method-start">6519 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=verifyPaymentModeCard status=SUCCESS method=TC_013_VerifyPaymentDropdown.verifyPaym...)</span>
-                <span class="method-start">54549 ms</span>
+                <span class="method-name">afterMethod([TestResult name=loginWithInvalidUserName status=SUCCESS method=TC_001_LoginTestWithValidData.loginW...)</span>
+                <span class="method-start">15006 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeCash() th...)</span>
-                <span class="method-start">54550 ms</span>
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData.loginWithInvalidPWD() throws jav...)</span>
+                <span class="method-start">15009 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyPaymentModeCash</span>
-                <span class="method-start">54551 ms</span>
+                <span class="method-name">loginWithInvalidPWD</span>
+                <span class="method-start">15009 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=verifyPaymentModeCash status=SUCCESS method=TC_013_VerifyPaymentDropdown.verifyPaym...)</span>
-                <span class="method-start">98514 ms</span>
+                <span class="method-name">afterMethod([TestResult name=loginWithInvalidPWD status=SUCCESS method=TC_001_LoginTestWithValidData.loginWithIn...)</span>
+                <span class="method-start">20373 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void c2info_OrderBuk_ReadyForOrderTCs.TC_013_VerifyPaymentDropdown.verifyPaymentModeOnline() ...)</span>
-                <span class="method-start">98515 ms</span>
+                <span class="method-name">beforeMethod(public void c2info_OrderBuk_LoginTest.TC_001_LoginTestWithValidData.loginWithValidData() throws java...)</span>
+                <span class="method-start">20374 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyPaymentModeOnline</span>
-                <span class="method-start">98515 ms</span>
+                <span class="method-name">loginWithValidData</span>
+                <span class="method-start">20374 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=verifyPaymentModeOnline status=FAILURE method=TC_013_VerifyPaymentDropdown.verifyPa...)</span>
-                <span class="method-start">237227 ms</span>
+                <span class="method-name">afterMethod([TestResult name=loginWithValidData status=SUCCESS method=TC_001_LoginTestWithValidData.loginWithVal...)</span>
+                <span class="method-start">31234 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">237572 ms</span>
+                <span class="method-start">31234 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -23,7 +23,7 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=6)
 	public void verifyDashboardLinkInMenuSlider() throws InterruptedException{
 		Dashboard dashboard = new Dashboard();
 		dashboard.clickOnDashboardinMenu();
@@ -31,7 +31,7 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 		Assert.assertEquals(ActualResult, APP.getProperty("DashboardPageTitle"));
 	}
 	
-	@Test(priority=1)
+	@Test(priority=7)
 	public void verifyManageUsersLinkInMenuSlider(){
 		Dashboard dashboard = new Dashboard();
 		dashboard.clickOnManageUsersInMenu();
@@ -39,7 +39,7 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 		Assert.assertEquals(ActualResult, APP.getProperty("ManageUsersPageTitle"));
 	}
 	
-	@Test(priority=2)
+	@Test(priority=8)
 	public void verifyManageCustomersLinkInMenuSlider(){
 		Dashboard dashboard = new Dashboard();
 		dashboard.clickOnManageCustomersInMenu();
@@ -47,7 +47,7 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 		Assert.assertEquals(ActualResult, APP.getProperty("ManageCustomersPageTitle"));
 	}
 	
-	@Test(priority=3)
+	@Test(priority=9)
 	public void verifyImageUploadInMenuSlider(){
 		Dashboard dashboard = new Dashboard();
 		dashboard.clickOnImageUploadInMenu();
@@ -55,7 +55,7 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 		Assert.assertEquals(ActualResult, "Image Upload");
 	}
 	
-	@Test(priority=4)
+	@Test(priority=10)
 	public void verifyImageInMenuSlider(){
 		Dashboard dashboard = new Dashboard();
 		dashboard.clickOnImageInMenu();
@@ -63,7 +63,7 @@ public static final Logger log = Logger.getLogger(TC_004_Verify_UserName.class.g
 		Assert.assertEquals(ActualResult, "Image");
 	}
 	
-	@Test(priority=5)
+	@Test(priority=11)
 	public void verifyVideoInMenuSlider(){
 		Dashboard dashboard = new Dashboard();
 		dashboard.clickOnVideoInMenu();

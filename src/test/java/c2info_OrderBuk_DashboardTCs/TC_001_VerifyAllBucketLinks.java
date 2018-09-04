@@ -22,7 +22,7 @@ public class TC_001_VerifyAllBucketLinks extends TestBase{
 		
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void verifyAllBucketlinks() throws InterruptedException{
 		
 		log.info("======= TC_001_VerifyAllBucketLinks Test Started ======");

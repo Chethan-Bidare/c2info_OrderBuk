@@ -29,7 +29,7 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyOrderClosedButton
 		
 	}
 	
-	@Test(priority=0)
+	@Test(priority=64)
 	public void verifyOrderClosedButtonFunctionality() throws InterruptedException{
 		log.info("======= TC_004_VerifyOrderClosedButton Test Started ======");
 		Dashboard db = new Dashboard();
@@ -52,7 +52,7 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyOrderClosedButton
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=65)
 	public void verifyOrderClosedButtonMsg() throws InterruptedException{
 		log.info("======= TC_004_VerifyOrderClosedMsg Test Started ======");
 		Dashboard db = new Dashboard();

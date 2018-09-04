@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_003_VerifyOrderHistoryButto
 		
 	}
 	
-	@Test
+	@Test(priority=63)
 	public void verifyOrderhistorybutton() throws InterruptedException{
 		log.info("======= TC_003_VerifyOrderHistoryButton Test Started ======");
 		Dashboard db = new Dashboard();

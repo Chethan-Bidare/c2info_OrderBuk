@@ -26,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_004_VerifyGrandTotalAmt.cla
 		
 	}
 	
-	@Test
+	@Test(priority=27)
 	public void verifyGrandTotal() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));

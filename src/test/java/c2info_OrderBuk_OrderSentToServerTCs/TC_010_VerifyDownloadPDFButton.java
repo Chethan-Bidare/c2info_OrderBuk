@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_010_VerifyDownloadPDFButton
 		
 	}
 	
-	@Test
+	@Test(priority=71)
 	public void verifyDownloadButton() throws InterruptedException{
 		log.info("======= TC_010_VerifyDownloadPDFButton Test Started ======");
 		Dashboard db = new Dashboard();

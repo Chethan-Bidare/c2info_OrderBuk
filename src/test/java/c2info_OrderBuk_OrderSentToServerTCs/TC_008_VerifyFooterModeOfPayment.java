@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_008_VerifyFooterModeOfPayme
 		
 	}
 	
-	@Test
+	@Test(priority=69)
 	public void verifyFooterModeOfPayment() throws InterruptedException{
 		log.info("======= TC_008_VerifyFooterModeOfPayment Test Started ======");
 		Dashboard db = new Dashboard();

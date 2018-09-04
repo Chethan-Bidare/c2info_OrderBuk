@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_006_VerifyCancelButton.clas
 		
 	}
 	
-	@Test
+	@Test(priority=29)
 	public void verifyCancelButtonFunctionality() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ReadyforOrderPageTitle"));

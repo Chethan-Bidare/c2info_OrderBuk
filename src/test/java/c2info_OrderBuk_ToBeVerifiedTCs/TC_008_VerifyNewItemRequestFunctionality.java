@@ -27,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_008_VerifyNewItemRequestFun
 		
 	}
 	
-	@Test
+	@Test(priority=20)
 	public void verifyNewItemRequest() throws InterruptedException{
 		Dashboard db = new Dashboard();
 		db.selectBucket(APP.getProperty("ToBeVerifiedPageTitle"));
